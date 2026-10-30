@@ -2903,6 +2903,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 火玺·紫隐九州", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "kapok-cocopark",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Kapok",
+    nameZh: "木棉·初恋咕噜肉",
+    locEn: "COCO Park, Futian",
+    locZh: "COCO Park 店",
+    cuisine: "Guangzhou home cooking",
+    cuisineZh: "广州菜",
+    price: "¥110–160 per person",
+    area: "Shopping Park, Futian",
+    addressEn: "L4-002, Phase 1, Futian Galaxy COCO Park, Futian District — 360 m from Shopping Park station exit F",
+    addressZh: "福田区福华路福田星河COCO Park一期L4-002号（购物公园站F口步行约360米）",
+    tagline: "Guangzhou home cooking in a shopping mall, with a sweet-and-sour pork that has its own fan club.",
+    card: "No. 2 Guangzhou restaurant in Futian, 4.6 from 9,500 reviews, ¥112 a head. Order the pork, the tea-smoked chicken, and the straw-fired pigeon.",
+    awards: [
+      { mark: "2", label: "No. 2 Guangzhou Restaurant in Futian", note: "Dianping 好评榜" },
+      { mark: "4.6", label: "Dianping 4.6 / 5", note: "9,564 reviews at the time of listing" }
+    ],
+    story: [
+      "木棉 is a Guangzhou-cuisine restaurant on the fourth floor of COCO Park in Futian — six years old, busy every night, and priced so that a family can eat without thinking about it: ¥112 a head.",
+      "The menu is Guangzhou home cooking with a bit of theatre. The signature is 初恋咕噜肉, sweet-and-sour pork served on a hot stone so the sauce keeps caramelising as you eat it. The pigeon arrives with rice straw and is lit at the table. The chicken is smoked over Longjing tea.",
+      "It is a mall restaurant, and it behaves like one — queues, a buzzer, tables turned quickly — but the cooking is not mall food. The vegetables get as much attention as the meat: lard-fried choy sum, salted egg yolk with loofah, plain blanched greens.",
+      "One quirk worth knowing: the Dianping list includes the same smoked chicken twice, at No. 2 and No. 7. Order it once."
+    ],
+    whyFamous: [
+      "No. 2 Guangzhou restaurant in Futian on Dianping's 好评榜.",
+      "初恋咕噜肉 — sweet-and-sour pork on a hot stone, the dish the restaurant is named for.",
+      "Straw-fired pigeon lit at the table; Longjing tea-smoked chicken.",
+      "Vegetable dishes treated as proper orders, not garnish."
+    ],
+    quote: { text: "The pork keeps cooking on the stone while you eat it. That is the trick.", cite: "Why the stone matters" },
+    dishes: [
+      {
+        zh: "初恋咕噜肉",
+        en: "First-Love Sweet-and-Sour Pork",
+        price: "¥88",
+        note: "The dish the restaurant is named after: pork in a fruit-sweet sauce, served on a hot stone so it keeps caramelising at the table.",
+        tag: "No. 1"
+      },
+      {
+        zh: "龙井烟熏太爷鸡",
+        en: "Longjing Tea-Smoked Chicken",
+        price: "¥98",
+        note: "Smoked over tea leaves — the smoke is light, the tea is what stays. Half a bird is enough for three.",
+        tag: "No. 2"
+      },
+      {
+        zh: "厚切岩烧牛舌",
+        en: "Thick-Cut Stone-Grilled Beef Tongue",
+        price: "¥138",
+        note: "Cut thick, grilled on stone, still pink in the middle. The most expensive thing in the ten.",
+        tag: "Grill"
+      },
+      {
+        zh: "禾秆草烧乳鸽",
+        en: "Straw-Fired Pigeon",
+        price: "¥58",
+        note: "Brought to the table with rice straw, then lit with a torch in front of you. The smoke is the point; the pigeon is good too.",
+        tag: "Theatre"
+      },
+      {
+        zh: "猪油渣炒菜心",
+        en: "Choy Sum Fried with Lard Croutons",
+        price: "¥48",
+        note: "Bitter greens, crisp lard, wok heat. The vegetable that makes the table feel like a Cantonese home.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "煲仔金沙焗丝瓜",
+        en: "Claypot Salted-Egg Yolk Loofah",
+        price: "¥58",
+        note: "Salted egg yolk clinging to loofah in a claypot. Rich and sweet at once — order it with the smoked chicken.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "龙井烟熏鸡",
+        en: "Longjing Smoked Chicken (short name)",
+        price: "",
+        note: "The app lists this twice — same dish as No. 2 under its shorter name. Order one, not both.",
+        tag: "Duplicate"
+      },
+      {
+        zh: "紫苏啫啫跳跳蛙",
+        en: "Perilla Sizzling Frog",
+        price: "¥58",
+        note: "Frog in a perilla-heavy sauce, served still bubbling. Loud, garlicky, and the dish the regulars fight over.",
+        tag: "Sizzling"
+      },
+      {
+        zh: "盐水菜心",
+        en: "Salted-Water Choy Sum",
+        price: "¥48",
+        note: "The plain version: greens blanched in salted water, nothing else. Order it after the fried dishes.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "手工冰镇鲍鱼",
+        en: "Hand-Made Iced Abalone",
+        price: "¥68",
+        note: "Abalone served over ice — firm, clean, plated like a small sculpture. A cold dish between the hot ones.",
+        tag: "Cold"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The set menus are good value: ¥238 for the autumn two-to-three-person set and ¥904 for the six-person banquet. The 300-yuan voucher sells for ¥289.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the COCO Park branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room in COCO Park, Futian. The brand has other branches in Shenzhen; this page covers the one with the ranking.",
+    sources: [
+      { label: "Dianping — 木棉·初恋咕噜肉（COCO Park店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
