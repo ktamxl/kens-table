@@ -2214,6 +2214,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 小杨生煎（朱家角古镇店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "yushui-house",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Yushui House",
+    nameZh: "渔水之家·土灶柴火饭",
+    locEn: "Zhujiajiao",
+    locZh: "朱家角店",
+    cuisine: "Jiangsu-Zhejiang country cooking",
+    cuisineZh: "苏浙菜",
+    price: "¥80–120 per person",
+    area: "Zhujiajiao, Qingpu",
+    addressEn: "131 Xijing Street, Zhujiajiao, Qingpu District — near the old-town main gate, 590 m from the Dazhimen plaza",
+    addressZh: "青浦区西井街131号（近朱家角古镇大门口，步行约590米）",
+    tagline: "A wood-fired stove, a river at the door, and the best-reviewed country chicken in Qingpu.",
+    card: "4.9 across 14,000 reviews — No. 1 Su-Zhe restaurant in Qingpu. Order the country white-cut chicken and the rice with the crust.",
+    awards: [
+      { mark: "1", label: "No. 1 Su-Zhe Restaurant in Qingpu", note: "Dianping 好评榜" },
+      { mark: "3", label: "No. 3 White-Cut Chicken in Shanghai", note: "Dianping 王牌菜 · 菜品榜" },
+      { mark: "4.9", label: "Dianping 4.9 / 5", note: "14,421 reviews — rare for a tourist-town address" }
+    ],
+    story: [
+      "渔水之家 sits a few minutes from the main gate of Zhujiajiao, in an old house with a wood-fired stove at the back. The name means something like 'home of fish and water', and the menu follows: river fish, free-range chicken, vegetables from the farms around the water town.",
+      "It has been listed on Dianping for thirteen years and holds a 4.9 across 14,421 reviews, which for an address this close to a tourist gate is unusual — the reviews are not all day-trippers. The room has private tables for seven to ten, and the kitchen will take a phone booking.",
+      "The 白斩鸡 carries the ranking: there are two versions, 乡下 and regular, both poached then chilled, chopped bone-in and served with soy and ginger. The country bird is the one with flavour in the meat rather than on the skin. Order both if there are four of you — the comparison is the point.",
+      "The other reason to come is the rice. 咸肉菜饭 is cooked in an iron pot and scraped up with the crust mixed through; the stove is not decoration."
+    ],
+    whyFamous: [
+      "No. 1 Su-Zhe restaurant in Qingpu on Dianping's 好评榜.",
+      "No. 3 white-cut chicken in Shanghai — and there are two versions on the menu to compare.",
+      "4.9 across 14,421 reviews at a tourist-town address.",
+      "A working wood-fired stove: rice and braises cooked over fire, not gas."
+    ],
+    quote: { text: "The chicken is the ranking; the rice crust is the reason to stay.", cite: "The house in one line" },
+    dishes: [
+      {
+        zh: "乡下白斩鸡",
+        en: "Country White-Cut Chicken",
+        price: "¥58",
+        note: "No. 3 on Shanghai's white-cut chicken chart. Poached, chilled, chopped bone-in — the bird tastes of itself, not of the soy.",
+        tag: "No. 3"
+      },
+      {
+        zh: "古镇扎肉",
+        en: "Old-Town Lotus-Leaf Pork",
+        price: "¥13",
+        note: "Zhujiajiao's own snack: pork belly wrapped in dried lotus leaf and braised until it collapses. Order two.",
+        tag: "Local"
+      },
+      {
+        zh: "银鱼炒蛋",
+        en: "Silver Fish Omelette",
+        price: "¥38",
+        note: "Tiny lake fish folded through egg. The dish that most clearly says 'river town'.",
+        tag: "River"
+      },
+      {
+        zh: "白斩鸡",
+        en: "White-Cut Chicken",
+        price: "¥58",
+        note: "The regular version — same technique, younger bird, softer skin. Order both and compare.",
+        tag: "Signature"
+      },
+      {
+        zh: "清蒸白水鱼",
+        en: "Steamed White Water Fish",
+        price: "¥69",
+        note: "Steamed whole with ginger and scallion. Nothing to hide behind, so the fish has to be fresh. It is.",
+        tag: "River"
+      },
+      {
+        zh: "油爆虾",
+        en: "Flash-Fried River Shrimp",
+        price: "¥88",
+        note: "Shells crisp enough to eat, wok heat all the way through. The best non-chicken order on the list.",
+        tag: "Wok"
+      },
+      {
+        zh: "咸肉菜饭",
+        en: "Salted Pork and Greens Rice",
+        price: "¥38",
+        note: "Cooked in the iron pot, crust scraped up and mixed in. The reason to order rice rather than noodles.",
+        tag: "Rice"
+      },
+      {
+        zh: "油焖茭白",
+        en: "Braised Water Bamboo",
+        price: "¥28",
+        note: "Sweet soy braise, the Shanghai way — dark, glossy, slightly sweet. A vegetable that eats like a main.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "土鸡蛋",
+        en: "Farm Egg Omelette",
+        price: "¥38",
+        note: "Golden egg, green scallion, nothing else. Simple enough that the stove does the work.",
+        tag: "Egg"
+      },
+      {
+        zh: "盐水白米虾",
+        en: "Salted White Rice Shrimp",
+        price: "¥68",
+        note: "Small river shrimp poached in salted water, served cold. Sweet, springy, made for beer.",
+        tag: "Cold"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The 100-yuan voucher sells for ¥81, and there is a 10–12 person banquet set at ¥1,520 if you are bringing the family.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Zhujiajiao branch — ranked by the app's like counts, with the dish-chart positions where they exist.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One house in Zhujiajiao, by the old-town gate. It is a country restaurant rather than a chain — the stove is the reason to make the trip.",
+    sources: [
+      { label: "Dianping — 渔水之家·土灶柴火饭", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 

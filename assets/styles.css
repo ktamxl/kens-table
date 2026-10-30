@@ -1093,10 +1093,11 @@ button { font: inherit; color: inherit; }
   letter-spacing: .03em;
 }
 .award .mark {
-  width: 22px;
+  min-width: 22px;
   height: 22px;
+  padding: 0 6px;
   border: 1px solid var(--brass);
-  border-radius: 50%;
+  border-radius: 999px;
   display: grid;
   place-items: center;
   font-family: var(--serif);
