@@ -203,11 +203,70 @@ const RESTAURANTS = [
       "A tiny room with a fixed booking calendar; the queue is virtual and merciless."
     ],
     quote: { text: "A Cantonese restaurant judged by its pantry, not its chandeliers.", cite: "How the Hong Kong press describes the house style" },
-    knownSignatures: [
-      { zh: "雞油花雕蒸花蟹配陳村粉", en: "Steamed Flower Crab with Huadiao Wine, Chicken Oil and Chencun Rice Noodles", note: "The dish most associated with the house: the rice noodles under the crab drink up wine, roe and chicken fat." },
-      { zh: "話梅肉桂糖醋排骨", en: "Sweet-and-Sour Pork Ribs with Preserved Plum and Cassia", note: "A Cantonese classic rebuilt on aged plum and cassia bark rather than ketchup and sugar." },
-      { zh: "魚湯腐皮卷", en: "Fish Soup with Bean-Curd Rolls", note: "A quiet test of the pantry — the soup is made from fish frames, not stock powder." }
-    ],
+    dishes: [
+          {
+            zh: "雞油花雕蒸花蟹配陳村粉",
+            en: "Steamed Flower Crab with Huadiao, Chicken Oil and Chencun Noodles",
+            note: "The signature. The rice noodles under the crab drink up the wine, roe and chicken fat; order it for the table, not for one.",
+            tag: "Signature"
+          },
+          {
+            zh: "話梅肉桂糖醋排骨",
+            en: "Sweet-and-Sour Pork Ribs with Preserved Plum and Cassia",
+            note: "A Cantonese classic rebuilt on aged plum and cassia bark rather than ketchup and sugar.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚米粥蝦籽象拔蚌",
+            en: "Geoduck with Shrimp Roe in Fish-Milk Congee",
+            note: "Geoduck sliced thin, rice cooked down in fish stock. The congee is the point as much as the shellfish.",
+            tag: "Signature"
+          },
+          {
+            zh: "十五年陳皮牛肉獅子頭",
+            en: "Fifteen-Year Tangerine Peel Beef Lion's Head",
+            note: "Aged peel against slow-braised beef — the dish that most clearly shows the pantry.",
+            tag: "Signature"
+          },
+          {
+            zh: "樟木煙燻黑腳鵝",
+            en: "Camphor-Wood Smoked Black-Foot Goose",
+            note: "Smoked over camphor, skin lacquered. Order it when there are four or more of you.",
+            tag: "Signature"
+          },
+          {
+            zh: "蟛蜞膏柚皮",
+            en: "Pomelo Peel with Crab Roe",
+            note: "Bitter peel, sweet roe, a lot of patience. One of the old Cantonese dishes almost nobody else still cooks.",
+            tag: "Signature"
+          },
+          {
+            zh: "蝦籽柚皮",
+            en: "Shrimp-Roe Pomelo Peel",
+            note: "The other half of the pomelo story — braised until the peel turns silky, then dusted with shrimp roe.",
+            tag: "Signature"
+          },
+          {
+            zh: "子薑皮蛋",
+            en: "Century Egg with Young Ginger",
+            note: "A cold starter: pickled ginger cuts the cured egg. Two bites, then the crab arrives.",
+            tag: "Signature"
+          },
+          {
+            zh: "白飯",
+            en: "Steamed Rice",
+            note: "Reviewers single it out, which tells you something about the kitchen. Order it with the crab.",
+            tag: "Signature"
+          },
+          {
+            zh: "陳皮紅豆沙",
+            en: "Tangerine-Peel Red Bean Soup",
+            note: "The dessert to finish on: aged peel, sweet red bean, served warm.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "OpenRice 食評 and the house menu — the crab and the ribs are the two dishes the reviews repeat.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One kitchen, one address. The Chairman does not franchise or open branches — which is exactly why the Shenzhen and Shanghai entries on this list cannot simply borrow it.",
     sources: [
@@ -247,12 +306,70 @@ const RESTAURANTS = [
       "Cash-and-queue operation: no reservations, no ceremony, very fast turnover."
     ],
     quote: { text: "Grandfather's marinade, grandson's queue.", cite: "The shorthand every Hong Kong food writer uses" },
-    knownSignatures: [
-      { zh: "甘氏燒鵝", en: "Kam's Roast Goose", note: "Order a quarter or half; ask for a little extra sauce on the side rather than poured over the skin." },
-      { zh: "燒乳豬", en: "Roast Suckling Pig", note: "Sold by portion; the crackling is the reason to add it to a goose order." },
-      { zh: "滷水鵝肝", en: "Braised Goose Liver", note: "Silky, tea-dark, served cool. The best value on the menu." },
-      { zh: "滷水鵝掌翼", en: "Braised Goose Webs and Wings", note: "The dish to order if you are waiting for a table anyway." }
-    ],
+    dishes: [
+          {
+            zh: "甘氏燒鵝",
+            en: "Kam's Roast Goose",
+            note: "A quarter or half. Ask for a little sauce on the side rather than poured over the skin.",
+            tag: "Signature"
+          },
+          {
+            zh: "燒鵝脾",
+            en: "Roast Goose Leg",
+            note: "The premium cut — darker, fattier, best eaten with your hands.",
+            tag: "Signature"
+          },
+          {
+            zh: "燒乳豬",
+            en: "Roast Suckling Pig",
+            note: "Sold by portion. The crackling is the reason to add it to a goose order.",
+            tag: "Signature"
+          },
+          {
+            zh: "滷水鵝肝",
+            en: "Braised Goose Liver",
+            note: "Silky, tea-dark, served cool. The best value on the menu.",
+            tag: "Signature"
+          },
+          {
+            zh: "滷水鵝掌翼",
+            en: "Braised Goose Webs and Wings",
+            note: "The plate to order while you wait.",
+            tag: "Signature"
+          },
+          {
+            zh: "蜜汁叉燒",
+            en: "Honey Char Siu",
+            note: "Ask for 半肥瘦 — half fat, half lean — or you will get the dry end.",
+            tag: "Signature"
+          },
+          {
+            zh: "油雞",
+            en: "Soy-Sauce Poached Chicken",
+            note: "Cold, glossy, ginger-scallion on the side.",
+            tag: "Signature"
+          },
+          {
+            zh: "脆皮燒肉",
+            en: "Crispy Roast Pork",
+            note: "Ordered as an add-on to the goose, not instead of it.",
+            tag: "Signature"
+          },
+          {
+            zh: "鵝油撈麵",
+            en: "Noodles Tossed in Goose Fat",
+            note: "The carbohydrate answer to a plate of roast meat.",
+            tag: "Signature"
+          },
+          {
+            zh: "老火例湯",
+            en: "Slow-Boiled Soup of the Day",
+            note: "Usually pork bone and winter melon. Included with most rice plates.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "OpenRice 必食 for the Wan Chai shop — roast meats, cut to order.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [
       { city: "Hong Kong", name: "甘牌燒鵝（灣仔店）", en: "Kam's Roast Goose, Wan Chai", note: "The original — and still the only one that matters." },
       { city: "Hong Kong", name: "甘牌燒鵝（中環店）", en: "Kam's Roast Goose, Central", note: "A smaller satellite for takeaway; the Wan Chai room is the full experience." }
@@ -364,6 +481,7 @@ const RESTAURANTS = [
     ],
     dishNote: "From the house menu and Ken's standing order. The sets are the cheapest way to eat here; the sandwich and the tea are ordered in cha chaan teng shorthand — the exact line is in the order card above.",
     dishSource: "Ken's standing order plus the dishes the house is known for — not a Dianping ranking.",
+    dishBadge: "Source: Ken's order + house menu",
     branches: [],
     singleNote: "No branches. The Parkes Street shop is the entire business — copying it elsewhere is a Hong Kong pastime that has never quite worked.",
     sources: [
@@ -402,14 +520,70 @@ const RESTAURANTS = [
       "Bib Gourmand for twelve years, which in Wan Chai is a statement about consistency rather than fashion."
     ],
     quote: { text: "A Cantonese seafood room that still cooks like it is 1985.", cite: "The house in one line" },
-    knownSignatures: [
-      { zh: "古法鹽焗雞", en: "Traditional Salt-Baked Chicken", note: "The dish the guide names. Ask for it when you book — it is not something to decide at the table." },
-      { zh: "明爐BB豬", en: "Roast Suckling Pig", note: "Ordered ahead, carved in the room. The crackling is the point; the meat underneath is almost a bonus." },
-      { zh: "豉油王炒蝦", en: "Prawns Fried in Master Soy Sauce", note: "Shell-on, wok-heavy, sweet at the edges. Eat them with your hands." },
-      { zh: "魚粥", en: "Fish Congee", note: "The other half of the house reputation — a rice-smooth congee with fresh fish folded in at the end." },
-      { zh: "咕嚕肉", en: "Sweet-and-Sour Pork", note: "The test of a Cantonese kitchen. It should be crisp, not battered into submission." },
-      { zh: "枸杞葉炒豬肝", en: "Stir-Fried Pork Liver with Goji Leaves", note: "Bitter greens, iron-rich liver, a lot of wok heat. Order it between the heavier courses." }
-    ],
+    dishes: [
+          {
+            zh: "古法鹽焗雞",
+            en: "Traditional Salt-Baked Chicken",
+            note: "The dish the guide names. Ask for it when you book — not something to decide at the table.",
+            tag: "Signature"
+          },
+          {
+            zh: "明爐BB豬",
+            en: "Roast Suckling Pig",
+            note: "Ordered ahead, carved in the room. The crackling is the point.",
+            tag: "Signature"
+          },
+          {
+            zh: "豉油王炒蝦",
+            en: "Prawns Fried in Master Soy Sauce",
+            note: "Shell-on, wok-heavy, sweet at the edges. Eat them with your hands.",
+            tag: "Signature"
+          },
+          {
+            zh: "菠蘿生炒骨",
+            en: "Pineapple Sweet-and-Sour Pork Ribs",
+            note: "One of OpenRice's four featured dishes here. Sharper and fruitier than the usual version.",
+            tag: "Signature"
+          },
+          {
+            zh: "蝦籽古法扣柚皮",
+            en: "Braised Pomelo Peel with Shrimp Roe",
+            note: "The old Cantonese test dish: bitter peel cooked until it tastes of nothing but sauce.",
+            tag: "Signature"
+          },
+          {
+            zh: "金錢雞",
+            en: "\"Gold Coin\" Chicken",
+            note: "Chicken liver, fat and ginger sandwiched and roasted — the dish the fiftieth-anniversary menu kept.",
+            tag: "Signature"
+          },
+          {
+            zh: "白糖糕",
+            en: "Steamed White Sugar Cake",
+            note: "Sweet, spongy, faintly fermented. The dessert the regulars take home.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚粥",
+            en: "Fish Congee",
+            note: "The other half of the house reputation — rice-smooth congee with fish folded in at the end.",
+            tag: "Signature"
+          },
+          {
+            zh: "咕嚕肉",
+            en: "Sweet-and-Sour Pork",
+            note: "The test of a Cantonese kitchen: crisp, not battered into submission.",
+            tag: "Signature"
+          },
+          {
+            zh: "枸杞葉炒豬肝",
+            en: "Stir-Fried Pork Liver with Goji Leaves",
+            note: "Bitter greens, iron-rich liver, a lot of wok heat. Order it between the heavier courses.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "OpenRice's featured dishes for this branch, plus the salt-baked chicken the MICHELIN guide names.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One room, one kitchen. The group has no other branch of 生記飯店 — if you see the name elsewhere, check that it is the Lockhart Road address.",
     sources: [
@@ -447,11 +621,70 @@ const RESTAURANTS = [
       "A wine list and service level built for hosting, not for a quick meal."
     ],
     quote: { text: "A pavilion, a chef, and eight cuisines to move between.", cite: "The room in one line" },
-    knownSignatures: [
-      { zh: "別不同叉燒", en: "\"Different\" Char Siu", note: "The house's signature roast — cut thick, glazed dark, and deliberately not the soft, sweet version." },
-      { zh: "有機番茄焗日本黑豚豬扒飯", en: "Baked Japanese Pork Chop Rice with Organic Tomato", note: "A Hong Kong classic rebuilt with better ingredients. Comfort food at hotel prices, and worth it once." },
-      { zh: "點心", en: "Dim Sum", note: "Lunch service only; the kitchen treats it as a showcase rather than a trolley." }
-    ],
+    dishes: [
+          {
+            zh: "紅棉蔥油脆皮雞",
+            en: "Red Cotton Spring-Onion Crispy Chicken",
+            note: "The hotel's headline dish: crisp skin, spring-onion oil poured over at the pass. Half a bird is enough for three.",
+            tag: "Signature"
+          },
+          {
+            zh: "別不同叉燒",
+            en: "\"Different\" Char Siu",
+            note: "The house's signature roast — cut thick, glazed dark, deliberately not the soft, sweet version.",
+            tag: "Signature"
+          },
+          {
+            zh: "有機番茄焗日本黑豚豬扒飯",
+            en: "Baked Kagoshima Pork Chop Rice with Organic Tomato",
+            note: "A Hong Kong classic rebuilt with better pork. Comfort food at hotel prices, and worth it once.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚湯鮮腐竹浸時蔬",
+            en: "Seasonal Greens with Fresh Bean Curd Skin in Fish Soup",
+            note: "The soup is cooked down from fish frames; the vegetables are there to carry it.",
+            tag: "Signature"
+          },
+          {
+            zh: "翡翠玉忱（雞濃湯涼瓜絲）",
+            en: "Jade Cushion — Bitter Melon with Chicken Consommé",
+            note: "Bitter melon cut into ribbons and poached in a concentrated chicken broth. The dish that shows the kitchen's restraint.",
+            tag: "Signature"
+          },
+          {
+            zh: "齊菜河蝦餃",
+            en: "Shepherd's Purse and River Shrimp Dumpling",
+            note: "A dim sum of the season — the greens cut the shrimp's sweetness.",
+            tag: "Signature"
+          },
+          {
+            zh: "沸騰小籠包",
+            en: "\"Boiling\" Xiao Long Bao",
+            note: "Served hot enough that the soup inside is still moving. Eat it in one bite, spoon underneath.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮回香蟹肉餃",
+            en: "Crab Meat Dumpling",
+            note: "Crab rather than pork, finished with a little aged vinegar on the side.",
+            tag: "Signature"
+          },
+          {
+            zh: "陳年青缸醉花螺",
+            en: "Drunken Sea Snails in Aged Rice Wine",
+            note: "Cold, wine-heavy, served as a starter. The most old-Shanghai thing on a Cantonese menu.",
+            tag: "Signature"
+          },
+          {
+            zh: "六款點心拼盤",
+            en: "Six-Piece Dim Sum Platter",
+            note: "The weekend brunch format: six dim sum chosen by the kitchen, including the dumplings above.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "OpenRice 食評, the hotel menu and the weekend dim-sum list — the dishes this room is actually known for.",
+        dishBadge: "Source: OpenRice 食評 + hotel menu",
     branches: [],
     singleNote: "One restaurant, inside The Murray. Book ahead for dinner; lunch is the easier table.",
     sources: [
@@ -489,12 +722,70 @@ const RESTAURANTS = [
       "Cheap by TST standards — useful when every other option on Peking Road is a hotel restaurant."
     ],
     quote: { text: "The menu has not changed since 1975. That is the feature.", cite: "The bing sutt contract" },
-    knownSignatures: [
-      { zh: "菠蘿油", en: "Pineapple Bun with Butter", note: "Order it hot. The butter should still be melting when it reaches the table." },
-      { zh: "絲襪奶茶", en: "Silk-Stocking Milk Tea", note: "The test of any bing sutt. Ask for 少甜 if you do not want it sweet." },
-      { zh: "西多士", en: "French Toast", note: "Syrup on the side, butter on top. Share one between two." },
-      { zh: "常餐", en: "All-Day Set", note: "Soup, toast, egg and a drink — the format that made these shops cheap and fast." }
-    ],
+    dishes: [
+          {
+            zh: "菠蘿油",
+            en: "Pineapple Bun with Butter",
+            note: "Order it hot. The butter should still be melting when it reaches the table.",
+            tag: "Signature"
+          },
+          {
+            zh: "絲襪奶茶",
+            en: "Silk-Stocking Milk Tea",
+            note: "The test of any bing sutt. Ask for 少甜 if you do not want it sweet.",
+            tag: "Signature"
+          },
+          {
+            zh: "西多士",
+            en: "French Toast",
+            note: "Syrup on the side, butter on top. Share one between two.",
+            tag: "Signature"
+          },
+          {
+            zh: "常餐",
+            en: "All-Day Set",
+            note: "Soup, toast, egg and a drink — the format that made these shops cheap and fast.",
+            tag: "Signature"
+          },
+          {
+            zh: "沙爹牛肉麵",
+            en: "Satay Beef Noodles",
+            note: "Thick satay sauce, instant-style noodles, a Hong Kong comfort order.",
+            tag: "Signature"
+          },
+          {
+            zh: "餐蛋麵",
+            en: "Luncheon Meat and Egg Noodles",
+            note: "The other half of the same idea. Add a slice of cheese if you want the full thing.",
+            tag: "Signature"
+          },
+          {
+            zh: "豬扒包",
+            en: "Pork Chop Bun",
+            note: "A Macau import that every bing sutt now makes. Ask for it with the bone in if they have it.",
+            tag: "Signature"
+          },
+          {
+            zh: "蛋撻",
+            en: "Egg Tart",
+            note: "Custard set just short of firm. Best within ten minutes of the tray coming out.",
+            tag: "Signature"
+          },
+          {
+            zh: "紅豆冰",
+            en: "Red Bean Ice",
+            note: "Condensed milk, crushed ice, sweet red beans. The drink to order in summer.",
+            tag: "Signature"
+          },
+          {
+            zh: "火腿通粉",
+            en: "Ham and Macaroni Soup",
+            note: "The savoury anchor of the set — clear broth, elbow macaroni, a slice of ham.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The bing sutt repertoire — what this shop, like every 冰室, is built to serve.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One shop on Peking Road. There is an unrelated 花月 name in Sham Shui Po — check the address.",
     sources: [
@@ -534,13 +825,70 @@ const RESTAURANTS = [
       "A chef-led shop rather than a chain: 榕哥 still runs the roasting."
     ],
     quote: { text: "Old tangerine peel cuts the fat. That is the whole trick.", cite: "The house technique" },
-    knownSignatures: [
-      { zh: "陳皮燒鵝", en: "Aged Tangerine-Peel Roast Goose", note: "The signature. Ask for the leg if you are ordering by the portion; the breast is leaner but less interesting." },
-      { zh: "燒鵝脾飯", en: "Roast Goose Leg on Rice", note: "The single order. Sauce on the side so the skin stays crisp." },
-      { zh: "金獎傳統叉燒", en: "Award-Winning Traditional Char Siu", note: "Lemongrass and black pepper in the marinade — sweeter and more fragrant than the usual honey glaze." },
-      { zh: "紅燒乳鴿", en: "Roast Pigeon", note: "Small, dark, best eaten with your hands. A regular add-on to a goose order." },
-      { zh: "乾炒牛河", en: "Dry-Fried Beef Ho Fun", note: "The wok-hei test of any Cantonese kitchen. Order it if you are sharing." }
-    ],
+    dishes: [
+          {
+            zh: "陳皮燒鵝",
+            en: "Aged Tangerine-Peel Roast Goose",
+            note: "The signature. Ask for the leg if ordering by portion; the breast is leaner but less interesting.",
+            tag: "Signature"
+          },
+          {
+            zh: "燒鵝脾飯",
+            en: "Roast Goose Leg on Rice",
+            note: "The single order. Sauce on the side so the skin stays crisp.",
+            tag: "Signature"
+          },
+          {
+            zh: "金獎傳統叉燒",
+            en: "Award-Winning Traditional Char Siu",
+            note: "Lemongrass and black pepper in the marinade — sweeter and more fragrant than the usual honey glaze.",
+            tag: "Signature"
+          },
+          {
+            zh: "紅燒乳鴿",
+            en: "Roast Pigeon",
+            note: "Small, dark, best eaten with your hands. A regular add-on.",
+            tag: "Signature"
+          },
+          {
+            zh: "乾炒牛河",
+            en: "Dry-Fried Beef Ho Fun",
+            note: "The wok-hei test of any Cantonese kitchen. Order it if you are sharing.",
+            tag: "Signature"
+          },
+          {
+            zh: "滷水鵝掌",
+            en: "Braised Goose Webs",
+            note: "Cold, gelatinous, made for beer.",
+            tag: "Signature"
+          },
+          {
+            zh: "脆皮燒肉",
+            en: "Crispy Roast Pork",
+            note: "Added to a goose plate rather than ordered alone.",
+            tag: "Signature"
+          },
+          {
+            zh: "鵝油撈麵",
+            en: "Noodles Tossed in Goose Fat",
+            note: "The best use of the fat that comes off the birds.",
+            tag: "Signature"
+          },
+          {
+            zh: "例湯",
+            en: "Soup of the Day",
+            note: "Usually pork bone and vegetable. Included with most rice plates.",
+            tag: "Signature"
+          },
+          {
+            zh: "油菜",
+            en: "Blanched Seasonal Greens",
+            note: "Oyster sauce on the side. The counterweight to a plate of roast meat.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The roast-meat counter at this Kimberley Road shop, plus the dishes reviewers return for.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One shop, in Wing Lee Building on Kimberley Road. Despite the identical English name, it is not 鏞記酒家 in Central — different owners, different menu.",
     sources: [
@@ -580,12 +928,70 @@ const RESTAURANTS = [
       "Fifteen consecutive Bib Gourmand years (2011–2025)."
     ],
     quote: { text: "靠得住 — \"you can rely on it.\" The name is the promise.", cite: "The house name, translated" },
-    knownSignatures: [
-      { zh: "心肝寶貝粥", en: "Pork Liver and Scallop Congee", note: "The signature. Liver sliced thin so it poaches in the residual heat; scallop for sweetness." },
-      { zh: "魚湯粥底", en: "Fish-Stock Congee Base", note: "Not a dish on its own — the reason every bowl tastes the way it does." },
-      { zh: "鮮蝦雲吞麵", en: "Fresh Shrimp Wonton Noodles", note: "Thin noodles, whole shrimp in the wonton, broth that does not need chilli." },
-      { zh: "皮蛋瘦肉粥", en: "Century Egg and Pork Congee", note: "The safe order at a lesser shop; here it is the control against which the specials make sense." }
-    ],
+    dishes: [
+          {
+            zh: "心肝寶貝粥",
+            en: "Pork Liver and Scallop Congee",
+            note: "The signature. Liver sliced thin so it poaches in the residual heat; scallop for sweetness.",
+            tag: "Signature"
+          },
+          {
+            zh: "豬膶粥",
+            en: "Pork Liver Congee",
+            note: "Straight liver, no scallop. Order this if you want to taste the congee base on its own terms.",
+            tag: "Signature"
+          },
+          {
+            zh: "豬膶魚腩粥",
+            en: "Pork Liver and Fish-Belly Congee",
+            note: "The combination regulars order — liver and the fattest cut of the fish in one bowl.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚腩粥",
+            en: "Fish-Belly Congee",
+            note: "The other house standard, built on the same fish-stock base.",
+            tag: "Signature"
+          },
+          {
+            zh: "招牌魚皮",
+            en: "Signature Fish Skin",
+            note: "Crisp fried skin, served separately so it stays crisp. Eat it before it sinks.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮蝦雲吞麵",
+            en: "Fresh Shrimp Wonton Noodles",
+            note: "Thin noodles, whole shrimp, broth that does not need chilli.",
+            tag: "Signature"
+          },
+          {
+            zh: "炒麵",
+            en: "Fried Noodles",
+            note: "The savoury side order. Ask for it crisp at the edges.",
+            tag: "Signature"
+          },
+          {
+            zh: "腸粉",
+            en: "Rice Noodle Roll",
+            note: "Plain or with shrimp; the test is the texture of the roll, not the filling.",
+            tag: "Signature"
+          },
+          {
+            zh: "滋味燻魚",
+            en: "Smoked Fish",
+            note: "Sweet, dark, served cold — a Shanghainese dish this Cantonese kitchen does well.",
+            tag: "Signature"
+          },
+          {
+            zh: "白粥",
+            en: "Plain Congee",
+            note: "The control. If the plain version is good, everything else follows.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "OpenRice 必食 for the Wan Chai shop, led by the fish-stock congee.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One Wan Chai shop. There are other congee shops with similar names — this is the Heard Street address with the Bib Gourmand record.",
     sources: [
@@ -624,14 +1030,70 @@ const RESTAURANTS = [
       "The original Sham Shui Po shop, still the one worth queueing for."
     ],
     quote: { text: "A star, a queue, and a laminated menu.", cite: "The Sham Shui Po original" },
-    knownSignatures: [
-      { zh: "酥皮焗叉燒包", en: "Baked Char Siu Bun with Crisp Crust", note: "The signature. Order two portions — one is never enough and they sell out." },
-      { zh: "黃沙豬潤腸", en: "Rice Roll with Pork Liver", note: "Silky roll, liver cooked just short of set. The best thing on the menu after the bun." },
-      { zh: "香煎蘿蔔糕", en: "Pan-Fried Turnip Cake", note: "Crisp outside, loose and peppery inside. Ask for it extra pan-fried if you like the edges." },
-      { zh: "香滑馬拉糕", en: "Steamed Sponge Cake", note: "Light, brown-sugar sweet, and the thing to order while you wait for the savoury items." },
-      { zh: "鮮蝦腐皮卷", en: "Shrimp Bean-Curd Roll", note: "Fried to order; the wrapper shatters. Do not let it sit." },
-      { zh: "陳皮牛肉球", en: "Beef Ball with Dried Tangerine Peel", note: "Springy, faintly citrus. A test of the kitchen's steaming rather than its frying." }
-    ],
+    dishes: [
+          {
+            zh: "酥皮焗叉燒包",
+            en: "Baked Char Siu Bun with Crisp Crust",
+            note: "The signature. Order two portions — one is never enough and they sell out.",
+            tag: "Signature"
+          },
+          {
+            zh: "黃沙豬潤腸",
+            en: "Rice Roll with Pork Liver",
+            note: "Silky roll, liver cooked just short of set. The best thing after the bun.",
+            tag: "Signature"
+          },
+          {
+            zh: "香煎蘿蔔糕",
+            en: "Pan-Fried Turnip Cake",
+            note: "Crisp outside, loose and peppery inside. Ask for it extra pan-fried if you like the edges.",
+            tag: "Signature"
+          },
+          {
+            zh: "香滑馬拉糕",
+            en: "Steamed Sponge Cake",
+            note: "Three days of fermentation in a single slice. Light, brown-sugar sweet.",
+            tag: "Signature"
+          },
+          {
+            zh: "晶瑩鮮蝦餃",
+            en: "Shrimp Dumpling",
+            note: "Translucent wrapper, whole shrimp. The baseline test of the kitchen.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮蝦燒賣皇",
+            en: "Shrimp Siu Mai",
+            note: "Pork and shrimp, no filler, a whole shrimp on top.",
+            tag: "Signature"
+          },
+          {
+            zh: "洛神花脆蝦紅米腸粉",
+            en: "Hibiscus Crispy Shrimp Rice Roll",
+            note: "The newer signature: red rice wrapper, crisp middle, shrimp.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮蝦腐皮卷",
+            en: "Shrimp Bean-Curd Roll",
+            note: "Fried to order; the wrapper shatters. Do not let it sit.",
+            tag: "Signature"
+          },
+          {
+            zh: "陳皮牛肉球",
+            en: "Beef Ball with Dried Tangerine Peel",
+            note: "Springy, faintly citrus. A test of the steaming rather than the frying.",
+            tag: "Signature"
+          },
+          {
+            zh: "豉汁蒸鳳爪",
+            en: "Chicken Feet in Black-Bean Sauce",
+            note: "Sticky, savoury, the thing to order while waiting for the baked items.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The house's 'four kings' — baked char siu bun, liver rice roll, turnip cake, sponge cake — plus the dim sum regulars.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [
       { city: "Hong Kong", name: "添好運（深水埗）", en: "Tim Ho Wan, Sham Shui Po", note: "The 2009 original — the queue and the star both started here." },
       { city: "Hong Kong", name: "添好運（中環 / 北角 / 奧運）", en: "Tim Ho Wan, Central / North Point / Olympic", note: "Larger branches with shorter waits; the menu is the same, the room is not." }
@@ -678,13 +1140,70 @@ const RESTAURANTS = [
       "A forty-year-old shop with a Bib Gourmand and neighbourhood prices."
     ],
     quote: { text: "The congee cooks the fish. That is the whole technique.", cite: "How 生滾 works" },
-    knownSignatures: [
-      { zh: "魚腩粥", en: "Fish-Belly Congee", note: "The order. Add the ginger and soy at the table, not before." },
-      { zh: "鮮豬潤粥", en: "Fresh Pork Liver Congee", note: "Liver added raw and poached by the congee; eat it before it overcooks." },
-      { zh: "鯪魚球粥", en: "Dace Fish Ball Congee", note: "Springy, faintly dried-tangerine. The non-fish-cut alternative." },
-      { zh: "香煎魚餅", en: "Pan-Fried Fish Cake", note: "Ordered on the side, cut into strips. Good with the ginger-soy dish." },
-      { zh: "牛肉粥", en: "Beef Congee", note: "Minced beef, pressed into the bowl and cooked by the congee — the same logic as Hop Yik Tai's version." }
-    ],
+    dishes: [
+          {
+            zh: "魚腩粥",
+            en: "Fish-Belly Congee",
+            note: "The order. Add the ginger and soy at the table, not before.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮豬潤粥",
+            en: "Fresh Pork Liver Congee",
+            note: "Liver added raw and poached by the congee; eat it before it overcooks.",
+            tag: "Signature"
+          },
+          {
+            zh: "鯪魚球粥",
+            en: "Dace Fish Ball Congee",
+            note: "Springy, faintly dried-tangerine. The non-fish-cut alternative.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚片粥",
+            en: "Fish Slice Congee",
+            note: "Thin slices, no bones, the gentlest version of the fish congee.",
+            tag: "Signature"
+          },
+          {
+            zh: "牛肉粥",
+            en: "Beef Congee",
+            note: "Minced beef pressed into the bowl and cooked by the congee.",
+            tag: "Signature"
+          },
+          {
+            zh: "皮蛋瘦肉粥",
+            en: "Century Egg and Pork Congee",
+            note: "The safe order at a lesser shop; here it is the control.",
+            tag: "Signature"
+          },
+          {
+            zh: "香煎魚餅",
+            en: "Pan-Fried Fish Cake",
+            note: "Cut into strips, good with the ginger-soy dish.",
+            tag: "Signature"
+          },
+          {
+            zh: "炸兩",
+            en: "Rice Roll Wrapped Around Fried Dough",
+            note: "Ordered on the side for texture. Eat immediately.",
+            tag: "Signature"
+          },
+          {
+            zh: "油條",
+            en: "Fried Dough Stick",
+            note: "For dipping into the congee, or into the soy.",
+            tag: "Signature"
+          },
+          {
+            zh: "豆漿",
+            en: "Soy Milk",
+            note: "Cold or warm, unsweetened by default.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The shop's 生滾 congee list — fish first, liver second, everything cooked by the heat of the bowl.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "The Burd Street shop is the one. A branch in Quarry Bay has closed — check before travelling to any other address.",
     sources: [
@@ -727,11 +1246,70 @@ const RESTAURANTS = [
       "Second-generation family ownership — the recipe has not changed."
     ],
     quote: { text: "One sandwich, fifty years, no need to look at the menu.", cite: "The house order" },
-    knownSignatures: [
-      { zh: "蛋牛治", en: "Beef and Egg Sandwich", note: "The order. Ask for 烘底 if you want the bread toasted — it costs extra and changes the texture completely." },
-      { zh: "西多士", en: "French Toast", note: "The other thing on the menu people order. Share it." },
-      { zh: "絲襪奶茶", en: "Silk-Stocking Milk Tea", note: "Strong, dense, served hot. The correct drink with the sandwich." }
-    ],
+    dishes: [
+          {
+            zh: "蛋牛治",
+            en: "Beef and Egg Sandwich",
+            note: "The order. Ask for 烘底 if you want the bread toasted — it costs extra and changes the texture completely.",
+            tag: "Signature"
+          },
+          {
+            zh: "西多士",
+            en: "French Toast",
+            note: "The other thing people order. Share it.",
+            tag: "Signature"
+          },
+          {
+            zh: "絲襪奶茶",
+            en: "Silk-Stocking Milk Tea",
+            note: "Strong, dense, served hot. The correct drink with the sandwich.",
+            tag: "Signature"
+          },
+          {
+            zh: "菠蘿油",
+            en: "Pineapple Bun with Butter",
+            note: "Ordered hot, butter still melting.",
+            tag: "Signature"
+          },
+          {
+            zh: "餐蛋麵",
+            en: "Luncheon Meat and Egg Noodles",
+            note: "The all-day fallback, and the reason the shop never closes.",
+            tag: "Signature"
+          },
+          {
+            zh: "沙爹牛肉麵",
+            en: "Satay Beef Noodles",
+            note: "Thick sauce, soft noodles. A 3am order.",
+            tag: "Signature"
+          },
+          {
+            zh: "凍檸茶",
+            en: "Iced Lemon Tea",
+            note: "Ask for 少甜; the default is heavy on the syrup.",
+            tag: "Signature"
+          },
+          {
+            zh: "火腿通粉",
+            en: "Ham and Macaroni Soup",
+            note: "Clear broth, elbow macaroni. The savoury anchor of a set.",
+            tag: "Signature"
+          },
+          {
+            zh: "奶油多",
+            en: "Condensed Milk Toast",
+            note: "Warm toast, condensed milk. Simpler than the French toast and, for many, better.",
+            tag: "Signature"
+          },
+          {
+            zh: "紅豆冰",
+            en: "Red Bean Ice",
+            note: "Condensed milk and crushed ice. The summer drink.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "A 1968 cha chaan teng menu — one sandwich carries the reputation, the rest is the standard repertoire.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One shop on Kweilin Street. There are other 新香園 names in the city — this is the 1968 original, sometimes written 堅記.",
     sources: [
@@ -785,13 +1363,70 @@ const RESTAURANTS = [
       "Reopened in early 2026 after a four-month refit; the queue never really left."
     ],
     quote: { text: "Stab, do not stir. The congee stays thick that way.", cite: "The house instruction" },
-    knownSignatures: [
-      { zh: "豬油腸粉", en: "Rice Noodle Rolls with Lard", note: "The street-counter order. Sweet sauce, sesame paste, soy — do not ask for it dry." },
-      { zh: "碎牛粥", en: "Minced Beef Congee", note: "The seated order. Read the ritual above before you touch it." },
-      { zh: "豆漿", en: "Soy Milk", note: "Cold or warm, unsweetened by default. The thing to drink with the noodles." },
-      { zh: "燒賣", en: "Steamed Siu Mai", note: "Fish-based, not pork, and served with the same sweet-soy dressing." },
-      { zh: "豬皮蘿蔔", en: "Pork Skin and Radish", note: "Braised in a curry-ish broth; order it if you are sharing the counter food." }
-    ],
+    dishes: [
+          {
+            zh: "豬油腸粉",
+            en: "Rice Noodle Rolls with Lard",
+            note: "The street-counter order. Sweet sauce, sesame paste, soy — do not ask for it dry.",
+            tag: "Signature"
+          },
+          {
+            zh: "碎牛粥",
+            en: "Minced Beef Congee",
+            note: "The seated order. Read the ritual above before you touch it.",
+            tag: "Signature"
+          },
+          {
+            zh: "豆漿",
+            en: "Soy Milk",
+            note: "Cold or warm, unsweetened by default. The thing to drink with the noodles.",
+            tag: "Signature"
+          },
+          {
+            zh: "燒賣",
+            en: "Steamed Siu Mai",
+            note: "Fish-based, not pork, and served with the same sweet-soy dressing.",
+            tag: "Signature"
+          },
+          {
+            zh: "豬皮蘿蔔",
+            en: "Pork Skin and Radish",
+            note: "Braised in a curry-ish broth; order it if you are sharing.",
+            tag: "Signature"
+          },
+          {
+            zh: "魚蛋",
+            en: "Fish Balls",
+            note: "Springy, cheap, and best with the same sauce as the noodles.",
+            tag: "Signature"
+          },
+          {
+            zh: "牛肉球",
+            en: "Beef Balls",
+            note: "Steamed, plain, made for dipping.",
+            tag: "Signature"
+          },
+          {
+            zh: "油條",
+            en: "Fried Dough Stick",
+            note: "For the congee, not on its own.",
+            tag: "Signature"
+          },
+          {
+            zh: "白粥",
+            en: "Plain Congee",
+            note: "The control against which the beef version makes sense.",
+            tag: "Signature"
+          },
+          {
+            zh: "齋腸",
+            en: "Plain Rice Noodle Roll",
+            note: "No filling, just the noodle and the sauces — the purest test of the counter.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The counter's rice noodles plus the seated menu — the congee is the reason to stay.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [],
     singleNote: "One shop on Kweilin Street. The street counter and the seated area are the same business; order at the counter either way.",
     sources: [
@@ -832,12 +1467,70 @@ const RESTAURANTS = [
       "Shenzhen branches make it the default recommendation for visitors who want yum cha without crossing to Hong Kong."
     ],
     quote: { text: "点都德 — \"whatever you order, it's fine.\"", cite: "The Cantonese phrase the brand is named after" },
-    knownSignatures: [
-      { zh: "沙爹金钱肚", en: "Satay Beef Tripe", note: "Braised soft, then finished in a thick satay sauce. The dish regulars order first." },
-      { zh: "百合酱蒸凤爪", en: "Chicken Feet Steamed in Lily-Bulb Sauce", note: "Sticky, savoury, faintly sweet. Get two baskets." },
-      { zh: "虾饺皇", en: "Shrimp Dumpling", note: "The benchmark for any dim sum kitchen: translucent wrapper, whole shrimp, no filler." },
-      { zh: "蜜汁叉烧包", en: "Honey Char Siu Bao", note: "Split-top, soft, with a proper sweet-savoury filling." }
-    ],
+    dishes: [
+          {
+            zh: "金沙鮮蝦紅米腸",
+            en: "Crispy Shrimp Rice Roll",
+            note: "The house's most-ordered item: red rice wrapper, crisp middle, whole shrimp.",
+            tag: "Signature"
+          },
+          {
+            zh: "金牌蝦餃皇",
+            en: "Signature Shrimp Dumpling",
+            note: "Translucent wrapper, whole shrimp, no filler. The benchmark.",
+            tag: "Signature"
+          },
+          {
+            zh: "沙爹金錢肚",
+            en: "Satay Beef Tripe",
+            note: "Braised soft, finished in a thick satay sauce. Order two baskets.",
+            tag: "Signature"
+          },
+          {
+            zh: "百合醬蒸鳳爪",
+            en: "Chicken Feet in Lily-Bulb Sauce",
+            note: "Sticky, savoury, faintly sweet. The other two-basket order.",
+            tag: "Signature"
+          },
+          {
+            zh: "蜜汁叉燒包",
+            en: "Honey Char Siu Bao",
+            note: "Split-top, soft, proper sweet-savoury filling.",
+            tag: "Signature"
+          },
+          {
+            zh: "干蒸燒賣",
+            en: "Pork and Shrimp Siu Mai",
+            note: "The plain version, and a reliable test of the steamer.",
+            tag: "Signature"
+          },
+          {
+            zh: "艇仔粥",
+            en: "Sampan Congee",
+            note: "Rice congee with peanuts, squid and pork skin — the teahouse staple.",
+            tag: "Signature"
+          },
+          {
+            zh: "鹹煎餅",
+            en: "Salty Fried Cake",
+            note: "Chewy, faintly fermented, sesame-coated. Order it to share.",
+            tag: "Signature"
+          },
+          {
+            zh: "鮮蝦腐皮卷",
+            en: "Shrimp Bean-Curd Roll",
+            note: "Fried to order. Do not let it sit.",
+            tag: "Signature"
+          },
+          {
+            zh: "香煎蘿蔔糕",
+            en: "Pan-Fried Turnip Cake",
+            note: "Crisp edges, peppery centre.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "Dianping 推荐菜 and the house's three classics: shrimp rice roll, shrimp dumpling, satay tripe.",
+        dishBadge: "Source: Dianping 推荐菜 · top ten only",
     branches: [
       { city: "Guangzhou", name: "点都德（大茶楼）", en: "Dian Dou De, Grand Teahouse", note: "The 2013 flagship that relaunched the brand." },
       { city: "Shenzhen", name: "点都德（福田 / 罗湖 / 南山各分店）", en: "Dian Dou De, Futian / Luohu / Nanshan", note: "Several branches; the Futian rooms are the busiest at weekend brunch." }
@@ -880,12 +1573,70 @@ const RESTAURANTS = [
       "Now in Shanghai as well, which makes it the test case for the branch-reference system on this site."
     ],
     quote: { text: "A teahouse is a room, a trolley and a pot of tea — everything else is detail.", cite: "The Xiguan teahouse tradition 蘩楼 is reviving" },
-    knownSignatures: [
-      { zh: "香脆明虾红米肠", en: "Crispy Shrimp Rice-Noodle Roll", note: "Three textures in one bite: soft red rice wrapper, crisp middle, whole shrimp." },
-      { zh: "蘩楼露笋虾皇饺", en: "Asparagus Shrimp Dumpling", note: "The house benchmark — order it before anything else." },
-      { zh: "金牌脆烤乳鸽", en: "Golden Crisp Roast Pigeon", note: "Roasted to order, split at the table. Best shared between two." },
-      { zh: "干炒牛河", en: "Beef Ho Fun, Dry-Fried", note: "Wok hei test. If the noodles arrive glossy without pooling oil, the kitchen is awake." }
-    ],
+    dishes: [
+          {
+            zh: "露筍蝦餃皇",
+            en: "Asparagus Shrimp Dumpling",
+            note: "The house benchmark — order it before anything else.",
+            tag: "Signature"
+          },
+          {
+            zh: "香脆明蝦紅米腸",
+            en: "Crispy Shrimp Rice-Noodle Roll",
+            note: "Three textures in one bite: soft red rice wrapper, crisp middle, whole shrimp.",
+            tag: "Signature"
+          },
+          {
+            zh: "XO醬山椒蒸鳳爪",
+            en: "Chicken Feet with XO Sauce and Sichuan Pepper",
+            note: "The version that made the top five. Hot, savoury, slightly numbing.",
+            tag: "Signature"
+          },
+          {
+            zh: "蘩樓艇仔粥",
+            en: "Fan Lou Sampan Congee",
+            note: "Rice congee with the classic garnish — peanuts, squid, pork skin.",
+            tag: "Signature"
+          },
+          {
+            zh: "金牌脆皮乳鴿",
+            en: "Golden Crisp Roast Pigeon",
+            note: "Roasted to order, split at the table. Best shared between two.",
+            tag: "Signature"
+          },
+          {
+            zh: "干炒牛河",
+            en: "Beef Ho Fun, Dry-Fried",
+            note: "Wok-hei test. If the noodles arrive glossy without pooling oil, the kitchen is awake.",
+            tag: "Signature"
+          },
+          {
+            zh: "蜜汁叉燒包",
+            en: "Honey Char Siu Bao",
+            note: "Split-top, soft, sweet-savoury.",
+            tag: "Signature"
+          },
+          {
+            zh: "馬拉糕",
+            en: "Steamed Sponge Cake",
+            note: "Brown-sugar sweet, light. The thing to order while waiting.",
+            tag: "Signature"
+          },
+          {
+            zh: "豉汁蒸排骨",
+            en: "Steamed Pork Ribs in Black-Bean Sauce",
+            note: "Small, fatty, made for congee.",
+            tag: "Signature"
+          },
+          {
+            zh: "香煎蘿蔔糕",
+            en: "Pan-Fried Turnip Cake",
+            note: "Crisp outside, loose inside.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The five dishes OpenRice reviewers order most at this brand, plus the rest of the teahouse repertoire.",
+        dishBadge: "Source: OpenRice 必食 + house menu",
     branches: [
       { city: "Shanghai", name: "蘩楼（徐家汇汇金店）", en: "Fan Lou, Xujiahui Huijin", note: "The Shanghai room — same menu, different city. Read the Shenzhen post first." },
       { city: "Shenzhen", name: "蘩楼（华强北店）", en: "Fan Lou, Huaqiangbei", note: "Smaller, faster, popular with the lunch crowd." }
@@ -928,12 +1679,70 @@ const RESTAURANTS = [
       "Part of a three-villa family group (福1088 / 福1039 / 福1015) on the same street."
     ],
     quote: { text: "Old Shanghai, served one room at a time.", cite: "The house's own description of the format" },
-    knownSignatures: [
-      { zh: "青鱼秃肺", en: "Black Carp Swim Bladder", note: "The dish that proves the kitchen's bona fides. Rich, gelatinous, faintly sweet." },
-      { zh: "红烧肉", en: "Red-Braised Pork Belly", note: "Slow-braised, lacquered, served in a clay pot. The benchmark order." },
-      { zh: "油爆虾", en: "Flash-Fried River Shrimp", note: "Shells crisp enough to eat, sauce reduced to a glaze." },
-      { zh: "蟹粉豆腐", en: "Crab Roe with Tofu", note: "Seasonal; ask whether the crab is from Taihu before ordering." }
-    ],
+    dishes: [
+          {
+            zh: "青魚禿肺",
+            en: "Black Carp Swim Bladder",
+            note: "The dish that proves the kitchen's bona fides. Rich, gelatinous, faintly sweet.",
+            tag: "Signature"
+          },
+          {
+            zh: "香溢紅燒肉",
+            en: "Red-Braised Pork Belly",
+            note: "Slow-braised, lacquered, served in a clay pot. The benchmark order.",
+            tag: "Signature"
+          },
+          {
+            zh: "滬式油爆蝦",
+            en: "Shanghai Flash-Fried River Shrimp",
+            note: "Shells crisp enough to eat, sauce reduced to a glaze.",
+            tag: "Signature"
+          },
+          {
+            zh: "老上海熏魚",
+            en: "Old-Shanghai Smoked Fish",
+            note: "Sweet, dark, served cold. The starter every table orders.",
+            tag: "Signature"
+          },
+          {
+            zh: "清炒蟹粉配吐司",
+            en: "Stir-Fried Crab Roe with Toast",
+            note: "Rich enough that the toast is not a gimmick — it is the delivery system.",
+            tag: "Signature"
+          },
+          {
+            zh: "響油鳝糊",
+            en: "Sizzling Shredded Eel",
+            note: "Hot oil poured at the table; the hiss is the point.",
+            tag: "Signature"
+          },
+          {
+            zh: "糖藕",
+            en: "Sweet Lotus Root with Glutinous Rice",
+            note: "Cold, honeyed, stuffed with rice. The dessert to order early.",
+            tag: "Signature"
+          },
+          {
+            zh: "黃魚煨麵",
+            en: "Yellow Croaker Noodles",
+            note: "Fish cooked until it collapses into the broth. A Shanghainese comfort dish.",
+            tag: "Signature"
+          },
+          {
+            zh: "芥末芝麻蝦",
+            en: "Mustard and Sesame Prawns",
+            note: "The modern note on the menu — sharp, nutty, served cold.",
+            tag: "Signature"
+          },
+          {
+            zh: "蟹粉豆腐",
+            en: "Crab Roe with Tofu",
+            note: "Seasonal. Ask whether the crab is from Taihu before ordering.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "Dianping 推荐菜 for the Zhenning Road house — the old benbang repertoire, in order of how often it is photographed.",
+        dishBadge: "Source: Dianping 推荐菜 · top ten only",
     branches: [
       { city: "Shanghai", name: "福1039", en: "Fu 1039", note: "Same family, adjacent villa, slightly more casual register." },
       { city: "Shanghai", name: "福1015", en: "Fu 1015", note: "The third villa in the group; strongest for larger private dinners." }
@@ -975,12 +1784,70 @@ const RESTAURANTS = [
       "One of the few places where a visitor can hear the city's old popular music while eating its old food."
     ],
     quote: { text: "浓油赤酱 — heavy oil, dark soy, and no apologies.", cite: "The benbang rule the kitchen cooks by" },
-    knownSignatures: [
-      { zh: "红烧肉", en: "Red-Braised Pork Belly", note: "Sweet, dark and collapsing. Order rice with it, not noodles." },
-      { zh: "油爆虾", en: "Flash-Fried River Shrimp", note: "Eat the shells. The sugar in the glaze should be just short of burnt." },
-      { zh: "响油鳝丝", en: "Sizzling Shredded Eel", note: "Hot oil poured at the table; the hiss is the point." },
-      { zh: "红烧划水", en: "Braised Fish Tail", note: "The fattiest, most gelatinous cut — a benbang test dish." }
-    ],
+    dishes: [
+          {
+            zh: "金牌紅燒肉",
+            en: "Signature Red-Braised Pork Belly",
+            note: "Sweet, dark and collapsing. Order rice with it, not noodles.",
+            tag: "Signature"
+          },
+          {
+            zh: "油爆蝦",
+            en: "Flash-Fried River Shrimp",
+            note: "Eat the shells. The sugar in the glaze should be just short of burnt.",
+            tag: "Signature"
+          },
+          {
+            zh: "本幫熏魚",
+            en: "Benbang Smoked Fish",
+            note: "Cold, sticky, sweet-savoury. The first thing to order.",
+            tag: "Signature"
+          },
+          {
+            zh: "老上海醬爆豬肝",
+            en: "Old-Shanghai Pork Liver in Bean Sauce",
+            note: "Fast wok, soft liver, a lot of sauce. Order it to share.",
+            tag: "Signature"
+          },
+          {
+            zh: "蟹粉撈飯",
+            en: "Crab Roe over Rice",
+            note: "Served by the small or large portion, dine-in only. The most expensive comfort food on the menu.",
+            tag: "Signature"
+          },
+          {
+            zh: "松鼠桂魚",
+            en: "Squirrel Mandarin Fish",
+            note: "Sweet-and-sour, scored and fried into shape. A banquet dish, priced like one.",
+            tag: "Signature"
+          },
+          {
+            zh: "草頭圈子",
+            en: "Braised Pork Intestine with Clover",
+            note: "The dish that separates locals from visitors. Cleaned properly, it has no off note.",
+            tag: "Signature"
+          },
+          {
+            zh: "醬鴨",
+            en: "Soy-Braised Duck",
+            note: "Cold, dark, sliced thin. A benbang starter.",
+            tag: "Signature"
+          },
+          {
+            zh: "響油鱔絲",
+            en: "Sizzling Shredded Eel",
+            note: "Hot oil at the table, then stir before the eel cools.",
+            tag: "Signature"
+          },
+          {
+            zh: "酒釀圓子",
+            en: "Fermented Rice Wine with Glutinous Balls",
+            note: "The dessert. Warm, faintly alcoholic, not too sweet.",
+            tag: "Signature"
+          },
+        ],
+        dishSource: "The Xuhui menu's most-ordered dishes — benbang standards, heavy on soy and sugar.",
+        dishBadge: "Source: Dianping 推荐菜 · top ten only",
     branches: [],
     singleNote: "The Xuhui room is the one that holds the star. Treat any similarly named shop as a different restaurant until verified on Dianping.",
     sources: [
@@ -1171,7 +2038,7 @@ function buildHome() {
         </div>
         <aside class="hero-aside">
           <div class="hero-cn">食單<small>The eating list</small></div>
-          <p>${RESTAURANTS.length} restaurants, ${CITIES.length} cities, ${RESTAURANTS.filter((r) => r.dishes).length} full features. Every entry carries its Chinese name, its awards, and whether I have actually eaten there.</p>
+          <p>${RESTAURANTS.length} restaurants, ${CITIES.length} cities, ${RESTAURANTS.filter((r) => r.dishes).length} top tens. Every entry carries its Chinese name, its awards, and whether I have actually eaten there.</p>
         </aside>
       </div>
 
@@ -1480,7 +2347,7 @@ function buildDetail(r, prev, next, root = "../../") {
     ? `<section id="top10">
         <h2>Top 10 must-try</h2>
         <p class="prose-sub">${esc(r.dishSource || "The ten dishes that define the house — Chinese name first, English translation under it.")}</p>
-        <p class="dish-source">Source: Dianping 推荐菜 · only the top ten are listed</p>
+        <p class="dish-source">${esc(r.dishBadge || "Source: Dianping 推荐菜 · only the top ten are listed")}</p>
         <ol class="dishlist">
           ${r.dishes
             .map(
@@ -1489,7 +2356,7 @@ function buildDetail(r, prev, next, root = "../../") {
               <div class="dish-zh">${esc(d.zh)}</div>
               <div class="dish-line">
                 <span class="dish-en">${esc(d.en)}</span>
-                <span class="dish-tag${d.tag === "Signature" ? "" : " mild"}">${esc(d.tag)}</span>
+                ${d.tag && d.tag !== "Signature" ? `<span class="dish-tag mild">${esc(d.tag)}</span>` : ""}
               </div>
               <p class="dish-note">${esc(d.note)}</p>
             </div>
