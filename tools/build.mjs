@@ -281,7 +281,7 @@ const RESTAURANTS = [
       {
         zh: "火腿蛋三文治（唔烘底）",
         en: "Ham and Egg Sandwich — bread not toasted",
-        note: "Ken's standing order: 腿蛋治，唔烘底. Say it explicitly so the bread stays soft. Add 飛邊 if you also want the crusts cut off.",
+        note: "Ken's standing order: 腿蛋治，唔烘底. Say it exactly like this — the bread stays soft. The crusts come off automatically here, so there is nothing else to add.",
         tag: "Ken's order"
       },
       {
