@@ -1869,6 +1869,120 @@ const RESTAURANTS = [
       { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" },
       { label: "Dianping", url: "https://www.dianping.com/" }
     ]
+  },
+  {
+    slug: "no-3-warehouse",
+    city: "shanghai",
+    status: "want",
+    nameEn: "No. 3 Warehouse",
+    nameZh: "3号仓库·创意中国菜",
+    locEn: "New World City, People's Square",
+    locZh: "新世界城店",
+    cuisine: "Creative Chinese",
+    cuisineZh: "创意中国菜",
+    price: "¥150–250 per person",
+    area: "People's Square / Nanjing Road",
+    addressEn: "4/F, New World City, 2–68 Nanjing West Road, Huangpu District — about 140 m from People's Square station",
+    addressZh: "黄浦区南京西路2–68号新世界城4楼A29（人民广场站步行约140米）",
+    tagline: "A ten-branch chain that turned creative Chinese into theatre — dry ice, flame, and a glass-skinned squab.",
+    card: "No. 1 on Dianping's Huangpu creative-restaurant check-in chart, 4.7 from 32,000 reviews. Order the glass squab and the abalone rice.",
+    awards: [
+      { mark: "1", label: "No. 1 Creative Restaurant in Huangpu", note: "Dianping 打卡人气榜 — check-in popularity" },
+      { mark: "4.7", label: "Dianping 4.7 / 5", note: "32,842 reviews at the time of listing" }
+    ],
+    story: [
+      "3号仓库 is a design-led chain of roughly ten branches that treats a meal as a set piece: mirrored ceilings, hanging plants, dry ice and flames at the table. This branch sits on the fourth floor of New World City, about 140 metres from People's Square station — a location built for foot traffic and photographs.",
+      "The menu is billed as 创意中国菜, creative Chinese. In practice that means Cantonese roast technique (the glass-skinned squab), chilli-heavy ribs, and a lot of tableside theatre: the abalone rice arrives with a pour, the tea-smoked ribs are lit in front of you, the beef comes out under dry ice.",
+      "One honest caveat. This is a photogenic restaurant first and a food destination second; reviews are split, and the room and presentation do a lot of the work. Go for the spectacle and the squab, not for a quiet dinner — and book, because the queue at dinner is real."
+    ],
+    whyFamous: [
+      "No. 1 on Dianping's Huangpu district creative-restaurant check-in chart.",
+      "4.7 across more than 32,000 reviews — volume as much as score.",
+      "招牌玻璃乳鴿 — glass-crisp squab, the most-ordered dish in the house.",
+      "Tableside theatre: dry ice under the beef, flame on the ribs, lab glassware for the fruit tea."
+    ],
+    quote: { text: "A restaurant built for the camera — and the squab is genuinely good.", cite: "The honest version" },
+    dishes: [
+      {
+        zh: "招牌玻璃乳鴿",
+        en: "Signature Glass-Skin Squab",
+        price: "¥129",
+        note: "The top order: lacquered skin thin enough to see through, meat still pink at the bone. Eat it with your hands.",
+        tag: "Signature"
+      },
+      {
+        zh: "沖浪鮑魚泡飯",
+        en: "\"Surfing\" Abalone Rice",
+        price: "¥89",
+        note: "Abalone and rice with hot broth poured at the table — the name is the pour. Let it sit a minute before eating.",
+        tag: "Signature"
+      },
+      {
+        zh: "實驗中的水果茶",
+        en: "\"Experiment\" Fruit Tea",
+        price: "¥49",
+        note: "Served in lab glassware, sweet-sour and built for photographs. The most-ordered drink on the list.",
+        tag: "Drink"
+      },
+      {
+        zh: "茶香火焰肋排",
+        en: "Tea-Smoked Flaming Ribs",
+        price: "¥89",
+        note: "Lit at the table. The ribs are fried first so they stay crisp under the flame.",
+        tag: "Signature"
+      },
+      {
+        zh: "雪花牛肉",
+        en: "Snowflake Beef",
+        price: "¥89",
+        note: "Dry ice under the lid, marbled beef inside. The most filmed dish in the room.",
+        tag: "Signature"
+      },
+      {
+        zh: "原創紅酒鵝肝烤鴨配蔬菜沙拉",
+        en: "Red-Wine Foie Gras with Roast Duck and Salad",
+        price: "¥179",
+        note: "The most expensive plate in the ten: roast duck, foie gras, red-wine reduction, a salad to cut it.",
+        tag: "Signature"
+      },
+      {
+        zh: "鵝肝麵包塔",
+        en: "Foie Gras Bread Tower",
+        price: "¥79",
+        note: "Foie gras on toast with a little mustard — the starter to share. Rich enough that two bites each is enough.",
+        tag: "Starter"
+      },
+      {
+        zh: "黑松露拇指小煎包",
+        en: "Black Truffle Thumb Buns",
+        price: "¥48",
+        note: "Small enough to eat in one bite: crisp base, soft top, truffle on the finish.",
+        tag: "Dim sum"
+      },
+      {
+        zh: "撈汁小海鮮",
+        en: "Seafood in Chilled Dressing",
+        price: "¥79",
+        note: "Head-on prawns in a sour-savoury dressing. Order it cold, between the fried courses.",
+        tag: "Cold"
+      },
+      {
+        zh: "斑斕芒果布丁",
+        en: "Pandan Mango Pudding",
+        price: "¥22",
+        note: "The dessert: strong mango, bright green, made for the last photo of the night.",
+        tag: "Dessert"
+      }
+    ],
+    dishNote: "Prices from the Dianping listing. Two set menus do most of the work here: the ¥290 two-person “creative fireworks” (built around the snowflake beef) and the ¥420 three-to-four-person roast duck set.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the New World City branch — the ranking is by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A chain of about ten stores across China. This page covers the New World City branch; the others are referenced from here rather than written up separately.",
+    sources: [
+      { label: "Dianping — 3号仓库·创意中国菜（新世界城店）", url: "https://www.dianping.com/" },
+      { label: "Trip.com", url: "https://www.trip.com/" }
+    ]
   }
 ];
 
