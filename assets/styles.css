@@ -1045,6 +1045,9 @@ button { font: inherit; color: inherit; }
   margin-top: 10px;
   line-height: 1.5;
   min-height: 2.4em;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
 }
 
 /* ── Dish list ───────────────────────────────────────────── */
@@ -1095,6 +1098,7 @@ button { font: inherit; color: inherit; }
   letter-spacing: .1em;
   line-height: 1.35;
   color: var(--paper-2);
+  white-space: pre-line;
 }
 .ob-en {
   position: relative;
@@ -1111,6 +1115,61 @@ button { font: inherit; color: inherit; }
   font-size: .8rem;
   line-height: 1.72;
   color: rgba(250, 246, 238, .64);
+}
+
+/* ── Eating ritual (how to eat a dish) ───────────────────── */
+.ritual {
+  margin: 0 0 46px;
+  padding: 30px 34px 28px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brass);
+  border-radius: var(--radius);
+}
+.ritual-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: .6rem;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--brass);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.ritual-head span:last-child {
+  letter-spacing: .16em;
+  color: var(--muted);
+  font-weight: 400;
+}
+.ritual h3 {
+  font-family: var(--serif);
+  font-size: 1.32rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.ritual ol {
+  list-style: none;
+  counter-reset: ritual;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ritual li {
+  counter-increment: ritual;
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  font-size: .9rem;
+  line-height: 1.72;
+  color: var(--ink-soft);
+}
+.ritual li::before {
+  content: counter(ritual);
+  font-family: var(--serif);
+  font-size: .82rem;
+  color: var(--brass);
+  padding-top: 2px;
 }
 
 .dishlist {
@@ -1491,6 +1550,7 @@ button { font: inherit; color: inherit; }
   .pager a.next { text-align: left; align-items: flex-start; }
   .prose .lede { font-size: 1.08rem; }
   .order-band { padding: 24px 20px 22px; margin-bottom: 34px; }
+  .ritual { padding: 22px 20px; margin-bottom: 34px; }
   .ob-zh { font-size: 1.55rem; letter-spacing: .06em; }
   .ob-en { font-size: .9rem; }
   .city-head h2 { font-size: 1.4rem; }

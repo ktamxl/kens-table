@@ -342,6 +342,432 @@ const RESTAURANTS = [
   },
 
   {
+    slug: "sang-kee-restaurant",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Sang Kee Restaurant",
+    nameZh: "生記飯店",
+    locEn: "Wan Chai",
+    locZh: "灣仔",
+    cuisine: "Cantonese seafood",
+    cuisineZh: "粵菜・海鮮",
+    price: "HK$300–500 per person",
+    area: "Wan Chai",
+    addressEn: "3/F, Sino Plaza, 353 Lockhart Road, Wan Chai",
+    addressZh: "灣仔駱克道353號三湘大廈3樓",
+    tagline: "A Wan Chai seafood room that has been cooking the same salt-baked chicken for nearly fifty years.",
+    card: "Twelve years of Bib Gourmand. Order the salt-baked chicken, the suckling pig, and whatever fish the floor is recommending that night.",
+    awards: [
+      { mark: "必", label: "MICHELIN Bib Gourmand", note: "2010–11 and 2014–2025 — twelve years" }
+    ],
+    story: [
+      "生記飯店 sits on the third floor of a commercial block on Lockhart Road — not a street-level room, not a hotel, just a lift and a floor of round tables. It has been there long enough to be planning its fiftieth anniversary, and long enough that the staff do not ask first-timers what they want; they ask what fish looks good.",
+      "The kitchen is a Cantonese seafood kitchen of the old school: whole fish steamed plainly, prawns fried in soy, and a salt-baked chicken that the MICHELIN inspectors have singled out more than once. The suckling pig is roasted to order and carved at the table, which is why the room sounds the way it does.",
+      "It holds a Bib Gourmand — not a star — and has held one for twelve of the last fifteen years. That is the correct register for the place: excellent cooking, no ceremony, a bill that does not require a special occasion."
+    ],
+    whyFamous: [
+      "古法鹽焗雞 — salt-baked chicken, ordered by nearly every table and cited by the MICHELIN guide.",
+      "A seafood room first: the fish tanks decide the menu more than the printed one does.",
+      "明爐BB豬 — suckling pig roasted to order, carved in the room.",
+      "Bib Gourmand for twelve years, which in Wan Chai is a statement about consistency rather than fashion."
+    ],
+    quote: { text: "A Cantonese seafood room that still cooks like it is 1985.", cite: "The house in one line" },
+    knownSignatures: [
+      { zh: "古法鹽焗雞", en: "Traditional Salt-Baked Chicken", note: "The dish the guide names. Ask for it when you book — it is not something to decide at the table." },
+      { zh: "明爐BB豬", en: "Roast Suckling Pig", note: "Ordered ahead, carved in the room. The crackling is the point; the meat underneath is almost a bonus." },
+      { zh: "豉油王炒蝦", en: "Prawns Fried in Master Soy Sauce", note: "Shell-on, wok-heavy, sweet at the edges. Eat them with your hands." },
+      { zh: "魚粥", en: "Fish Congee", note: "The other half of the house reputation — a rice-smooth congee with fresh fish folded in at the end." },
+      { zh: "咕嚕肉", en: "Sweet-and-Sour Pork", note: "The test of a Cantonese kitchen. It should be crisp, not battered into submission." },
+      { zh: "枸杞葉炒豬肝", en: "Stir-Fried Pork Liver with Goji Leaves", note: "Bitter greens, iron-rich liver, a lot of wok heat. Order it between the heavier courses." }
+    ],
+    branches: [],
+    singleNote: "One room, one kitchen. The group has no other branch of 生記飯店 — if you see the name elsewhere, check that it is the Lockhart Road address.",
+    sources: [
+      { label: "MICHELIN Guide Hong Kong", url: "https://guide.michelin.com/" },
+      { label: "OpenRice", url: "https://www.openrice.com/" }
+    ]
+  },
+
+  {
+    slug: "mian",
+    city: "hongkong",
+    status: "want",
+    nameEn: "MIAN",
+    nameZh: "紅棉",
+    locEn: "The Murray, Central",
+    locZh: "中環美利酒店",
+    cuisine: "Modern Chinese",
+    cuisineZh: "新派中菜",
+    price: "HK$600–900 per person",
+    area: "Central",
+    addressEn: "UG Pavilion, The Murray, 22 Cotton Tree Drive, Central",
+    addressZh: "中環紅棉路22號美利酒店UG亭樓",
+    tagline: "A glass pavilion in Central, cooking across the eight regional cuisines.",
+    card: "Chef Shao Tak-lung's room at The Murray: a light-filled pavilion, a menu that moves between Cantonese, Sichuan and Jiangnan, and a char siu people cross town for.",
+    awards: [],
+    story: [
+      "紅棉 opened in 2021 in the pavilion of The Murray, the former government headquarters building on Cotton Tree Drive. The room is the point as much as the food: a glass box with an outdoor terrace, set back from the traffic, which in Central is a small luxury.",
+      "The kitchen is run by 邵德龍 (Shao Tak-lung), a chef who has worked across regional Chinese cooking rather than within a single tradition. The menu is deliberately non-linear — Cantonese roast meats next to Sichuan heat next to Jiangnan sweetness — and the dish that has travelled furthest on social media is the 別不同叉燒, a char siu built to be different from the classic rather than a copy of it.",
+      "It is hotel dining, priced accordingly, and the service is polished in the way hotel rooms are. Go for lunch if you want the pavilion light without the full dinner spend."
+    ],
+    whyFamous: [
+      "The setting: a standalone glass pavilion inside The Murray, with a terrace and no street noise.",
+      "邵德龍's menu deliberately crosses the eight regional cuisines instead of staying Cantonese.",
+      "別不同叉燒 — the char siu that food bloggers come for.",
+      "A wine list and service level built for hosting, not for a quick meal."
+    ],
+    quote: { text: "A pavilion, a chef, and eight cuisines to move between.", cite: "The room in one line" },
+    knownSignatures: [
+      { zh: "別不同叉燒", en: "\"Different\" Char Siu", note: "The house's signature roast — cut thick, glazed dark, and deliberately not the soft, sweet version." },
+      { zh: "有機番茄焗日本黑豚豬扒飯", en: "Baked Japanese Pork Chop Rice with Organic Tomato", note: "A Hong Kong classic rebuilt with better ingredients. Comfort food at hotel prices, and worth it once." },
+      { zh: "點心", en: "Dim Sum", note: "Lunch service only; the kitchen treats it as a showcase rather than a trolley." }
+    ],
+    branches: [],
+    singleNote: "One restaurant, inside The Murray. Book ahead for dinner; lunch is the easier table.",
+    sources: [
+      { label: "Discover Hong Kong — MIAN", url: "https://www.discoverhongkong.com/" },
+      { label: "The Murray", url: "https://www.niccolohotels.com/" }
+    ]
+  },
+
+  {
+    slug: "bloom-month",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Bloom Month",
+    nameZh: "花月冰室",
+    locEn: "Peking Road, Tsim Sha Tsui",
+    locZh: "尖沙咀北京道",
+    cuisine: "Hong Kong bing sutt",
+    cuisineZh: "冰室",
+    price: "HK$60–120 per person",
+    area: "Tsim Sha Tsui",
+    addressEn: "Shop A, G/F, Universal Commercial Building, 65–69 Peking Road, Tsim Sha Tsui",
+    addressZh: "尖沙咀北京道65–69號環球商業大廈地下A舖",
+    tagline: "A new bing sutt on Peking Road, playing the old menu straight.",
+    card: "Pineapple bun with butter, silk-stocking milk tea, French toast. A modern room doing the 1970s tea-shop repertoire without irony.",
+    awards: [],
+    story: [
+      "花月冰室 is a new-generation 冰室 — the tea-shop format that sits somewhere between a cha chaan teng and a café, with tiled walls, booth seating and a menu that has barely changed since the 1970s. It opened on Peking Road in 2025, in the middle of the Tsim Sha Tsui hotel district, which is an odd place for a cheap lunch and a good one for a break from it.",
+      "The appeal is not innovation. It is the standard bing sutt order done properly: a pineapple bun split and buttered while still hot, milk tea strong enough to stand up to the sugar, French toast with the syrup on the side so it does not arrive soggy.",
+      "Come between meals. At lunch the room fills with shoppers and hotel staff, and the queue is not the point of a place like this."
+    ],
+    whyFamous: [
+      "A 2025 opening that revived the bing sutt format in the middle of TST's hotel district.",
+      "The classic order done properly: 菠蘿油, 絲襪奶茶, 西多士.",
+      "Booth seating and tiled interiors built to look like the original article, not a pastiche.",
+      "Cheap by TST standards — useful when every other option on Peking Road is a hotel restaurant."
+    ],
+    quote: { text: "The menu has not changed since 1975. That is the feature.", cite: "The bing sutt contract" },
+    knownSignatures: [
+      { zh: "菠蘿油", en: "Pineapple Bun with Butter", note: "Order it hot. The butter should still be melting when it reaches the table." },
+      { zh: "絲襪奶茶", en: "Silk-Stocking Milk Tea", note: "The test of any bing sutt. Ask for 少甜 if you do not want it sweet." },
+      { zh: "西多士", en: "French Toast", note: "Syrup on the side, butter on top. Share one between two." },
+      { zh: "常餐", en: "All-Day Set", note: "Soup, toast, egg and a drink — the format that made these shops cheap and fast." }
+    ],
+    branches: [],
+    singleNote: "One shop on Peking Road. There is an unrelated 花月 name in Sham Shui Po — check the address.",
+    sources: [
+      { label: "OpenRice — 花月冰室（北京道）", url: "https://www.openrice.com/" }
+    ]
+  },
+
+  {
+    slug: "yung-kee-roast-goose-tst",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Yung Kee Roast Goose",
+    nameZh: "鏞記燒鵝",
+    locEn: "Tsim Sha Tsui",
+    locZh: "尖沙咀",
+    cuisine: "Cantonese roast meats",
+    cuisineZh: "粵式燒味",
+    price: "HK$80–200 per person",
+    area: "Tsim Sha Tsui",
+    addressEn: "Tsim Sha Tsui — listings differ on the exact street; confirm the shop on OpenRice before you go",
+    addressZh: "尖沙咀（門牌以 OpenRice 最新資料為準）",
+    tagline: "The Yung Kee name in rice-plate form, in Kowloon.",
+    card: "Roast goose on rice with a drink, at a Kowloon price. A casual shop trading on Hong Kong's most famous goose name — not the Central dining room.",
+    awards: [],
+    story: [
+      "鏞記 is the name that made Cantonese roast goose famous: the Central restaurant opened in 1942 and spent the next seventy years as the reference point for the dish. This Tsim Sha Tsui address is a different proposition — a casual roast-meat shop selling goose, char siu and roast pork over rice, with a drink, at a price that has more to do with Kowloon than with Wellington Street.",
+      "That distinction matters. If you want the linen tablecloths, the century-old room and the full 鏞記 menu, book the Central restaurant. If you want a plate of goose at 2pm without a reservation, this is the useful version.",
+      "Order the goose on rice and ask for a little extra sauce on the side rather than poured over the skin. The skin is the reason you are here; sauce on top softens it before you get to the table."
+    ],
+    whyFamous: [
+      "The Yung Kee name — Hong Kong's most recognisable roast goose, in a casual rice-shop format.",
+      "Goose, char siu and crispy pork sold by the plate rather than by the banquet.",
+      "Fast, cheap by Hong Kong standards, and open through the afternoon.",
+      "A useful contrast to the Central restaurant: same name, completely different meal."
+    ],
+    quote: { text: "Same name, different meal — check which one you booked.", cite: "The important distinction" },
+    knownSignatures: [
+      { zh: "燒鵝飯", en: "Roast Goose on Rice", note: "The order. Ask for sauce on the side so the skin stays crisp." },
+      { zh: "叉燒飯", en: "Char Siu on Rice", note: "Ask for 半肥瘦 — half fat, half lean — or you will get the dry end." },
+      { zh: "燒肉", en: "Crispy Roast Pork", note: "Added to a goose plate rather than ordered alone." },
+      { zh: "例湯", en: "Soup of the Day", note: "Usually a pork-bone and vegetable broth. Included in most set plates." }
+    ],
+    branches: [
+      { city: "Hong Kong", name: "鏞記酒家（中環）", en: "Yung Kee Restaurant, Central", note: "The 1942 original: full menu, table service, book ahead." }
+    ],
+    sources: [
+      { label: "Yung Kee Restaurant", url: "https://yungkee.com.hk/" },
+      { label: "OpenRice", url: "https://www.openrice.com/" }
+    ]
+  },
+
+  {
+    slug: "congee-king",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Congee King",
+    nameZh: "靠得住",
+    locEn: "Wan Chai",
+    locZh: "灣仔",
+    cuisine: "Congee and noodles",
+    cuisineZh: "粥麵",
+    price: "HK$60–110 per person",
+    area: "Wan Chai",
+    addressEn: "Heard Street, Wan Chai",
+    addressZh: "灣仔克街",
+    tagline: "Congee built on fish stock, not plain water — fifteen years of Bib Gourmand.",
+    card: "The 心肝寶貝粥 — pork liver and scallop — is the order. The congee base is fish soup, which is why it tastes of something.",
+    awards: [
+      { mark: "必", label: "MICHELIN Bib Gourmand", note: "Fifteen consecutive years, 2011–2025" }
+    ],
+    story: [
+      "靠得住 has been in Wan Chai long enough to be part of the furniture, and its name is a small joke: 靠得住 means \"you can rely on it\". The kitchen backs that up with a congee base made from fish stock rather than water — the reason a bowl here tastes of the sea rather than of rice alone.",
+      "The house bowl is 心肝寶貝粥, a name that puns on the ingredients: 心 and 肝 for the liver, 寶貝 for the scallop. Pork liver sliced thin, a scallop, rice cooked until it collapses. It arrives fast and costs what a bowl of congee should.",
+      "The rest of the menu is the Cantonese noodle-shop repertoire — wonton noodles with a clean shrimp broth, noodles without alkaline bite, a few small plates. It has held a Bib Gourmand for fifteen consecutive years, which for a shop of this size is close to unheard of."
+    ],
+    whyFamous: [
+      "Fish-stock congee base — richer and more savoury than the standard water-and-rice version.",
+      "心肝寶貝粥: pork liver and scallop, the bowl the guide recommends.",
+      "Wonton noodles with a properly clean broth and no alkaline aftertaste.",
+      "Fifteen consecutive Bib Gourmand years (2011–2025)."
+    ],
+    quote: { text: "靠得住 — \"you can rely on it.\" The name is the promise.", cite: "The house name, translated" },
+    knownSignatures: [
+      { zh: "心肝寶貝粥", en: "Pork Liver and Scallop Congee", note: "The signature. Liver sliced thin so it poaches in the residual heat; scallop for sweetness." },
+      { zh: "魚湯粥底", en: "Fish-Stock Congee Base", note: "Not a dish on its own — the reason every bowl tastes the way it does." },
+      { zh: "鮮蝦雲吞麵", en: "Fresh Shrimp Wonton Noodles", note: "Thin noodles, whole shrimp in the wonton, broth that does not need chilli." },
+      { zh: "皮蛋瘦肉粥", en: "Century Egg and Pork Congee", note: "The safe order at a lesser shop; here it is the control against which the specials make sense." }
+    ],
+    branches: [],
+    singleNote: "One Wan Chai shop. There are other congee shops with similar names — this is the Heard Street address with the Bib Gourmand record.",
+    sources: [
+      { label: "MICHELIN Guide Hong Kong", url: "https://guide.michelin.com/" }
+    ]
+  },
+
+  {
+    slug: "tim-ho-wan",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Tim Ho Wan",
+    nameZh: "添好運",
+    locEn: "Sham Shui Po",
+    locZh: "深水埗",
+    cuisine: "Dim sum",
+    cuisineZh: "點心",
+    price: "HK$60–110 per person",
+    area: "Sham Shui Po",
+    addressEn: "9–11 Fuk Wing Street, Sham Shui Po",
+    addressZh: "深水埗福榮街9–11號地下",
+    tagline: "The dim sum shop that took a MICHELIN star and kept the prices.",
+    card: "The original Sham Shui Po shop. Order the baked char siu bun, the liver rice roll, and the turnip cake — then queue again for the second round.",
+    awards: [
+      { mark: "★", label: "MICHELIN One Star", note: "First awarded 2010, the year after opening" }
+    ],
+    story: [
+      "添好運 opened in 2009 on Fuk Wing Street, a short walk from Sham Shui Po MTR, with a chef — 麥桂培 — who had spent years making dim sum at Lung King Heen. The idea was a small shop doing a short menu properly, at prices that did not require a hotel.",
+      "A year later the MICHELIN Guide gave it a star. At the time it was described as the cheapest starred restaurant in the world, and the queue outside became part of the neighbourhood. The guide has moved on since, and the brand has expanded across Asia, but this shop is still the original: a few tables, a laminated order sheet, and a kitchen visible through the pass.",
+      "The 酥皮焗叉燒包 is the dish that made the reputation — a char siu bun with a sugar-crust top borrowed from Western baking, which nobody was doing in dim sum at the time. Order it first, because it is the one item that sells out."
+    ],
+    whyFamous: [
+      "MICHELIN one star in 2010 — at the time, the cheapest starred restaurant in the world.",
+      "酥皮焗叉燒包 — the baked char siu bun with a crisp sugar crust.",
+      "A short menu: roughly twenty items, done consistently, rather than a trolley of fifty.",
+      "The original Sham Shui Po shop, still the one worth queueing for."
+    ],
+    quote: { text: "A star, a queue, and a laminated menu.", cite: "The Sham Shui Po original" },
+    knownSignatures: [
+      { zh: "酥皮焗叉燒包", en: "Baked Char Siu Bun with Crisp Crust", note: "The signature. Order two portions — one is never enough and they sell out." },
+      { zh: "黃沙豬潤腸", en: "Rice Roll with Pork Liver", note: "Silky roll, liver cooked just short of set. The best thing on the menu after the bun." },
+      { zh: "香煎蘿蔔糕", en: "Pan-Fried Turnip Cake", note: "Crisp outside, loose and peppery inside. Ask for it extra pan-fried if you like the edges." },
+      { zh: "香滑馬拉糕", en: "Steamed Sponge Cake", note: "Light, brown-sugar sweet, and the thing to order while you wait for the savoury items." },
+      { zh: "鮮蝦腐皮卷", en: "Shrimp Bean-Curd Roll", note: "Fried to order; the wrapper shatters. Do not let it sit." },
+      { zh: "陳皮牛肉球", en: "Beef Ball with Dried Tangerine Peel", note: "Springy, faintly citrus. A test of the kitchen's steaming rather than its frying." }
+    ],
+    branches: [
+      { city: "Hong Kong", name: "添好運（深水埗）", en: "Tim Ho Wan, Sham Shui Po", note: "The 2009 original — the queue and the star both started here." },
+      { city: "Hong Kong", name: "添好運（中環 / 北角 / 奧運）", en: "Tim Ho Wan, Central / North Point / Olympic", note: "Larger branches with shorter waits; the menu is the same, the room is not." }
+    ],
+    sources: [
+      { label: "Tim Ho Wan", url: "https://www.timhowan.com/" },
+      { label: "MICHELIN Guide Hong Kong", url: "https://guide.michelin.com/" }
+    ]
+  },
+
+  {
+    slug: "sang-kee-congee",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Sang Kee Congee Shop",
+    nameZh: "生記粥品專家",
+    locEn: "Sheung Wan",
+    locZh: "上環",
+    cuisine: "Congee",
+    cuisineZh: "粥品",
+    price: "HK$50–90 per person",
+    area: "Sheung Wan",
+    addressEn: "7–9 Burd Street, Sheung Wan",
+    addressZh: "上環畢街7–9號",
+    tagline: "Forty years of fish congee on Burd Street.",
+    card: "Fish-belly congee, with or without pork blood. The order card below is what to show the waiter.",
+    awards: [
+      { mark: "必", label: "MICHELIN Bib Gourmand", note: "A forty-year-old Sheung Wan institution" }
+    ],
+    orderCard: {
+      zh: "魚腩粥，加豬紅，唔該。\n魚腩粥，走豬紅，唔該。",
+      en: "Fish-belly congee — with pork blood, or without.",
+      note: "魚腩 is the belly cut, the fattest part of the fish. 豬紅 is pork blood curd; 走 means leave it out. Order either line as it is written."
+    },
+    story: [
+      "生記粥品專家 has been on Burd Street for over forty years, in a part of Sheung Wan that still looks like a working neighbourhood rather than a gallery district. The congee base is cooked down with pork bones, dried scallop and lean pork until the rice breaks, then the raw ingredients are added to order — the 生滾 method, where the heat of the congee does the cooking.",
+      "The specialty is fish: 魚腩粥, the belly cut, sliced and laid into the bowl before the congee goes over it. It arrives with a dish of ginger, spring onion and soy on the side, which you add yourself. The other house order is 鮮豬潤粥 — pork liver, barely cooked, still pink at the centre.",
+      "It holds a Bib Gourmand and has done for years. The room is bright, the tables are shared, and the pace is fast enough that nobody minds if you are still eating when the next party sits down."
+    ],
+    whyFamous: [
+      "魚腩粥 — fish-belly congee, the cut that makes the bowl.",
+      "生滾 technique: raw fish and liver cooked by the heat of the congee, not in the pot.",
+      "鯪魚球 — hand-made dace fish balls, and 香煎魚餅 on the side.",
+      "A forty-year-old shop with a Bib Gourmand and neighbourhood prices."
+    ],
+    quote: { text: "The congee cooks the fish. That is the whole technique.", cite: "How 生滾 works" },
+    knownSignatures: [
+      { zh: "魚腩粥", en: "Fish-Belly Congee", note: "The order. Add the ginger and soy at the table, not before." },
+      { zh: "鮮豬潤粥", en: "Fresh Pork Liver Congee", note: "Liver added raw and poached by the congee; eat it before it overcooks." },
+      { zh: "鯪魚球粥", en: "Dace Fish Ball Congee", note: "Springy, faintly dried-tangerine. The non-fish-cut alternative." },
+      { zh: "香煎魚餅", en: "Pan-Fried Fish Cake", note: "Ordered on the side, cut into strips. Good with the ginger-soy dish." },
+      { zh: "牛肉粥", en: "Beef Congee", note: "Minced beef, pressed into the bowl and cooked by the congee — the same logic as Hop Yik Tai's version." }
+    ],
+    branches: [],
+    singleNote: "The Burd Street shop is the one. A branch in Quarry Bay has closed — check before travelling to any other address.",
+    sources: [
+      { label: "MICHELIN Guide Hong Kong", url: "https://guide.michelin.com/" },
+      { label: "OpenRice", url: "https://www.openrice.com/" }
+    ]
+  },
+
+  {
+    slug: "sung-heung-yuen",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Sung Heung Yuen (Kin Kee)",
+    nameZh: "新香園（堅記）",
+    locEn: "Sham Shui Po",
+    locZh: "深水埗",
+    cuisine: "Cha chaan teng",
+    cuisineZh: "茶餐廳",
+    price: "HK$40–70 per person",
+    area: "Sham Shui Po",
+    addressEn: "Shop A, G/F, 38 Kweilin Street, Sham Shui Po",
+    addressZh: "深水埗桂林街38號A地下",
+    tagline: "One sandwich, done since 1968: beef and egg.",
+    card: "Open 24 hours since 1968. Order the 蛋牛治 and a silk-stocking milk tea, and nothing else.",
+    awards: [],
+    orderCard: {
+      zh: "蛋牛治，唔該。",
+      en: "Beef and egg sandwich, please.",
+      note: "蛋牛治 is the shorthand: 蛋 for egg, 牛 for beef, 治 for 三文治. At 新香園 it is the only thing you need to say."
+    },
+    story: [
+      "新香園 opened on Kweilin Street in 1968 and has been running ever since, now under the second generation of the family that founded it. It is a cha chaan teng in the old sense: formica tables, a menu on the wall, and a kitchen that has been making the same sandwich for over fifty years.",
+      "The 蛋牛治 is the reason people cross the district for it. Hand-chopped beef, not mince, folded into a fresh omelette and pressed between thick white bread — the egg still soft, the beef still juicy, the whole thing held together by the egg rather than by sauce. It is a two-hand sandwich and it costs less than a coffee in Central.",
+      "The shop is open around the clock, which in Sham Shui Po is its own kind of public service. Order at the counter, take a number, and do not expect to linger at peak hours."
+    ],
+    whyFamous: [
+      "蛋牛治 — hand-chopped beef and egg sandwich, the house specialty since 1968.",
+      "Open 24 hours, which makes it a late-night and early-morning institution.",
+      "Silk-stocking milk tea with a heavy tea base, brewed the old way.",
+      "Second-generation family ownership — the recipe has not changed."
+    ],
+    quote: { text: "One sandwich, fifty years, no need to look at the menu.", cite: "The house order" },
+    knownSignatures: [
+      { zh: "蛋牛治", en: "Beef and Egg Sandwich", note: "The order. Ask for 烘底 if you want the bread toasted — it costs extra and changes the texture completely." },
+      { zh: "西多士", en: "French Toast", note: "The other thing on the menu people order. Share it." },
+      { zh: "絲襪奶茶", en: "Silk-Stocking Milk Tea", note: "Strong, dense, served hot. The correct drink with the sandwich." }
+    ],
+    branches: [],
+    singleNote: "One shop on Kweilin Street. There are other 新香園 names in the city — this is the 1968 original, sometimes written 堅記.",
+    sources: [
+      { label: "OpenRice", url: "https://www.openrice.com/" }
+    ]
+  },
+
+  {
+    slug: "hop-yik-tai",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Hop Yik Tai",
+    nameZh: "合益泰小食",
+    locEn: "Sham Shui Po",
+    locZh: "深水埗",
+    cuisine: "Street snacks and congee",
+    cuisineZh: "街頭小食・粥品",
+    price: "HK$20–60 per person",
+    area: "Sham Shui Po",
+    addressEn: "G/F, 121 Kweilin Street, Sham Shui Po",
+    addressZh: "深水埗桂林街121號地下",
+    tagline: "Five thousand rice noodles a day, and a bowl of congee you have to know how to eat.",
+    card: "Rice noodles from the street counter, or sit inside for beef congee. Read the ritual before you pick up the spoon.",
+    awards: [
+      { mark: "米", label: "MICHELIN Recommended", note: "Street-food listing" }
+    ],
+    orderCard: {
+      zh: "腸粉，唔該。\n碎牛粥，加豬紅。",
+      en: "Rice noodle rolls, please. / Minced-beef congee, with pork blood.",
+      note: "Order the 腸粉 at the street counter. If you take a seat inside, the congee is the reason — 碎牛 is minced beef, 豬紅 is pork blood."
+    },
+    ritual: {
+      title: "Minced beef congee, in five steps",
+      steps: [
+        "The minced beef is raw, pressed flat against the bottom of the bowl before it leaves the kitchen.",
+        "Boiling congee is poured over it at the pass — the heat of the congee cooks the beef, not the stove.",
+        "Fried rice noodles are folded through. That is the signature of this bowl: crisp noodle inside a soft congee.",
+        "Take your soup spoon and stab straight down to the bottom to break the beef apart.",
+        "Do not stir. Stirring liquefies the congee and turns it watery; stabbing keeps the starch thick."
+      ]
+    },
+    story: [
+      "合益泰 is a hole-in-the-wall on Kweilin Street with a queue that starts before the shutters are fully up. The counter sells 腸粉 — rice noodle rolls steamed to order, cut into lengths and dressed with sweet sauce, sesame paste and soy — at a rate of roughly five thousand a day. You eat them standing, from a paper plate, with a bamboo skewer.",
+      "Behind the counter there is a seating area, and that is where the congee happens. 碎牛粥 is the order: minced beef pressed raw into the bottom of the bowl, boiling congee poured over it, fried rice noodles folded through. The beef cooks in the bowl. The noodles stay crisp for about a minute.",
+      "The shop is Michelin-recommended and has been for years. It closed for four months and reopened in early 2026 after a refit — the queue came back the same week."
+    ],
+    whyFamous: [
+      "腸粉 sold by the thousand from a street counter — cheap, fast, eaten standing up.",
+      "碎牛粥 with the beef cooked by the congee itself, and fried rice noodles folded through.",
+      "A MICHELIN street-food recommendation in a district full of them.",
+      "Reopened in early 2026 after a four-month refit; the queue never really left."
+    ],
+    quote: { text: "Stab, do not stir. The congee stays thick that way.", cite: "The house instruction" },
+    knownSignatures: [
+      { zh: "豬油腸粉", en: "Rice Noodle Rolls with Lard", note: "The street-counter order. Sweet sauce, sesame paste, soy — do not ask for it dry." },
+      { zh: "碎牛粥", en: "Minced Beef Congee", note: "The seated order. Read the ritual above before you touch it." },
+      { zh: "豆漿", en: "Soy Milk", note: "Cold or warm, unsweetened by default. The thing to drink with the noodles." },
+      { zh: "燒賣", en: "Steamed Siu Mai", note: "Fish-based, not pork, and served with the same sweet-soy dressing." },
+      { zh: "豬皮蘿蔔", en: "Pork Skin and Radish", note: "Braised in a curry-ish broth; order it if you are sharing the counter food." }
+    ],
+    branches: [],
+    singleNote: "One shop on Kweilin Street. The street counter and the seated area are the same business; order at the counter either way.",
+    sources: [
+      { label: "OpenRice — 合益泰小食", url: "https://www.openrice.com/" },
+      { label: "Discover Hong Kong", url: "https://www.discoverhongkong.com/" }
+    ]
+  },
+
+  {
     slug: "dian-dou-de",
     city: "shenzhen",
     status: "want",
@@ -789,7 +1215,7 @@ function buildHome() {
       <div class="section-head">
         <div>
           <p class="section-kicker">The list</p>
-          <h2 class="section-title">Eight tables to start with</h2>
+          <h2 class="section-title">${RESTAURANTS.length} tables to start with</h2>
         </div>
         <p class="section-note">Filter by city, by status, or search a name in English or Chinese.</p>
       </div>
@@ -916,11 +1342,13 @@ function buildDetail(r, prev, next, root = "../../") {
   const city = cityOf(r.city);
   const hasDishes = Array.isArray(r.dishes) && r.dishes.length > 0;
 
-  const awardStrip = r.awards
-    .map(
-      (a) => `<div class="award"><span class="mark">${esc(a.mark)}</span><span>${esc(a.label)}<small>${esc(a.note)}</small></span></div>`
-    )
-    .join("");
+  const awardStrip = r.awards.length
+    ? `<div class="award-strip">${r.awards
+        .map(
+          (a) => `<div class="award"><span class="mark">${esc(a.mark)}</span><span>${esc(a.label)}<small>${esc(a.note)}</small></span></div>`
+        )
+        .join("")}</div>`
+    : "";
 
   const groupAwards = (r.groupAwards || [])
     .map(
@@ -1020,7 +1448,7 @@ function buildDetail(r, prev, next, root = "../../") {
           </div>
         </div>
       </div>
-      <div class="award-strip">${awardStrip}</div>
+      ${awardStrip}
     </div>
   </section>
 
@@ -1033,6 +1461,15 @@ function buildDetail(r, prev, next, root = "../../") {
         <div class="ob-zh" lang="zh-Hant">${esc(r.orderCard.zh)}</div>
         <div class="ob-en">${esc(r.orderCard.en)}</div>
         <p class="ob-note">${esc(r.orderCard.note)}</p>
+      </div>`
+          : ""
+      }
+      ${
+        r.ritual
+          ? `<div class="ritual">
+        <div class="ritual-head"><span>How to eat it</span><span>食法</span></div>
+        <h3>${esc(r.ritual.title)}</h3>
+        <ol>${r.ritual.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
       </div>`
           : ""
       }
