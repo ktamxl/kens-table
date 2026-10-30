@@ -1562,102 +1562,116 @@ const RESTAURANTS = [
     status: "want",
     nameEn: "Fan Lou",
     nameZh: "蘩楼",
-    locEn: "Huangbeiling",
-    locZh: "黄贝岭店",
+    locEn: "Shekou Dasha, Nanshan",
+    locZh: "蛇口大厦店",
     cuisine: "Cantonese teahouse / dim sum",
-    cuisineZh: "粵式茶樓・點心",
-    price: "¥90–150 per person",
-    area: "Luohu",
-    addressEn: "Huangbeiling, Luohu District, Shenzhen",
-    addressZh: "深圳市羅湖區黃貝嶺",
-    tagline: "A Xiguan teahouse rebuilt in Shenzhen — six straight years on the Must-Eat List.",
-    card: "The Shenzhen dim sum benchmark, and the reason this list needed a branch system: its Shanghai room at Xujiahui serves the same menu.",
+    cuisineZh: "粤式茶楼・点心",
+    price: "¥80–120 per person",
+    area: "Shekou, Nanshan",
+    addressEn: "152 Shekou New Street, Nanshan — opposite Shekou Dasha, 560 m from Dongjiaotou station exit A",
+    addressZh: "南山区蛇口新街152号（蛇口大厦斜对面，东角头站A口步行约560米）",
+    tagline: "A Xiguan teahouse rebuilt in Shenzhen — eight straight years on the Must-Eat List.",
+    card: "No. 1 Cantonese repeat-customer restaurant in Shekou, 4.8 from 11,700 reviews. Order the red rice roll and the shrimp dumpling.",
     awards: [
-      { mark: "必", label: "Dianping Must-Eat List", note: "Six consecutive years at Huangbeiling" },
-      { mark: "老", label: "Revived Xiguan brand", note: "Late-Qing teahouse lineage" }
+      { mark: "必", label: "Dianping Must-Eat List", note: "2026 — eight consecutive years for the brand" },
+      { mark: "1", label: "No. 1 Cantonese Restaurant in Shekou", note: "Dianping 回头客榜 — repeat customers" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "11,769 reviews at the time of listing" }
     ],
     story: [
       "蘩楼 began in late-Qing Guangzhou, in Xiguan, founded by a chef surnamed 黄. Its reputation rested on one detail: 虾饺 with a wrapper thin enough to read through, folded around shrimp that had been bought that morning. The original house did not survive the twentieth century.",
-      "The brand was rebuilt in Shenzhen, where it now runs some of the busiest teahouse floors in the city. The Huangbeiling room has appeared on the 大众点评必吃榜 for six consecutive years — an unusually long run for a dim sum house in a city that opens new ones every month.",
-      "It has since expanded to Shanghai, including a branch at 徐家汇汇金百货. That is precisely the case this site was built for: one flagship post in Shenzhen, one line in Shanghai, and a link back here rather than a second competing review."
+      "The brand was rebuilt in Shenzhen, where it now runs some of the busiest teahouse floors in the city, and it has been on the 大众点评必吃榜 for eight consecutive years — an unusually long run for a dim sum house in a city that opens new ones every month.",
+      "This is the Shekou Dasha room: 08:00 to 16:00 for yum cha, then 17:00 to 20:30 for dinner, a queue at the door by nine in the morning, and a trolley service that has not been modernised into an app. The 蛇口 room is currently No. 1 in the district for repeat customers, which for a teahouse is a better metric than any award.",
+      "It has also expanded to Shanghai, including a branch at 徐家汇汇金百货 — the case this site was built for: one flagship post, one line per other city, and a link back here rather than a second competing review."
     ],
     whyFamous: [
       "香脆明虾红米肠 — the crisp shrimp rice-roll that most photographs of the brand are built around.",
       "Hand-folded 虾饺 and a full trolley service in a Lingnan-style room.",
-      "Six consecutive Dianping Must-Eat years at the Huangbeiling branch.",
-      "Now in Shanghai as well, which makes it the test case for the branch-reference system on this site."
+      "Eight consecutive Dianping Must-Eat years for the brand.",
+      "No. 1 in Shekou for repeat customers — locals come back, not just visitors."
     ],
     quote: { text: "A teahouse is a room, a trolley and a pot of tea — everything else is detail.", cite: "The Xiguan teahouse tradition 蘩楼 is reviving" },
     dishes: [
-          {
-            zh: "露笋虾饺皇",
-            en: "Asparagus Shrimp Dumpling",
-            note: "The house benchmark — order it before anything else.",
-            tag: "Signature"
-          },
-          {
-            zh: "香脆明虾红米肠",
-            en: "Crispy Shrimp Rice-Noodle Roll",
-            note: "Three textures in one bite: soft red rice wrapper, crisp middle, whole shrimp.",
-            tag: "Signature"
-          },
-          {
-            zh: "XO酱山椒蒸凤爪",
-            en: "Chicken Feet with XO Sauce and Sichuan Pepper",
-            note: "The version that made the top five. Hot, savoury, slightly numbing.",
-            tag: "Signature"
-          },
-          {
-            zh: "蘩楼艇仔粥",
-            en: "Fan Lou Sampan Congee",
-            note: "Rice congee with the classic garnish — peanuts, squid, pork skin.",
-            tag: "Signature"
-          },
-          {
-            zh: "金牌脆皮乳鸽",
-            en: "Golden Crisp Roast Pigeon",
-            note: "Roasted to order, split at the table. Best shared between two.",
-            tag: "Signature"
-          },
-          {
-            zh: "干炒牛河",
-            en: "Beef Ho Fun, Dry-Fried",
-            note: "Wok-hei test. If the noodles arrive glossy without pooling oil, the kitchen is awake.",
-            tag: "Signature"
-          },
-          {
-            zh: "蜜汁叉烧包",
-            en: "Honey Char Siu Bao",
-            note: "Split-top, soft, sweet-savoury.",
-            tag: "Signature"
-          },
-          {
-            zh: "马拉糕",
-            en: "Steamed Sponge Cake",
-            note: "Brown-sugar sweet, light. The thing to order while waiting.",
-            tag: "Signature"
-          },
-          {
-            zh: "豉汁蒸排骨",
-            en: "Steamed Pork Ribs in Black-Bean Sauce",
-            note: "Small, fatty, made for congee.",
-            tag: "Signature"
-          },
-          {
-            zh: "香煎萝卜糕",
-            en: "Pan-Fried Turnip Cake",
-            note: "Crisp outside, loose inside.",
-            tag: "Signature"
-          },
-        ],
-        dishSource: "The five dishes OpenRice reviewers order most at this brand, plus the rest of the teahouse repertoire.",
-        dishBadge: "Source: OpenRice 必食 + house menu",
+      {
+        zh: "香脆明虾红米肠",
+        en: "Crispy Shrimp Rice-Noodle Roll",
+        price: "¥33",
+        note: "Three textures in one bite: soft red rice wrapper, crisp middle, whole shrimp. The most-ordered item in the shop.",
+        tag: "No. 1"
+      },
+      {
+        zh: "蘩楼露笋虾饺皇",
+        en: "Fan Lou Asparagus Shrimp Dumpling",
+        price: "¥36",
+        note: "The house benchmark — wrapper thin enough to read through, asparagus for crunch. Order it before anything else.",
+        tag: "No. 2"
+      },
+      {
+        zh: "XO酱山椒蒸凤爪",
+        en: "Chicken Feet with XO Sauce and Sichuan Pepper",
+        price: "¥36",
+        note: "Steamed until the skin gives way, then hit with XO and a numbing edge. The best version of the dish in Shenzhen.",
+        tag: "No. 3"
+      },
+      {
+        zh: "广州荔湾艇仔粥",
+        en: "Guangzhou Liwan Sampan Congee",
+        price: "¥33",
+        note: "Rice congee with peanuts, squid and pork skin — the old Liwan garnish, not a simplified version.",
+        tag: "No. 4"
+      },
+      {
+        zh: "金枕飘香榴莲酥",
+        en: "Durian Pastry",
+        price: "¥33",
+        note: "Warm durian in a flaky shell. Order it at the start, not the end — it is better hot and it takes time.",
+        tag: "No. 5"
+      },
+      {
+        zh: "豉汁蒸新鲜排骨",
+        en: "Steamed Pork Ribs in Black-Bean Sauce",
+        price: "¥36",
+        note: "Small, fatty ribs made for congee. The dish that tells you whether the steamer is running properly.",
+        tag: "No. 6"
+      },
+      {
+        zh: "干炒牛河",
+        en: "Beef Ho Fun, Dry-Fried",
+        price: "¥38",
+        note: "Wok hei test. If the noodles arrive glossy without pooling oil, the kitchen is awake.",
+        tag: "No. 7"
+      },
+      {
+        zh: "绵香沙爹金钱肚",
+        en: "Satay Beef Tripe",
+        price: "¥45",
+        note: "Thick-cut tripe, braised soft, finished in satay. The most expensive dim sum on the list, and worth it.",
+        tag: "No. 8"
+      },
+      {
+        zh: "传统手工炸油条",
+        en: "Hand-Made Fried Dough Stick",
+        price: "¥19",
+        note: "Hollow, crisp, made to order. Tear it into the congee or eat it with the soy.",
+        tag: "No. 9"
+      },
+      {
+        zh: "凉拌北海墨鱼仔",
+        en: "Chilled Beihai Baby Cuttlefish",
+        price: "¥36",
+        note: "Cold, crunchy, sour-hot dressing. The palate reset between the fried courses.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing for the Shekou Dasha branch. The set menus are the value: ¥201 for the two-person 蘩楼必吃节 set and ¥470 for six. The 100-yuan voucher sells for ¥70 in the app.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Shekou Dasha branch — ranked by the app's like counts. The menu is the same across the chain.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
     branches: [
-      { city: "Shanghai", name: "蘩楼（徐家汇汇金店）", en: "Fan Lou, Xujiahui Huijin", note: "The Shanghai room — same menu, different city. Read the Shenzhen post first." },
-      { city: "Shenzhen", name: "蘩楼（华强北店）", en: "Fan Lou, Huaqiangbei", note: "Smaller, faster, popular with the lunch crowd." }
+      { city: "Shenzhen", name: "蘩楼（黄贝岭店）", en: "Fan Lou, Huangbeiling", note: "The Luohu room that built the Shenzhen reputation — six Must-Eat years on its own." },
+      { city: "Shenzhen", name: "蘩楼（华强北店）", en: "Fan Lou, Huaqiangbei", note: "Smaller, faster, popular with the lunch crowd." },
+      { city: "Shanghai", name: "蘩楼（徐家汇汇金店）", en: "Fan Lou, Xujiahui Huijin", note: "The Shanghai room — same menu, different city. Read the Shenzhen post first." }
     ],
     sources: [
-      { label: "Dianping", url: "https://www.dianping.com/" },
+      { label: "Dianping — 蘩楼（蛇口大厦店）", url: "https://www.dianping.com/" },
       { label: "Trip.com — 蘩楼（徐家汇汇金店）", url: "https://www.trip.com/" }
     ]
   },
