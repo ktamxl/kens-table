@@ -1887,7 +1887,7 @@ const RESTAURANTS = [
     tagline: "A ten-branch chain that turned creative Chinese into theatre — dry ice, flame, and a glass-skinned squab.",
     card: "No. 1 on Dianping's Huangpu creative-restaurant check-in chart, 4.7 from 32,000 reviews. Order the glass squab and the abalone rice.",
     awards: [
-      { mark: "1", label: "No. 1 Creative Restaurant in Huangpu", note: "Dianping 打卡人气榜 — check-in popularity" },
+      { mark: "1", label: "No. 1 Check-In Spot — Huangpu Creative Dining", note: "Dianping 打卡人气榜 — check-in popularity" },
       { mark: "4.7", label: "Dianping 4.7 / 5", note: "32,842 reviews at the time of listing" }
     ],
     story: [
