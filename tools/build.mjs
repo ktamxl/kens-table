@@ -728,7 +728,7 @@ const RESTAURANTS = [
     quote: { text: "Four category leaders on one menu — pork chop rice, toast, milk tea, bak kut teh.", cite: "What the Dianping rankings say" },
     dishes: [
       {
-        zh: "葱花牛肉滑蛋飯",
+        zh: "蔥花牛肉滑蛋飯",
         en: "Scrambled Egg Rice with Beef and Spring Onion",
         price: "HK$63",
         note: "The top order by a distance — 969 likes. Egg barely set, beef seared hard outside and still soft in the middle.",
