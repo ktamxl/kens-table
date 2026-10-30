@@ -1988,6 +1988,119 @@ const RESTAURANTS = [
       { label: "Dianping — 3号仓库·创意中国菜（新世界城店）", url: "https://www.dianping.com/" },
       { label: "Trip.com", url: "https://www.trip.com/" }
     ]
+  },
+{
+    slug: "bund-family-banquet",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Bund Family Banquet",
+    nameZh: "外滩家宴·上海本帮菜",
+    locEn: "Roosevelt Mansion, the Bund",
+    locZh: "罗斯福公馆店",
+    cuisine: "Shanghainese (benbang)",
+    cuisineZh: "本帮菜",
+    price: "¥150–250 per person",
+    area: "the Bund / East Nanjing Road",
+    addressEn: "1/F, Roosevelt Mansion, 27 Zhongshan East 1st Road, Huangpu — 730 m from East Nanjing Road station",
+    addressZh: "黄浦区中山东一路27号罗斯福公馆一楼（南京东路站步行约730米）",
+    tagline: "Benbang cooking on the Bund, in a room that has been photographed from every angle.",
+    card: "No. 1 Jiangzhe restaurant in the East Nanjing Road cluster, 4.8 from 1,700 reviews. Order the squirrel fish and the crab roe noodles.",
+    awards: [
+      { mark: "1", label: "No. 1 Jiangzhe Restaurant, East Nanjing Road", note: "Dianping 热门榜 — popularity" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "1,747 reviews at the time of listing" }
+    ],
+    story: [
+      "外滩家宴 occupies the ground floor of the Roosevelt Mansion at 27 Zhongshan East 1st Road — one of the few Bund addresses where the view, the room and the bill are all in the same sentence. Dark wood, white cloths, and a menu that is unapologetically benbang: sweet, dark, slow.",
+      "It has become part of the 1990s-Shanghai trail partly because it appears in 繁花 (Blossoms), the television adaptation of Jin Yucheng's novel. The listing advertises the connection, and the room leans into it — this is a place people book for the atmosphere as much as the cooking.",
+      "The kitchen's strength is crab roe in four forms: noodles, xiao long bao, spring rolls, and a plain bowl of roe over noodles. If you order one thing, make it one of those. The squirrel fish is the most-ordered dish in the house and the one the dining room is built around."
+    ],
+    whyFamous: [
+      "No. 1 Jiangzhe restaurant in the East Nanjing Road cluster on Dianping's popularity chart.",
+      "A 繁花 filming location, on the Bund — the view from the room is the Lujiazui skyline.",
+      "Crab roe in four forms, from ¥26 spring rolls to ¥138 noodles.",
+      "4.8 across 1,747 reviews, which for a Bund tourist address is unusually high."
+    ],
+    quote: { text: "Benbang cooking with a Bund view — the crab roe does the heavy lifting.", cite: "The house in one line" },
+    dishes: [
+      {
+        zh: "海派松鼠鱼",
+        en: "Shanghai-Style Squirrel Fish",
+        price: "¥158",
+        note: "The top order by a distance. Sweet-and-sour, scored and fried into shape — the dish the room is photographed around.",
+        tag: "No. 1"
+      },
+      {
+        zh: "海派红烧肉",
+        en: "Shanghai-Style Red-Braised Pork Belly",
+        price: "¥188",
+        note: "Dark, sweet, collapsing. Order rice; the sauce is the point as much as the pork.",
+        tag: "Signature"
+      },
+      {
+        zh: "蟹黄金捞面",
+        en: "Crab Roe Noodles, Tossed",
+        price: "¥138",
+        note: "Every strand coated in golden crab roe. The dish most tables order twice.",
+        tag: "Crab"
+      },
+      {
+        zh: "秘制花雕熟醉虾",
+        en: "Huadiao-Drunk Prawns",
+        price: "¥58",
+        note: "Cooked then marinated in Huadiao wine — sweet, mellow, not sharp. Served cold.",
+        tag: "Cold"
+      },
+      {
+        zh: "蟹黄小笼包",
+        en: "Crab Roe Xiao Long Bao",
+        price: "¥68",
+        note: "Thin skin, soup inside, crab roe through the filling. Eat it in one bite.",
+        tag: "Dim sum"
+      },
+      {
+        zh: "松茸羊肚菌鸡汤",
+        en: "Matsutake and Morel Chicken Soup",
+        price: "¥38",
+        note: "The cheap order that anchors the table: clear chicken broth with dried mushrooms.",
+        tag: "Soup"
+      },
+      {
+        zh: "蟹黄面",
+        en: "Crab Roe Noodles, Plain",
+        price: "¥138",
+        note: "The same crab roe without the toss — a full bowl of it, nothing else in the way.",
+        tag: "Crab"
+      },
+      {
+        zh: "蟹黄春卷",
+        en: "Crab Roe Spring Rolls",
+        price: "¥26",
+        note: "Crisp outside, soft crab inside. The cheapest way to taste the crab roe.",
+        tag: "Fried"
+      },
+      {
+        zh: "秘制蛋汁大排",
+        en: "Egg-Batter Pork Chop",
+        price: "¥58",
+        note: "Pork chop in an egg batter, fried gold. A Shanghai home dish done properly.",
+        tag: "Signature"
+      },
+      {
+        zh: "法式黑椒牛肉粒",
+        en: "Black Pepper Beef Cubes",
+        price: "¥158",
+        note: "Flambeed at the table, the one French-inflected dish on a benbang menu.",
+        tag: "Theatre"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Two set menus do most of the work: ¥390 for two (百年公馆 主厨推荐) and ¥590 for four (上海家宴). The 100-yuan voucher sells for ¥89.9 in the app.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Roosevelt Mansion branch — the ranking is by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "This page covers the Roosevelt Mansion room on the Bund. If the name appears at another address, confirm it on Dianping before booking — the view is the reason to come to this one.",
+    sources: [
+      { label: "Dianping — 外滩家宴·上海本帮菜（罗斯福公馆店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
