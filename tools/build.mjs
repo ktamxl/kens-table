@@ -248,8 +248,8 @@ const RESTAURANTS = [
     area: "Jordan",
     addressEn: "47–49 Parkes Street, Jordan, Kowloon",
     addressZh: "九龍佐敦白加士街47–49號",
-    tagline: "Scrambled eggs, milk pudding, and the fastest rude service in Kowloon.",
-    card: "No awards, no reservations, no cards. A ten-minute breakfast institution that has been running since 1970.",
+    tagline: "Scrambled eggs, milk pudding, and the fastest, bluntest service in Kowloon.",
+    card: "Three set meals, an unreasonably good scrambled egg, and ten-minute turnover. Ken's standing order is on the page in Cantonese, ready to show the waiter.",
     awards: [
       { mark: "無", label: "No Michelin star", note: "And no interest in one" }
     ],
@@ -259,18 +259,81 @@ const RESTAURANTS = [
       "The one thing that has never been rushed is the egg. It is folded slowly over low heat until it is barely set, then piled on thick toast. Food writers have been trying to reproduce it for decades; the shop has never explained how."
     ],
     whyFamous: [
-      "The scrambled egg — custardy, barely set, served on thick white toast.",
+      "The scrambled egg — custardy, barely set, served on thick white toast. It is the reason the queue exists.",
+      "Three set meals and nothing else: 早餐 (until noon), 茶餐 and 快餐. Regulars call them A, B and C — pick one, then choose fried or scrambled egg.",
       "蛋白燉鮮奶 (steamed egg-white milk pudding) and 杏汁燉蛋 (almond custard), both made in-house daily.",
       "A 1970s cha chaan teng interior that has been left almost untouched.",
       "Cash only, no reservations, shared tables — the queue moves faster than you expect."
     ],
     quote: { text: "You do not eat here. You get fed here.", cite: "Regulars, roughly" },
-    knownSignatures: [
-      { zh: "炒蛋多士", en: "Scrambled Eggs on Toast", note: "The whole reason to come. Order it as part of a set, not à la carte." },
-      { zh: "蛋白燉鮮奶", en: "Steamed Egg-White Milk Pudding", note: "Served warm or cold; warm is the correct answer." },
-      { zh: "杏汁燉蛋", en: "Almond Custard", note: "Fragrant, softly set, and the thing most first-timers forget to order." },
-      { zh: "火腿通粉", en: "Ham and Macaroni Soup", note: "The savoury anchor of the set breakfast." }
+    orderCard: {
+      zh: "腿蛋治，唔烘底，唔該。",
+      en: "Ham and egg sandwich — please don't toast the bread.",
+      note: "腿蛋治 is the shorthand for 火腿蛋三文治 (ham-and-egg sandwich). 烘底 means toasted, so 唔烘底 is “no toast”. Say it in one breath and the waiter will not ask twice."
+    },
+    dishes: [
+      {
+        zh: "快餐 A／B／C（早餐・茶餐・快餐）",
+        en: "Set A / B / C — Breakfast, Tea Set, Express",
+        note: "The three set meals are what almost every table orders: 早餐 until noon, 茶餐 through the afternoon, 快餐 all day. Each is a fixed plate — bread, egg, a bowl of soup noodles — with a hot drink. The only real decisions are fried or scrambled egg, and tea or coffee.",
+        tag: "Most ordered"
+      },
+      {
+        zh: "火腿蛋三文治（唔烘底）",
+        en: "Ham and Egg Sandwich — bread not toasted",
+        note: "Ken's standing order: 腿蛋治，唔烘底. Say it explicitly so the bread stays soft. Add 飛邊 if you also want the crusts cut off.",
+        tag: "Ken's order"
+      },
+      {
+        zh: "熱奶茶",
+        en: "Hot Hong Kong Milk Tea",
+        note: "Ordered simply as 熱奶茶 — strong tea, evaporated milk, no foam. If you want it sweetened with condensed milk instead of sugar, ask for 茶走.",
+        tag: "Drink"
+      },
+      {
+        zh: "炒蛋多士",
+        en: "Scrambled Eggs on Toast",
+        note: "The house icon: barely-set egg folded over thick toast. It already comes inside the sets; order it à la carte only if you are skipping the set.",
+        tag: "Signature"
+      },
+      {
+        zh: "法蘭西多士（西多）",
+        en: "French Toast",
+        note: "Deep-fried, buttered, syrup on the side. Ordered in shorthand as 西多. Share it — after a set meal it is a lot of sweetness for one person.",
+        tag: "Sweet"
+      },
+      {
+        zh: "花生醬多士",
+        en: "Peanut Butter Toast",
+        note: "Thick white bread, a heavy scrape of peanut butter. Ask for 奶醬多 if you want peanut butter and condensed milk together — the classic combination.",
+        tag: "Toast"
+      },
+      {
+        zh: "煉奶多士",
+        en: "Condensed Milk Toast",
+        note: "Warm toast with sweetened condensed milk poured over. Simpler than the French toast and, for many regulars, the better order.",
+        tag: "Toast"
+      },
+      {
+        zh: "蛋白燉鮮奶",
+        en: "Steamed Egg-White Milk Pudding",
+        note: "Served warm or cold; warm is the correct answer. Soft, faintly sweet, and the thing to order when you want to sit for five more minutes.",
+        tag: "Dessert"
+      },
+      {
+        zh: "杏汁燉蛋",
+        en: "Almond Custard",
+        note: "Fragrant, softly set, and the item most first-timers forget. Order it alongside the milk pudding and share both.",
+        tag: "Dessert"
+      },
+      {
+        zh: "火腿通粉",
+        en: "Ham and Macaroni Soup",
+        note: "The savoury anchor of every set — clear broth, elbow macaroni, a slice of ham. Not fashionable; entirely correct.",
+        tag: "Set staple"
+      }
     ],
+    dishNote: "From the house menu and Ken's standing order. The sets are the cheapest way to eat here; the sandwich and the tea are ordered in cha chaan teng shorthand — the exact line is in the order card above.",
     branches: [],
     singleNote: "No branches. The Parkes Street shop is the entire business — copying it elsewhere is a Hong Kong pastime that has never quite worked.",
     sources: [
@@ -555,6 +618,7 @@ function card(r) {
   const city = cityOf(r.city);
   const tags = [];
   if (r.featured) tags.push('<span class="tag gold">Full feature</span>');
+  else if (r.dishes) tags.push('<span class="tag gold">Top 10 inside</span>');
   r.awards.slice(0, 2).forEach((a) => tags.push(`<span class="tag">${esc(a.label)}</span>`));
   if (!r.dishes) tags.push('<span class="tag pending">Top 10 in progress</span>');
 
@@ -636,7 +700,7 @@ function buildHome() {
         </div>
         <aside class="hero-aside">
           <div class="hero-cn">食單<small>The eating list</small></div>
-          <p>Eight restaurants, four cities, one full feature so far. Every entry carries its Chinese name, its awards, and whether I have actually eaten there.</p>
+          <p>${RESTAURANTS.length} restaurants, ${CITIES.length} cities, ${RESTAURANTS.filter((r) => r.dishes).length} full features. Every entry carries its Chinese name, its awards, and whether I have actually eaten there.</p>
         </aside>
       </div>
 
@@ -962,6 +1026,16 @@ function buildDetail(r, prev, next, root = "../../") {
 
   <div class="rbody">
     <div class="wrap">
+      ${
+        r.orderCard
+          ? `<div class="order-band">
+        <div class="ob-head"><span>Show this to the waiter</span><span>畀侍應睇</span></div>
+        <div class="ob-zh" lang="zh-Hant">${esc(r.orderCard.zh)}</div>
+        <div class="ob-en">${esc(r.orderCard.en)}</div>
+        <p class="ob-note">${esc(r.orderCard.note)}</p>
+      </div>`
+          : ""
+      }
       <div class="rlayout">
         <div class="prose">
           <section>
