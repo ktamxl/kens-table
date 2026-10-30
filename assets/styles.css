@@ -1385,6 +1385,20 @@ button { font: inherit; color: inherit; }
   margin-top: 3px;
   letter-spacing: .01em;
 }
+.dish-price {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border: 1px solid rgba(176, 138, 69, .35);
+  border-radius: 2px;
+  font-size: .68rem;
+  letter-spacing: .04em;
+  color: #7d5f22;
+  background: rgba(217, 189, 133, .12);
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+
 .dish-line {
   display: flex;
   align-items: baseline;

@@ -701,95 +701,110 @@ const RESTAURANTS = [
     nameZh: "花月冰室",
     locEn: "Peking Road, Tsim Sha Tsui",
     locZh: "尖沙咀北京道",
-    cuisine: "Hong Kong bing sutt",
-    cuisineZh: "冰室",
-    price: "HK$60–120 per person",
+    cuisine: "Hong Kong cha chaan teng",
+    cuisineZh: "冰室・茶餐廳",
+    price: "HK$60–150 per person",
     area: "Tsim Sha Tsui",
     addressEn: "Shop A, G/F, Universal Commercial Building, 65–69 Peking Road, Tsim Sha Tsui",
     addressZh: "尖沙咀北京道65–69號環球商業大廈地下A舖",
-    tagline: "A new bing sutt on Peking Road, playing the old menu straight.",
-    card: "Pineapple bun with butter, silk-stocking milk tea, French toast. A modern room doing the 1970s tea-shop repertoire without irony.",
-    awards: [],
+    tagline: "A Tsim Sha Tsui bing sutt where the rice plates outrank the toast.",
+    card: "Dianping's No. 1 pork chop rice in Hong Kong, a top-five milk tea, and a beef-and-egg rice that outsells everything. Order that first.",
+    awards: [
+      { mark: "1", label: "No. 1 Pork Chop Rice in Hong Kong", note: "Dianping 菜品榜, 2026" },
+      { mark: "3", label: "No. 3 Toast in Hong Kong", note: "Dianping 菜品榜 — the 西多士" }
+    ],
     story: [
-      "花月冰室 is a new-generation 冰室 — the tea-shop format that sits somewhere between a cha chaan teng and a café, with tiled walls, booth seating and a menu that has barely changed since the 1970s. It opened on Peking Road in 2025, in the middle of the Tsim Sha Tsui hotel district, which is an odd place for a cheap lunch and a good one for a break from it.",
-      "The appeal is not innovation. It is the standard bing sutt order done properly: a pineapple bun split and buttered while still hot, milk tea strong enough to stand up to the sugar, French toast with the syrup on the side so it does not arrive soggy.",
-      "Come between meals. At lunch the room fills with shoppers and hotel staff, and the queue is not the point of a place like this."
+      "花月冰室 opened on Peking Road in 2025, in the middle of the Tsim Sha Tsui hotel district — an odd place for a cheap lunch and a good one for a break from it. It is a 冰室 in form: tiled walls, booth seating, a menu that runs from breakfast to late.",
+      "What makes it worth a page is the range. The core is tea-shop food, but the kitchen also runs satay beef noodles, curry pork chop, bak kut teh and Hainanese chicken — the Southeast Asian side of the Hong Kong menu that most bing sutt have dropped.",
+      "The egg dishes are the strength: 滑蛋, scrambled until barely set and poured over rice, with beef or eel on top. That is where the top of the ranking sits, and it is what to order on a first visit.",
+      "Dianping users have ranked it unusually well in specific categories: No. 1 pork chop rice in Hong Kong, No. 3 toast, No. 5 milk tea, No. 9 bak kut teh. Four category leaders on one menu is rare for a shop this young."
     ],
     whyFamous: [
-      "A 2025 opening that revived the bing sutt format in the middle of TST's hotel district.",
-      "The classic order done properly: 菠蘿油, 絲襪奶茶, 西多士.",
-      "Booth seating and tiled interiors built to look like the original article, not a pastiche.",
-      "Cheap by TST standards — useful when every other option on Peking Road is a hotel restaurant."
+      "No. 1 pork chop rice in Hong Kong on Dianping's dish ranking.",
+      "Also top-five for milk tea and top-three for toast — unusual breadth for one shop.",
+      "The 滑蛋 rice plates: beef and spring onion, or a whole eel fillet, over half-set egg.",
+      "Southeast Asian dishes (satay noodles, curry, bak kut teh) that most bing sutt no longer bother with."
     ],
-    quote: { text: "The menu has not changed since 1975. That is the feature.", cite: "The bing sutt contract" },
+    quote: { text: "Four category leaders on one menu — pork chop rice, toast, milk tea, bak kut teh.", cite: "What the Dianping rankings say" },
     dishes: [
-          {
-            zh: "菠蘿油",
-            en: "Pineapple Bun with Butter",
-            note: "Order it hot. The butter should still be melting when it reaches the table.",
-            tag: "Signature"
-          },
-          {
-            zh: "絲襪奶茶",
-            en: "Silk-Stocking Milk Tea",
-            note: "The test of any bing sutt. Ask for 少甜 if you do not want it sweet.",
-            tag: "Signature"
-          },
-          {
-            zh: "西多士",
-            en: "French Toast",
-            note: "Syrup on the side, butter on top. Share one between two.",
-            tag: "Signature"
-          },
-          {
-            zh: "常餐",
-            en: "All-Day Set",
-            note: "Soup, toast, egg and a drink — the format that made these shops cheap and fast.",
-            tag: "Signature"
-          },
-          {
-            zh: "沙爹牛肉麵",
-            en: "Satay Beef Noodles",
-            note: "Thick satay sauce, instant-style noodles, a Hong Kong comfort order.",
-            tag: "Signature"
-          },
-          {
-            zh: "餐蛋麵",
-            en: "Luncheon Meat and Egg Noodles",
-            note: "The other half of the same idea. Add a slice of cheese if you want the full thing.",
-            tag: "Signature"
-          },
-          {
-            zh: "豬扒包",
-            en: "Pork Chop Bun",
-            note: "A Macau import that every bing sutt now makes. Ask for it with the bone in if they have it.",
-            tag: "Signature"
-          },
-          {
-            zh: "蛋撻",
-            en: "Egg Tart",
-            note: "Custard set just short of firm. Best within ten minutes of the tray coming out.",
-            tag: "Signature"
-          },
-          {
-            zh: "紅豆冰",
-            en: "Red Bean Ice",
-            note: "Condensed milk, crushed ice, sweet red beans. The drink to order in summer.",
-            tag: "Signature"
-          },
-          {
-            zh: "火腿通粉",
-            en: "Ham and Macaroni Soup",
-            note: "The savoury anchor of the set — clear broth, elbow macaroni, a slice of ham.",
-            tag: "Signature"
-          },
-        ],
-        dishSource: "The bing sutt repertoire — what this shop, like every 冰室, is built to serve.",
-        dishBadge: "Source: OpenRice 必食 + house menu",
+      {
+        zh: "葱花牛肉滑蛋飯",
+        en: "Scrambled Egg Rice with Beef and Spring Onion",
+        price: "HK$63",
+        note: "The top order by a distance — 969 likes. Egg barely set, beef seared hard outside and still soft in the middle.",
+        tag: "Signature"
+      },
+      {
+        zh: "鮮茄菠蘿焗豬扒飯",
+        en: "Baked Pork Chop Rice with Fresh Tomato and Pineapple",
+        price: "HK$72",
+        note: "Ranked No. 1 for pork chop rice in Hong Kong on Dianping. Cheese pulls, tomato cooked right down, pork chop thick-cut.",
+        tag: "Signature"
+      },
+      {
+        zh: "凍奶茶",
+        en: "Iced Milk Tea",
+        price: "",
+        note: "Ranked No. 5 for milk tea in Hong Kong. Cold, smooth, a strip of lemon peel in the glass.",
+        tag: "Signature"
+      },
+      {
+        zh: "西多士",
+        en: "French Toast",
+        price: "HK$38",
+        note: "Ranked No. 3 for toast. Crisp outside, soft inside, a slab of butter melting into the middle.",
+        tag: "Signature"
+      },
+      {
+        zh: "鰻魚滑蛋飯",
+        en: "Grilled Eel with Scrambled Egg Rice",
+        price: "HK$98",
+        note: "A whole unagi fillet laid over half-set egg. The most generous plate on the list.",
+        tag: "Signature"
+      },
+      {
+        zh: "咖喱豬扒",
+        en: "Curry Pork Chop",
+        price: "HK$72",
+        note: "Thick pork, Hong Kong-style curry, no apology about the sauce. The classic tea-shop order.",
+        tag: "Signature"
+      },
+      {
+        zh: "招牌沙嗲牛肉即食麵",
+        en: "Signature Satay Beef Instant Noodles",
+        price: "HK$42",
+        note: "Beef braised until it gives way, thick satay broth. The cheap order regulars default to.",
+        tag: "Signature"
+      },
+      {
+        zh: "醬爆爆魚雞煲",
+        en: "Sizzling Chicken Pot with Abalone",
+        price: "HK$148",
+        note: "The most expensive thing in the ten. Chicken stays tender; the abalone is bigger than you expect.",
+        tag: "Signature"
+      },
+      {
+        zh: "咖喱飯",
+        en: "Beef Rib Curry Rice",
+        price: "HK$72",
+        note: "Short rib, soft enough to cut with a spoon, over rice. Order it if you want the curry without the pork.",
+        tag: "Signature"
+      },
+      {
+        zh: "秘製肉骨茶",
+        en: "Secret-Recipe Bak Kut Teh",
+        price: "HK$82",
+        note: "Ranked No. 9 for bak kut teh in Hong Kong. Herbal rather than peppery, and a very large bowl.",
+        tag: "Signature"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing, in HK$ (the RMB figure in the app is their conversion). Just outside the ten: 無骨海南雞 HK$78 and 瑤柱蛋白炒飯 HK$65.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Peking Road shop — the ranking is by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
     branches: [],
     singleNote: "One shop on Peking Road. There is an unrelated 花月 name in Sham Shui Po — check the address.",
     sources: [
-      { label: "OpenRice — 花月冰室（北京道）", url: "https://www.openrice.com/" }
+      { label: "Dianping — 花月冰室", url: "https://www.dianping.com/" }
     ]
   },
 
@@ -2355,7 +2370,7 @@ function buildDetail(r, prev, next, root = "../../") {
             <div>
               <div class="dish-zh">${esc(d.zh)}</div>
               <div class="dish-line">
-                <span class="dish-en">${esc(d.en)}</span>
+                <span class="dish-en">${esc(d.en)}${d.price ? ` <span class="dish-price">${esc(d.price)}</span>` : ""}</span>
                 ${d.tag && d.tag !== "Signature" ? `<span class="dish-tag mild">${esc(d.tag)}</span>` : ""}
               </div>
               <p class="dish-note">${esc(d.note)}</p>
@@ -2381,7 +2396,7 @@ function buildDetail(r, prev, next, root = "../../") {
             <div>
               <div class="dish-zh">${esc(d.zh)}</div>
               <div class="dish-line">
-                <span class="dish-en">${esc(d.en)}</span>
+                <span class="dish-en">${esc(d.en)}${d.price ? ` <span class="dish-price">${esc(d.price)}</span>` : ""}</span>
                 <span class="dish-tag mild">Known signature</span>
               </div>
               <p class="dish-note">${esc(d.note)}</p>
