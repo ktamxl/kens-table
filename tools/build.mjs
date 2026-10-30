@@ -2329,6 +2329,119 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 渔水之家·土灶柴火饭", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "siji-minfu",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Siji Minfu Roast Duck",
+    nameZh: "四季民福烤鸭店",
+    locEn: "Jing'an Joy City",
+    locZh: "静安大悦城店",
+    cuisine: "Beijing roast duck",
+    cuisineZh: "北京菜・烤鸭",
+    price: "¥180–260 per person",
+    area: "Suzhou Creek / Jing'an",
+    addressEn: "5/F North Tower, Jing'an Joy City, 198 Xizang North Road, Jing'an District — 300 m from Qufu Road station exit 1",
+    addressZh: "静安区西藏北路198号静安大悦城北座5层（地铁曲阜路站1口步行约300米）",
+    tagline: "Beijing duck in Shanghai, carved at the table — and the city's best-selling Beijing restaurant.",
+    card: "No. 1 Beijing restaurant in Shanghai by sales, 4.8 from 17,800 reviews. Order the duck, the pea shoots, and the noodles.",
+    awards: [
+      { mark: "1", label: "No. 1 Beijing Restaurant in Shanghai", note: "Dianping 销量榜 — by sales" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "17,828 reviews at the time of listing" }
+    ],
+    story: [
+      "四季民福 built its name in Beijing on roast duck at a price that does not require an occasion, and on a menu that reaches past duck into the old Beijing repertoire — 爆肚, 贝勒烤肉, 炸酱面, 驴打滚. This is the Shanghai room, on the fifth floor of Jing'an Joy City, three years old and already the city's best-selling Beijing restaurant.",
+      "The duck arrives whole, is carved beside the table, and is served in the correct order: skin first, dipped in sugar, then the meat with pancakes, scallion and sweet bean sauce. The skin is the test — if it is not glassy, nothing else matters.",
+      "The rest of the menu is there to stop the duck from being too much: cold pea shoots dressed sharply, a clear meatball broth, noodles with fried bean sauce. Order across the menu rather than ordering two ducks."
+    ],
+    whyFamous: [
+      "No. 1 Beijing restaurant in Shanghai by sales on Dianping, with 17,828 reviews at 4.8.",
+      "Duck carved at the table, skin served first with sugar — the Beijing protocol, done properly.",
+      "A full old-Beijing menu alongside the duck: 爆肚, 贝勒烤肉, 炸酱面, 驴打滚.",
+      "A chain, but a disciplined one: the same duck, the same carving, in a shopping-centre room."
+    ],
+    quote: { text: "Skin first, with sugar. If the skin is not glassy, nothing else matters.", cite: "How to eat the duck" },
+    dishes: [
+      {
+        zh: "酥香嫩烤鸭",
+        en: "Crisp, Fragrant, Tender Roast Duck",
+        price: "¥259",
+        note: "The whole point. Carved at the table, skin first, with pancakes, scallion and sweet bean sauce. Order a half duck for two, a whole for four.",
+        tag: "No. 1"
+      },
+      {
+        zh: "巧拌豆苗",
+        en: "Tossed Pea Shoots",
+        price: "¥45",
+        note: "The dish that made the top two: raw-tasting shoots dressed sharp and cold. It cuts the duck fat better than anything else on the table.",
+        tag: "Cold"
+      },
+      {
+        zh: "贝勒烤肉",
+        en: "Beile Grilled Lamb",
+        price: "¥98",
+        note: "An old Beijing dish — lamb off the grill, cumin-heavy, served sizzling. Order it if there are four of you.",
+        tag: "Grill"
+      },
+      {
+        zh: "蜜汁酥皮虾",
+        en: "Honey-Glazed Crisp Prawns",
+        price: "¥98",
+        note: "Prawns fried in shell then glazed. Sweet, crisp, gone in three minutes.",
+        tag: "Fried"
+      },
+      {
+        zh: "炸酱面",
+        en: "Zhajiang Noodles",
+        price: "¥26",
+        note: "Noodles with fried bean sauce and a plate of raw vegetables. The cheapest proper order on the menu, and the one to judge the kitchen by.",
+        tag: "Noodles"
+      },
+      {
+        zh: "京味爆肚",
+        en: "Beijing-Style Tripe",
+        price: "¥98",
+        note: "Blanched to the second — crisp, not chewy — with sesame dipping sauce. The most Beijing thing on the list.",
+        tag: "Offal"
+      },
+      {
+        zh: "京城酥肉锅",
+        en: "Capital Crisp Pork Hot Pot",
+        price: "¥79",
+        note: "Fried pork in a broth that softens the crust and soaks it. Winter food, and the thing to order with the duck.",
+        tag: "Stew"
+      },
+      {
+        zh: "老北京小吃拼盘",
+        en: "Old Beijing Snack Platter",
+        price: "¥79",
+        note: "Five small pastries on one plate — the cheapest way to try the sweets without committing to a whole portion of each.",
+        tag: "Sweets"
+      },
+      {
+        zh: "清炖手工狮子头",
+        en: "Clear-Braised Lion's Head Meatball",
+        price: "¥45",
+        note: "Small, delicate, in a light broth. The quiet dish between the duck and the fried courses.",
+        tag: "Soup"
+      },
+      {
+        zh: "驴打滚",
+        en: "Ludagun (Glutinous Roll)",
+        price: "¥25",
+        note: "Glutinous rice rolled in soybean flour — soft, not too sweet. The dessert to finish on.",
+        tag: "Dessert"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The set menus are the value: ¥407 for the duck set for two (入选十年·民福甄选) and ¥833 for four. The 100-yuan voucher sells for ¥90.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Jing'an Joy City branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A Beijing chain with rooms in both cities — this page covers the Jing'an Joy City branch. The menu is the same across the group; the room and the view are not.",
+    sources: [
+      { label: "Dianping — 四季民福烤鸭店（静安大悦城店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
