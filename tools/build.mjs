@@ -2442,6 +2442,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 四季民福烤鸭店（静安大悦城店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "xin-rong-ji",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Xin Rong Ji",
+    nameZh: "新荣记",
+    locEn: "Nanjing West Road",
+    locZh: "南京西路店",
+    cuisine: "Taizhou seafood (Zhejiang)",
+    cuisineZh: "苏浙菜・台州菜",
+    price: "¥680–1,200 per person",
+    area: "Nanjing West Road",
+    addressEn: "L2, Henderson 688 Plaza, 688 Nanjing West Road, Jing'an District — 350 m from Nanjing West Road station exit 5",
+    addressZh: "静安区南京西路688号恒基688广场L2（地铁南京西路站5口步行约350米）",
+    tagline: "Taizhou seafood at the top of the market — the pigeon is ¥98, the croaker is ¥2,280.",
+    card: "No. 1 Su-Zhe restaurant in Shanghai, 4.8 from 14,500 reviews. Order the pigeon, the sea-anemone noodles, and the sweet potato.",
+    awards: [
+      { mark: "1", label: "No. 1 Su-Zhe Restaurant in Shanghai", note: "Dianping 热门榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "14,583 reviews at the time of listing" },
+      { mark: "★", label: "MICHELIN-starred group", note: "The Beijing flagship has held three stars" }
+    ],
+    story: [
+      "新荣记 started in 1995 as a seafood 大排档 in 临海, Taizhou, run by 张勇 — a cook who calls himself a cook rather than a restaurateur. Thirty years later it is the reference point for Taizhou cooking in China: more than forty rooms in Beijing, Shanghai, Shenzhen, Hong Kong and Tokyo, and a group that has been in the MICHELIN guide since Shanghai's first edition in 2016.",
+      "The cooking is Zhejiang coastal, not Shanghainese: yellow croaker braised with rice cakes, sand anemone folded through sweet-potato noodles, hairtail fried hard. It is a cuisine built on fish, salt and stock rather than sugar and soy, which is why it tastes unlike the rest of this list.",
+      "This branch has been on Nanjing West Road for eleven years, on the second floor of Henderson 688. It is a business-dinner room — private tables, a phone booking, and a menu where the prices run from ¥18 for a bun to ¥2,280 for a croaker. Ask the price of the fish before you order it; that is normal here."
+    ],
+    whyFamous: [
+      "No. 1 Su-Zhe restaurant in Shanghai on Dianping's popularity chart.",
+      "The Taizhou dishes almost nobody else in Shanghai cooks: 沙蒜豆面, 家烧黄鱼, 黄金脆带鱼.",
+      "A group with MICHELIN history — its Beijing flagship has held three stars.",
+      "The range: a ¥98 pigeon that is the best value on the menu, and a ¥2,280 fish that is the reason people book."
+    ],
+    quote: { text: "Ask the price of the fish before you order it. That is normal here.", cite: "How to order at Xin Rong Ji" },
+    dishes: [
+      {
+        zh: "脆皮乳鸽",
+        en: "Crisp-Skin Pigeon",
+        price: "¥98",
+        note: "The top order. Skin thin enough to crack, juice that runs the moment you bite. The best value on a very expensive menu.",
+        tag: "No. 1"
+      },
+      {
+        zh: "沙蒜烧豆面",
+        en: "Sea Anemone with Sweet-Potato Noodles",
+        price: "¥328",
+        note: "The Taizhou dish that made the restaurant: sand anemone braised into glassy noodles. Savoury, slippery, unlike anything else in Shanghai.",
+        tag: "Taizhou"
+      },
+      {
+        zh: "黄金脆带鱼",
+        en: "Golden Crisp Hairtail (large)",
+        price: "¥298",
+        note: "Hairtail fried until the edges curl. Crisp outside, juicy inside — order the large portion for four.",
+        tag: "Fried"
+      },
+      {
+        zh: "鲳鱼烧年糕",
+        en: "Pomfret with Rice Cakes",
+        price: "¥558",
+        note: "White pomfret soft enough to fall apart at a touch, rice cakes chewy underneath. The sauce is the point.",
+        tag: "Fish"
+      },
+      {
+        zh: "蜜汁红薯",
+        en: "Honey-Glazed Sweet Potato",
+        price: "¥38",
+        note: "A whole sweet potato, roasted until it leaks sugar, then glazed. The cheapest thing on the list and the one people remember.",
+        tag: "Sweet"
+      },
+      {
+        zh: "黄鱼",
+        en: "Braised Yellow Croaker",
+        price: "¥2,280",
+        note: "The signature, priced by size — ask before you order it. Fish, rice cakes, and a sauce thick enough to coat a spoon.",
+        tag: "Signature"
+      },
+      {
+        zh: "龙虾汤泡饭",
+        en: "Lobster Broth Rice",
+        price: "¥198",
+        note: "Rice in a reduced lobster broth. The dish to order when you want the kitchen's stock work without the fish price.",
+        tag: "Rice"
+      },
+      {
+        zh: "黑松露鹅肝包",
+        en: "Black Truffle Foie Gras Bun",
+        price: "¥18",
+        note: "A small baked bun that shatters, filled with truffle and foie gras. Order two each.",
+        tag: "Dim sum"
+      },
+      {
+        zh: "溏心富贵虾",
+        en: "Mantis Shrimp with Runny Roe",
+        price: "¥1,280",
+        note: "The showpiece: mantis shrimp with a molten roe centre, plated whole. Order it for the table, not for one.",
+        tag: "Showpiece"
+      },
+      {
+        zh: "桂花鸡头米",
+        en: "Osmanthus and Gorgon Nut",
+        price: "¥68",
+        note: "Soft gorgon nut with lily bulb and longan, sweetened lightly. The dessert to finish a long dinner.",
+        tag: "Dessert"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The croaker and the mantis shrimp are market-priced by size — confirm before ordering. Two people can eat well on the pigeon, the noodles and the sweet potato for under ¥500.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Nanjing West Road branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A group with more than forty rooms across China and Tokyo. This page covers the Nanjing West Road branch — the Shanghai flagship is the one people book for business dinners.",
+    sources: [
+      { label: "Dianping — 新荣记（南京西路店）", url: "https://www.dianping.com/" },
+      { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" }
+    ]
   }
 ];
 
