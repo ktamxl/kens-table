@@ -2788,6 +2788,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 锦堂春想·广府粤菜（深圳湾首店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "huoxi-ziyin-jiuzhou",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Huoxi · Ziyin Jiuzhou",
+    nameZh: "火玺·紫隐九州",
+    locEn: "Science Park, Nanshan",
+    locZh: "紫隐九州",
+    cuisine: "Seafood hot pot",
+    cuisineZh: "海鲜火锅",
+    price: "¥450–700 per person",
+    area: "Science Park, Nanshan",
+    addressEn: "106–108 Block A, Jiuzhou Electronics Building, 007 Keji South 12th Road, Nanshan — 710 m from Hi-Tech Park station exit D",
+    addressZh: "南山区粤海街道高新区科技南十二路007号九洲电器大厦A座106-108（地铁高新园站D口步行约710米）",
+    tagline: "Seafood hot pot in Nanshan Science Park, with a deboned pigeon as the signature.",
+    card: "No. 1 seafood hot pot in Nanshan, 4.8 from 4,500 reviews. Order the pigeon, the lobster pot, and the tofu.",
+    awards: [
+      { mark: "1", label: "No. 1 Seafood Hot Pot in Nanshan", note: "Dianping 热门榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "4,545 reviews at the time of listing" },
+      { mark: "美", label: "Dianping 漂亮饭", note: "Listed for presentation as well as food" }
+    ],
+    story: [
+      "火玺·紫隐九州 is a high-end seafood hot pot room on the ground floor of the Jiuzhou Electronics Building in Nanshan Science Park — four years old, private rooms, a phone booking line, and a menu that assumes a company card.",
+      "The signature is 仙鹤神针: a deboned pigeon stuffed, braised in abalone sauce, then cut open at the table so the juice runs into the bowl. It is an old Cantonese banquet dish, and it is the reason the restaurant ranks No. 1 for seafood hot pot in the district.",
+      "Around it the menu is built on two pots — a lobster broth that gets turned into rice at the end, and a conch, fish maw and chicken broth that is the cheaper, deeper option. The crab dishes are the theatre: one arrives inside a white-chocolate egg and is set alight with baijiu.",
+      "It is not a cheap meal — ¥469 a head before the ¥1,098 sashimi platter — but the ¥48 tofu and the free rice at the end of the lobster pot keep it from being only that."
+    ],
+    whyFamous: [
+      "No. 1 seafood hot pot in Nanshan on Dianping's popularity chart.",
+      "仙鹤神针 — deboned pigeon in abalone sauce, carved open at the table.",
+      "The lobster pot ends as a free rice pot; the conch and fish maw pot is the connoisseur's order.",
+      "Presentation built for photographs: a crab inside a chocolate egg, flambéed at the table."
+    ],
+    quote: { text: "The pigeon is the signature. The free rice at the end of the lobster pot is the smart order.", cite: "How to eat here" },
+    dishes: [
+      {
+        zh: "仙鹤神针",
+        en: "Crane's Needle — Deboned Pigeon Stuffed with Fin",
+        price: "¥288",
+        note: "The house signature: pigeon deboned, stuffed, braised in abalone sauce and cut open at the table so the juice runs out. Ask whether the stuffing is fin or fish maw that day.",
+        tag: "No. 1"
+      },
+      {
+        zh: "海鲜火锅",
+        en: "Seafood Hot Pot",
+        price: "",
+        note: "The base order: fish maw, grouper, and a pot of clear broth. Priced by what you add — ask before it goes in.",
+        tag: "Hot pot"
+      },
+      {
+        zh: "招牌竹笙龙虾汤锅",
+        en: "Signature Lobster Broth with Bamboo Fungus",
+        price: "¥398",
+        note: "Lobster stock, bamboo fungus, and the leftover broth turned into a rice pot at the end for free. The best value on the menu.",
+        tag: "Hot pot"
+      },
+      {
+        zh: "黄金松叶蟹斗",
+        en: "Golden Spider Crab Shell",
+        price: "¥688",
+        note: "A whole crab presented inside a white-chocolate egg, flambéed with baijiu at the table. Theatre, but the crab underneath is good.",
+        tag: "Showpiece"
+      },
+      {
+        zh: "火玺螺头花胶鸡锅汤",
+        en: "Huoxi Conch, Fish Maw and Chicken Broth",
+        price: "¥308",
+        note: "The other pot: conch for savoury depth, fish maw for body, chicken underneath. Golden and thick — order it if you are not having lobster.",
+        tag: "Hot pot"
+      },
+      {
+        zh: "黑松露小豆腐",
+        en: "Black Truffle Tofu",
+        price: "¥48",
+        note: "Crisp outside, soft inside, truffle on the finish. The cheap order that everyone at the table reaches for.",
+        tag: "Snack"
+      },
+      {
+        zh: "椒椒椒椒蟹",
+        en: "Four-Pepper Crab",
+        price: "¥368",
+        note: "Crab in a pepper-heavy sauce with rice cakes underneath. The rice cakes soak up everything the crab leaves.",
+        tag: "Crab"
+      },
+      {
+        zh: "级牛小排",
+        en: "Premium Beef Short Rib",
+        price: "¥398",
+        note: "Marbled short rib for the pot — sliced thin, cooked for seconds. Order it if the table is still hungry after the seafood.",
+        tag: "Beef"
+      },
+      {
+        zh: "招牌堂捞膏蟹粉丝",
+        en: "Signature Roe Crab with Glass Noodles",
+        price: "¥688",
+        note: "Crab roe and glass noodles tossed at the table. The noodles are the point; the crab is what flavours them.",
+        tag: "Crab"
+      },
+      {
+        zh: "特级刺身拼盘",
+        en: "Premium Sashimi Platter",
+        price: "¥1,098",
+        note: "Salmon, toro and foie gras on ice. The most expensive thing here, and the one for a celebration rather than a Tuesday.",
+        tag: "Raw"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The hot pot is priced by what you add, so the bill moves — confirm before the seafood goes in. The 100-yuan voucher sells for ¥81.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Science Park branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room in Nanshan Science Park. The group has other names in Shenzhen; this page covers the 紫隐九州 branch, which is the one with the ranking.",
+    sources: [
+      { label: "Dianping — 火玺·紫隐九州", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
