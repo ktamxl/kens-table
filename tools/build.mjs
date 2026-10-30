@@ -3017,6 +3017,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 木棉·初恋咕噜肉（COCO Park店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "xu-ji-seafood",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Xu Ji Seafood",
+    nameZh: "徐记海鲜·始于1999",
+    locEn: "Science Park, Nanshan",
+    locZh: "科技园店",
+    cuisine: "Seafood",
+    cuisineZh: "海鲜",
+    price: "¥220–350 per person",
+    area: "Science Park, Nanshan",
+    addressEn: "1–2/F Block B, Fu'an Technology Building, Gaoxin South 1st Road, Nanshan — 600 m from Hi-Tech Park station exit C",
+    addressZh: "南山区高新南一道赋安科技大厦B座一二楼（地铁高新园站C口步行约600米）",
+    tagline: "A seafood chain that started in 1999, doing Cantonese-style fish in a Science Park office block.",
+    card: "No. 1 seafood restaurant for environment in Science Park, 4.9 from 3,958 reviews. Order the baked fish rice and the scallops.",
+    awards: [
+      { mark: "1", label: "No. 1 Seafood Restaurant for Environment, Science Park", note: "Dianping 环境榜" },
+      { mark: "4.9", label: "Dianping 4.9 / 5", note: "3,958 reviews at the time of listing" }
+    ],
+    story: [
+      "徐记海鲜 has been running since 1999 and is now a chain — the kind of seafood restaurant that builds its menu around a tank room rather than a fixed list. This branch occupies the first two floors of the Fu'an Technology Building in Science Park, and it is the top-ranked seafood room in the district for environment.",
+      "The cooking is Cantonese-leaning: whole fish steamed, clams wok-fried with ginger and scallion, crab over glass noodles. The prices are Hong Kong-style — you pay for the fish you point at — but the floor is set up for business lunches, with private rooms and free parking.",
+      "The order to know about is 船家海鱼焗饭 at ¥78: rice baked in a claypot with sea fish, the crust scraped up at the end. It is the cheapest way to eat well here, and it is the top-ranked dish on the app.",
+      "Two value notes: the ¥38 Zhangzidao scallops are palm-sized, and the ¥36 walnut bun is the dessert everyone photographs."
+    ],
+    whyFamous: [
+      "No. 1 seafood restaurant for environment in Science Park on Dianping.",
+      "4.9 across 3,958 reviews — high for a tank-and-scale seafood room.",
+      "船家海鱼焗饭 — the baked fish rice that tops the app's list at ¥78.",
+      "A 1999-founded chain with private rooms, free parking, and a menu built for business lunches."
+    ],
+    quote: { text: "Point at the fish, agree the price, then order the ¥78 baked rice anyway.", cite: "How to eat here" },
+    dishes: [
+      {
+        zh: "船家海鱼焗饭",
+        en: "Boatman's Baked Rice with Sea Fish",
+        price: "¥78",
+        note: "The top order: rice baked in a claypot with fish and its juices. The crust at the bottom is the reason to order it.",
+        tag: "No. 1"
+      },
+      {
+        zh: "清蒸老虎斑",
+        en: "Steamed Tiger Grouper",
+        price: "¥168",
+        note: "Whole fish, ginger and scallion, hot oil at the end. The test of a seafood kitchen, and the safest expensive order.",
+        tag: "Fish"
+      },
+      {
+        zh: "姜葱炒东海圣子",
+        en: "Wok-Fried Razor Clams with Ginger and Scallion",
+        price: "¥98",
+        note: "Big clams, fast wok, ginger and scallion rather than sauce. Eat them while they are still hot enough to sting.",
+        tag: "Wok"
+      },
+      {
+        zh: "蒜蓉粉丝蒸松叶蟹",
+        en: "Steamed Spider Crab with Garlic and Vermicelli",
+        price: "¥368",
+        note: "Crab over glass noodles that soak up everything. The best value among the big seafood plates.",
+        tag: "Crab"
+      },
+      {
+        zh: "徐记辣酒煮花螺",
+        en: "Spicy Wine-Braised Sea Snails",
+        price: "¥168",
+        note: "Snails in a red, chilli-heavy broth with cooking wine. Order it with beer, not tea.",
+        tag: "Spicy"
+      },
+      {
+        zh: "招牌核桃包",
+        en: "Signature Walnut Bun",
+        price: "¥36",
+        note: "A steamed bun shaped like a walnut, filled with walnut and white chocolate. The dessert that arrives before you ask.",
+        tag: "Dessert"
+      },
+      {
+        zh: "脆皮咸香鸡",
+        en: "Crisp-Skin Salted Chicken",
+        price: "¥188",
+        note: "Skin crackles when you bite it, meat stays juicy. Half a bird for three.",
+        tag: "Roast"
+      },
+      {
+        zh: "堂灼鱼汤鲜贝",
+        en: "Scallops Poached in Fish Broth",
+        price: "¥58",
+        note: "Hot fish broth poured over raw scallop at the table. The broth tastes strongly of crucian carp — in a good way.",
+        tag: "Soup"
+      },
+      {
+        zh: "拍蒜紫苏炒金牌龙虾",
+        en: "Lobster with Garlic and Perilla",
+        price: "¥338",
+        note: "Lobster wok-fried with smashed garlic and perilla. The perilla is what makes it different from every other lobster on the coast.",
+        tag: "Crab"
+      },
+      {
+        zh: "蒜茸粉丝蒸獐子岛元贝",
+        en: "Steamed Zhangzidao Scallops with Garlic and Vermicelli",
+        price: "¥38",
+        note: "Palm-sized scallops under golden garlic and glass noodles. At ¥38, the bargain of the menu.",
+        tag: "Shellfish"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Live seafood is priced by weight — confirm before it goes in the tank bag. The ¥360 set for two (海鱼焗饭鱼鲜双人餐) is the value order.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Science Park branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A chain founded in 1999 with rooms across several cities. This page covers the Science Park branch, which is the one with the district ranking.",
+    sources: [
+      { label: "Dianping — 徐记海鲜（科技园店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
