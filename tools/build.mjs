@@ -2673,6 +2673,121 @@ const RESTAURANTS = [
       { label: "Dianping — 莱莱小笼·乔艾", url: "https://www.dianping.com/" },
       { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" }
     ]
+  },
+{
+    slug: "jintang-chunxiang",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Jintang Chunxiang",
+    nameZh: "锦堂春想·广府粤菜",
+    locEn: "Shenzhen Bay flagship",
+    locZh: "深圳湾首店",
+    cuisine: "Cantonese",
+    cuisineZh: "粤菜",
+    price: "¥290–500 per person",
+    area: "Shenzhen Bay, Nanshan",
+    addressEn: "4/F, Dacheng Fund HQ, Haide 3rd Road, Nanshan — opposite Shenzhen Bay MixC, 440 m from Houhai station exit M",
+    addressZh: "南山区海德三道大成基金总部4楼（深圳湾万象城斜对面，后海站M口步行约440米）",
+    tagline: "Cantonese luxury opposite Shenzhen Bay MixC — glass-skinned pigeon, and mantis shrimp at ¥796.",
+    card: "4.9 from 2,184 reviews, No. 5 Cantonese in Shenzhen Bay, No. 6 pigeon in Shenzhen. The ¥69 pigeon is the order.",
+    awards: [
+      { mark: "5", label: "No. 5 Cantonese Restaurant, Shenzhen Bay", note: "Dianping 热门榜" },
+      { mark: "6", label: "No. 6 Pigeon in Shenzhen", note: "Dianping 王牌菜 · 菜品榜" },
+      { mark: "4.9", label: "Dianping 4.9 / 5", note: "2,184 reviews at the time of listing" }
+    ],
+    story: [
+      "锦堂春想 sits on the fourth floor of the Dacheng Fund headquarters on Haide 3rd Road, directly opposite Shenzhen Bay MixC. It is three years old, has private rooms and a phone booking line, and prices itself for the business district around it: ¥290 a head before anyone orders the mantis shrimp.",
+      "The cooking is Cantonese with a luxury register — whole mantis shrimp with roe cooked to a molten centre, Sri Lankan crab, ten-year tangerine peel double-boiled with duck. The pigeon is the exception to the pricing: ¥69, glass-skinned, and ranked No. 6 in Shenzhen.",
+      "There are two mantis shrimp on the list, at ¥796 and ¥398. The difference is the size and the amount of roe; if you have not eaten it before, start with the Thai one and decide whether the upgrade is worth it.",
+      "One practical note: several dishes are priced by weight, so the bill can move. Ask before ordering the crab."
+    ],
+    whyFamous: [
+      "No. 5 Cantonese restaurant in Shenzhen Bay, 4.9 across 2,184 reviews.",
+      "No. 6 pigeon in Shenzhen — and at ¥69, the value order on a luxury menu.",
+      "Two grades of mantis shrimp with runny roe, ¥398 and ¥796.",
+      "A business-dinner room: private tables, an open roast oven, opposite Shenzhen Bay MixC."
+    ],
+    quote: { text: "Start with the ¥398 shrimp. Then decide whether the ¥796 is worth it.", cite: "How to order the mantis shrimp" },
+    dishes: [
+      {
+        zh: "琥珀溏心富贵虾",
+        en: "Amber Mantis Shrimp with Runny Roe",
+        price: "¥796",
+        note: "The top order and the most expensive thing here: roe cooked to a molten centre, meat sweet and springy. Order it for the table.",
+        tag: "No. 1"
+      },
+      {
+        zh: "招牌玻璃脆皮乳鸽",
+        en: "Signature Glass-Skin Pigeon",
+        price: "¥69",
+        note: "No. 6 on Shenzhen's pigeon chart. Skin thin as cellophane, meat still juicy — the best value on a luxury menu.",
+        tag: "No. 6"
+      },
+      {
+        zh: "泰国有膏富贵虾",
+        en: "Thai Mantis Shrimp with Roe",
+        price: "¥398",
+        note: "The half-price version of the same idea: roe softer, meat a little sweeter. Start here if the ¥796 is too much.",
+        tag: "Seafood"
+      },
+      {
+        zh: "10年陈皮炖水鸭汤",
+        en: "Ten-Year Tangerine Peel Duck Soup",
+        price: "",
+        note: "Double-boiled with aged peel — warm, faintly bitter, sweet at the finish. The soup to order before anything fried.",
+        tag: "Soup"
+      },
+      {
+        zh: "斯里兰卡大青蟹",
+        en: "Sri Lankan Mud Crab",
+        price: "",
+        note: "Cooked either simply or 避风塘 style with garlic and chilli. Ask which is better that day.",
+        tag: "Seafood"
+      },
+      {
+        zh: "小青龙贵妃鲜虾泡饭",
+        en: "Baby Lobster and Prawn Rice in Broth",
+        price: "¥143",
+        note: "Rice in a shellfish broth with lobster and prawn. The cheapest way to taste the seafood kitchen.",
+        tag: "Rice"
+      },
+      {
+        zh: "明炉广式烧鹅",
+        en: "Cantonese Roast Goose",
+        price: "¥129",
+        note: "Black-bristle goose, roasted in the open oven. Skin crisp, fat rendered — order a quarter.",
+        tag: "Roast"
+      },
+      {
+        zh: "经典蚝豉焖猪手",
+        en: "Braised Pork Knuckle with Dried Oyster",
+        price: "",
+        note: "Collagen-rich, savoury with dried oyster. A Cantonese banquet dish, priced for sharing.",
+        tag: "Braised"
+      },
+      {
+        zh: "怀旧五柳炸蛋",
+        en: "Old-School Five-Willow Fried Egg",
+        price: "",
+        note: "Whites fried crisp, yolk still runny, sweet-sour sauce underneath. A nostalgic dish done properly.",
+        tag: "Nostalgia"
+      },
+      {
+        zh: "黄贝",
+        en: "Steamed Yellow Clams with Vermicelli",
+        price: "¥43",
+        note: "Clams steamed with glass noodles and garlic. The cheap order that makes the table feel complete.",
+        tag: "Shellfish"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Items without a price are market-priced by weight — confirm at the table. The pigeon and the baby-lobster rice are the two orders that keep the bill sane.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Shenzhen Bay flagship — ranked by the app's like counts, with the dish-chart positions where they exist.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Shenzhen Bay flagship, opposite MixC. The brand's other rooms are in the same city — this page covers the first one.",
+    sources: [
+      { label: "Dianping — 锦堂春想·广府粤菜（深圳湾首店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
