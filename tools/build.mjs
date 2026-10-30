@@ -10,10 +10,38 @@ const OUT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
    ──────────────────────────────────────────────────────────── */
 
 const CITIES = [
-  { key: "guangzhou", en: "Guangzhou", zh: "廣州", accent: "#a8332a" },
-  { key: "hongkong", en: "Hong Kong", zh: "香港", accent: "#1f4b3f" },
-  { key: "shanghai", en: "Shanghai", zh: "上海", accent: "#5b3350" },
-  { key: "shenzhen", en: "Shenzhen", zh: "深圳", accent: "#17555a" }
+  {
+    key: "guangzhou",
+    en: "Guangzhou",
+    zh: "廣州",
+    accent: "#a8332a",
+    intro: "The home of Cantonese cooking, and the reason this list exists. Roast meats, river fish and a restaurant culture that rewards going early and ordering too much.",
+    note: "Start with 炳勝品味 on Xiancun Road, then work backwards to the older rooms in Haizhu."
+  },
+  {
+    key: "hongkong",
+    en: "Hong Kong",
+    zh: "香港",
+    accent: "#1f4b3f",
+    intro: "Roast goose, congee, dim sum and a tea-shop culture that runs from six in the morning to midnight. The densest part of this list, and the easiest city to eat well in on a budget.",
+    note: "Sham Shui Po alone is worth a day: 添好運, 新香園 and 合益泰 are within four blocks of each other."
+  },
+  {
+    key: "shanghai",
+    en: "Shanghai",
+    zh: "上海",
+    accent: "#5b3350",
+    intro: "Benbang cooking — sweet, dark, slow — served in 1920s villas and hotel dining rooms. The good rooms are small, so book before you fly.",
+    note: "Two very different registers: 福1088 for a private-room dinner, 人和館 for the dining room with a band."
+  },
+  {
+    key: "shenzhen",
+    en: "Shenzhen",
+    zh: "深圳",
+    accent: "#17555a",
+    intro: "A young city eating an old cuisine. Cantonese teahouses, Hong Kong-style dim sum, and branches of Guangzhou brands that crossed the border.",
+    note: "Best for yum cha: 點都德 and 蘩樓 both do hand-made dim sum at Shenzhen prices."
+  }
 ];
 
 const RESTAURANTS = [
@@ -127,6 +155,7 @@ const RESTAURANTS = [
       }
     ],
     dishNote: "Compiled from the dishes that recur across Dianping's recommendation list for the Zhujiang New Town branch and the group's own menu notes. Prices and availability change by season — check the live menu on arrival.",
+    dishSource: "Ranked from Dianping's 推荐菜 list for the Zhujiang New Town branch — the ten most-recommended dishes, in order.",
     branches: [
       { city: "Shenzhen", name: "炳胜品味（深圳湾万象城店）", en: "Bingsheng Pinwei, Shenzhen Bay MixC", note: "The group's Shenzhen beachhead, opened after the 2018 expansion south." },
       { city: "Guangzhou", name: "炳胜品味（海印总店）", en: "Bingsheng Pinwei, Haiyin original shop", note: "The original address by Haizhu Bridge — smaller, older, different energy." },
@@ -334,6 +363,7 @@ const RESTAURANTS = [
       }
     ],
     dishNote: "From the house menu and Ken's standing order. The sets are the cheapest way to eat here; the sandwich and the tea are ordered in cha chaan teng shorthand — the exact line is in the order card above.",
+    dishSource: "Ken's standing order plus the dishes the house is known for — not a Dianping ranking.",
     branches: [],
     singleNote: "No branches. The Parkes Street shop is the entire business — copying it elsewhere is a Hong Kong pastime that has never quite worked.",
     sources: [
@@ -970,7 +1000,7 @@ const esc = (s) =>
 const cityOf = (key) => CITIES.find((c) => c.key === key) || CITIES[0];
 const bySlug = (slug) => RESTAURANTS.find((r) => r.slug === slug);
 
-function page({ root, title, description, body, bodyClass = "", extraHead = "" }) {
+function page({ root, title, description, body, bodyClass = "", extraHead = "", currentCity = "" }) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -987,7 +1017,7 @@ ${extraHead}
 </head>
 <body class="${bodyClass}">
 <a class="skip" href="#main">Skip to content</a>
-${topbar(root)}
+${topbar(root, currentCity)}
 ${body}
 ${footer(root)}
 <script src="${root}assets/app.js" defer></script>
@@ -996,7 +1026,8 @@ ${footer(root)}
 `;
 }
 
-function topbar(root) {
+function topbar(root, currentCity = "") {
+  const total = RESTAURANTS.length;
   return `<header class="topbar">
   <div class="wrap topbar-inner">
     <a class="brand" href="${root}index.html">
@@ -1005,9 +1036,19 @@ function topbar(root) {
     </a>
     <nav class="topnav" aria-label="Main">
       <a href="${root}index.html">The list</a>
-      <a href="${root}restaurants/index.html">All restaurants</a>
+      <a href="${root}restaurants/index.html" class="hide-sm">All ${total}</a>
       <a href="${root}index.html#how-it-works" class="hide-sm">How it works</a>
     </nav>
+  </div>
+  <div class="citybar">
+    <div class="wrap citybar-inner" role="navigation" aria-label="Cities">
+      <span class="citybar-label">City guide</span>
+      ${CITIES.map(
+        (c) =>
+          `<a class="citybar-link" href="${root}cities/${c.key}/index.html" style="--accent:${c.accent}"${currentCity === c.key ? ' aria-current="page"' : ""}>${esc(c.en)}<span>${esc(c.zh)}</span><em>${RESTAURANTS.filter((r) => r.city === c.key).length}</em></a>`
+      ).join("")}
+      <a class="citybar-link citybar-all" href="${root}restaurants/index.html">All<span>全部</span></a>
+    </div>
   </div>
 </header>`;
 }
@@ -1031,6 +1072,7 @@ function footer(root) {
         <div class="foot-links" style="margin-top:22px">
           <a href="${root}index.html">The list</a>
           <a href="${root}restaurants/index.html">All restaurants</a>
+          ${CITIES.map((c) => `<a href="${root}cities/${c.key}/index.html">${esc(c.en)}</a>`).join("")}
           <a href="${root}index.html#how-it-works">How it works</a>
         </div>
       </div>
@@ -1043,7 +1085,7 @@ function footer(root) {
 </footer>`;
 }
 
-function card(r) {
+function card(r, prefix = "") {
   const city = cityOf(r.city);
   const tags = [];
   if (r.featured) tags.push('<span class="tag gold">Full feature</span>');
@@ -1075,7 +1117,7 @@ function card(r) {
       </div>`
     : "";
 
-  return `<a class="card reveal${r.featured ? " card--feature" : ""}" href="restaurants/${r.slug}/index.html"
+  return `<a class="card reveal${r.featured ? " card--feature" : ""}" href="${prefix}restaurants/${r.slug}/index.html"
       style="--accent:${city.accent}"
       data-restaurant data-slug="${r.slug}" data-city="${r.city}" data-default="${r.status}" data-search="${esc(search)}">
       <div class="card-top">
@@ -1099,11 +1141,11 @@ function buildHome() {
     const items = RESTAURANTS.filter((r) => r.city === c.key);
     return `<section class="city-section" data-city-section>
       <div class="city-head">
-        <h2>${esc(c.en)}</h2>
+        <h2><a href="cities/${c.key}/index.html">${esc(c.en)}</a></h2>
         <span class="city-cn">${esc(c.zh)}</span>
-        <span class="city-count">${items.length} ${items.length === 1 ? "entry" : "entries"}</span>
+        <a class="city-count city-count-link" href="cities/${c.key}/index.html">${items.length} ${items.length === 1 ? "entry" : "entries"} · city guide →</a>
       </div>
-      <div class="grid">${items.map(card).join("\n")}</div>
+      <div class="grid">${items.map((r) => card(r)).join("\n")}</div>
     </section>`;
   }).join("\n");
 
@@ -1321,9 +1363,7 @@ function buildIndex(root = "../") {
           <h2>${esc(c.en)}</h2><span class="city-cn">${esc(c.zh)}</span>
           <span class="city-count">${items.length} ${items.length === 1 ? "entry" : "entries"}</span>
         </div>
-        <div class="grid">${items
-          .map((r) => card(r).replace(/href="restaurants\//g, `href="${root}restaurants/`))
-          .join("\n")}</div>
+        <div class="grid">${items.map((r) => card(r, root)).join("\n")}</div>
       </div>
     </section>`;
   }).join("\n")}
@@ -1334,6 +1374,80 @@ function buildIndex(root = "../") {
     title: "All restaurants · Ken's Table 食單",
     description: "Every restaurant on Ken's Table: Guangzhou, Hong Kong, Shanghai and Shenzhen.",
     body
+  });
+}
+
+/* ────────────────────────────────────────────────────────────
+   City guide page
+   ──────────────────────────────────────────────────────────── */
+
+function buildCity(c, root = "../../") {
+  const items = RESTAURANTS.filter((r) => r.city === c.key);
+  const features = items.filter((r) => r.dishes).length;
+  const orderCards = items.filter((r) => r.orderCard).length;
+
+  const body = `<main id="main">
+  <section class="city-hero" style="--accent:${c.accent}">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="color:var(--muted)">
+        <a href="${root}index.html" style="color:var(--ink-soft)">Ken's Table</a><span class="sep">/</span>
+        <a href="${root}restaurants/index.html" style="color:var(--ink-soft)">All restaurants</a><span class="sep">/</span>
+        <span>${esc(c.en)}</span>
+      </nav>
+      <p class="eyebrow">City guide <span class="dot"></span> 城市指南</p>
+      <h1>${esc(c.en)} <span class="hz">${esc(c.zh)}</span></h1>
+      <p class="city-lede">${esc(c.intro)}</p>
+      <p class="city-note">${esc(c.note)}</p>
+      <div class="city-stats">
+        <span><b>${items.length}</b> ${items.length === 1 ? "place" : "places"}</span>
+        <span><b>${features}</b> full ${features === 1 ? "feature" : "features"}</span>
+        <span><b>${orderCards}</b> with ${orderCards === 1 ? "an order card" : "order cards"}</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Eat here</p>
+          <h2 class="section-title">${items.length} ${items.length === 1 ? "table" : "tables"} in ${esc(c.en)}</h2>
+        </div>
+        <p class="section-note">Every card opens the flagship post for that restaurant. Tap “Want to go” to keep score.</p>
+      </div>
+      <div class="grid">${items.map((r) => card(r, root)).join("\n")}</div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Keep moving</p>
+          <h2 class="section-title">Other cities</h2>
+        </div>
+      </div>
+      <div class="city-switch">
+        ${CITIES.filter((x) => x.key !== c.key)
+          .map(
+            (x) => `<a class="city-switch-item" href="${root}cities/${x.key}/index.html">
+              <span class="cs-en">${esc(x.en)}</span>
+              <span class="cs-zh">${esc(x.zh)}</span>
+              <span class="cs-count">${RESTAURANTS.filter((r) => r.city === x.key).length}</span>
+            </a>`
+          )
+          .join("")}
+      </div>
+    </div>
+  </section>
+</main>`;
+
+  return page({
+    root,
+    title: `${c.en} ${c.zh} — restaurant guide · Ken's Table`,
+    description: `${items.length} restaurants in ${c.en}: ${items.map((r) => r.nameEn).join(", ")}.`,
+    body,
+    currentCity: c.key
   });
 }
 
@@ -1365,7 +1479,8 @@ function buildDetail(r, prev, next, root = "../../") {
   const dishSection = hasDishes
     ? `<section id="top10">
         <h2>Top 10 must-try</h2>
-        <p class="prose-sub">The ten dishes that define the house — Chinese name first, English translation under it.</p>
+        <p class="prose-sub">${esc(r.dishSource || "The ten dishes that define the house — Chinese name first, English translation under it.")}</p>
+        <p class="dish-source">Source: Dianping 推荐菜 · only the top ten are listed</p>
         <ol class="dishlist">
           ${r.dishes
             .map(
@@ -1386,10 +1501,11 @@ function buildDetail(r, prev, next, root = "../../") {
       </section>`
     : `<section id="top10">
         <h2>Signatures worth ordering</h2>
-        <p class="prose-sub">Three dishes the house is known for; the full top ten is being researched.</p>
+        <p class="prose-sub">A short list of dishes the house is known for. The full top ten will follow Dianping's 推荐菜 ranking for this branch.</p>
         <div class="single-note" style="margin-bottom:22px">
-          <b>Why only three:</b> this post is on the list but has not been written up yet. Rather than invent a top ten,
-          the page shows the dishes that are consistently cited — the full ranking lands when the feature is written.
+          <b>Why not ten yet:</b> this post is on the list but has not been written up. Rather than invent a ranking,
+          the page shows the dishes that are consistently cited — the top ten arrives, in order, from Dianping's
+          推荐菜 list when the feature is written.
         </div>
         <ol class="dishlist">
           ${(r.knownSignatures || [])
@@ -1590,6 +1706,7 @@ function write(rel, content) {
 
 write("index.html", buildHome());
 write("restaurants/index.html", buildIndex("../"));
+CITIES.forEach((c) => write(`cities/${c.key}/index.html`, buildCity(c, "../../")));
 
 RESTAURANTS.forEach((r, i) => {
   const prev = RESTAURANTS[(i - 1 + RESTAURANTS.length) % RESTAURANTS.length];
