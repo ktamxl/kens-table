@@ -2557,6 +2557,122 @@ const RESTAURANTS = [
       { label: "Dianping — 新荣记（南京西路店）", url: "https://www.dianping.com/" },
       { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" }
     ]
+  },
+{
+    slug: "lai-lai-xiao-long",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Lai Lai Xiao Long",
+    nameZh: "莱莱小笼·乔艾",
+    locEn: "Tianjin Road, Huangpu",
+    locZh: "天津路店",
+    cuisine: "Shanghai xiaolongbao",
+    cuisineZh: "小笼・上海点心",
+    price: "¥50–80 per person",
+    area: "East Nanjing Road",
+    addressEn: "506/481 Tianjin Road, Huangpu District — 580 m from People's Square station exit 19",
+    addressZh: "黄浦区天津路506号/481号（地铁人民广场站19口步行约580米）",
+    tagline: "An alley xiaolongbao shop with three city-chart titles and a MICHELIN Bib Gourmand three years running.",
+    card: "No. 1 xiaolongbao in Shanghai, No. 1 small wonton, No. 4 pork chop. Twenty-eight yuan a head for the classic.",
+    awards: [
+      { mark: "必", label: "MICHELIN Bib Gourmand", note: "2024, 2025 and 2026 — three consecutive years" },
+      { mark: "1", label: "No. 1 Xiaolongbao in Shanghai", note: "Dianping 王牌菜 · 菜品榜" },
+      { mark: "1", label: "No. 1 Small Wonton in Shanghai", note: "Dianping 王牌菜 · 菜品榜" }
+    ],
+    story: [
+      "莱莱小笼·乔艾 sits in an alley off Tianjin Road, in the old block behind East Nanjing Road — the kind of address you walk past twice. Inside it is bright, tiled and entirely functional: an open kitchen, a few tables, a queue that starts before service.",
+      "You can watch the xiaolong being folded through the glass. That is the whole proposition: hand-folded dumplings, crab roe from the same morning, and a pot of ginger-thread vinegar on every table. The MICHELIN guide has given it a Bib Gourmand for three consecutive years, 2024 through 2026.",
+      "The Dianping charts are unusually specific about this shop: No. 1 xiaolongbao in Shanghai, No. 1 small wonton, No. 4 fried pork chop. Those are city-wide rankings, not district ones — which is why the queue exists.",
+      "One caveat: the 4.3 overall score reflects a cheap, fast, crowded room, not the food. Judge it on the dumplings."
+    ],
+    whyFamous: [
+      "No. 1 xiaolongbao in Shanghai on Dianping's dish chart.",
+      "MICHELIN Bib Gourmand three years running (2024–2026).",
+      "Three separate city-chart titles: xiaolong, small wonton, fried pork chop.",
+      "An open kitchen — you watch the dumplings being folded before you eat them."
+    ],
+    quote: { text: "Watch them fold it, then eat it within a minute. That is the whole experience.", cite: "The house in one line" },
+    dishes: [
+      {
+        zh: "蟹粉鲜肉小笼8只",
+        en: "Crab Roe and Pork Xiaolong (8)",
+        price: "¥46",
+        note: "No. 1 on Dianping's Shanghai xiaolongbao chart. Thin skin, pork and crab roe, soup that arrives before the filling does.",
+        tag: "No. 1"
+      },
+      {
+        zh: "姜丝醋",
+        en: "Ginger-Thread Vinegar",
+        price: "¥1",
+        note: "A yuan's worth of the thing that makes the rest work: sharp, sweet-sour, cuts the crab fat. Order one per person.",
+        tag: "Condiment"
+      },
+      {
+        zh: "炸猪排",
+        en: "Fried Pork Chop",
+        price: "¥25",
+        note: "No. 4 on Shanghai's pork-chop chart. Crisp, thin, with Worcestershire-style sauce — the Shanghai way.",
+        tag: "No. 4"
+      },
+      {
+        zh: "蟹粉面",
+        en: "Crab Roe Noodles",
+        price: "¥138",
+        note: "A whole bowl of crab roe over noodles. The most expensive thing here, and the one to order if you are not counting.",
+        tag: "Crab"
+      },
+      {
+        zh: "蟹粉小馄饨10只",
+        en: "Crab Roe Wontons (10)",
+        price: "¥32",
+        note: "No. 1 small wonton in Shanghai. Skin with a little bite, filling sweet rather than salty.",
+        tag: "No. 1"
+      },
+      {
+        zh: "鸡鸭血汤",
+        en: "Chicken and Duck Blood Soup",
+        price: "¥15",
+        note: "Clear broth, blood curd, coriander. The old Shanghai accompaniment to a plate of xiaolong.",
+        tag: "Soup"
+      },
+      {
+        zh: "纯蟹膏小笼",
+        en: "Pure Crab Roe Xiaolong",
+        price: "¥70",
+        note: "The MICHELIN guide's pick: nothing but crab roe inside, best with the ginger vinegar.",
+        tag: "Signature"
+      },
+      {
+        zh: "纯鲜肉馅小笼",
+        en: "Pure Pork Xiaolong",
+        price: "¥28",
+        note: "The control order — no crab, just pork and soup. If this one is good, the kitchen is good.",
+        tag: "Classic"
+      },
+      {
+        zh: "松茸鲜肉小笼",
+        en: "Matsutake and Pork Xiaolong",
+        price: "¥33",
+        note: "Matsutake folded into the pork. Earthy, and the most seasonal thing on the menu.",
+        tag: "Seasonal"
+      },
+      {
+        zh: "老街炸鸡串",
+        en: "Old-Street Fried Chicken Skewers",
+        price: "¥12",
+        note: "Crisp, salty, five-spice. The snack people order while waiting for a table.",
+        tag: "Snack"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The classic pork xiaolong is ¥28 for eight — the cheapest proper meal in this part of town. The crab roe versions are where the money goes.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Tianjin Road shop — ranked by the app's like counts, with the city-chart positions where they exist.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One shop in the alley off Tianjin Road. There is a second 莱莱 name in Jing'an — different room, same menu; this page covers the Huangpu original.",
+    sources: [
+      { label: "Dianping — 莱莱小笼·乔艾", url: "https://www.dianping.com/" },
+      { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" }
+    ]
   }
 ];
 
