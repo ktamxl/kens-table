@@ -1484,37 +1484,37 @@ const RESTAURANTS = [
     quote: { text: "点都德 — \"whatever you order, it's fine.\"", cite: "The Cantonese phrase the brand is named after" },
     dishes: [
           {
-            zh: "金沙鮮蝦紅米腸",
+            zh: "金沙鲜虾红米肠",
             en: "Crispy Shrimp Rice Roll",
             note: "The house's most-ordered item: red rice wrapper, crisp middle, whole shrimp.",
             tag: "Signature"
           },
           {
-            zh: "金牌蝦餃皇",
+            zh: "金牌虾饺皇",
             en: "Signature Shrimp Dumpling",
             note: "Translucent wrapper, whole shrimp, no filler. The benchmark.",
             tag: "Signature"
           },
           {
-            zh: "沙爹金錢肚",
+            zh: "沙爹金钱肚",
             en: "Satay Beef Tripe",
             note: "Braised soft, finished in a thick satay sauce. Order two baskets.",
             tag: "Signature"
           },
           {
-            zh: "百合醬蒸鳳爪",
+            zh: "百合酱蒸凤爪",
             en: "Chicken Feet in Lily-Bulb Sauce",
             note: "Sticky, savoury, faintly sweet. The other two-basket order.",
             tag: "Signature"
           },
           {
-            zh: "蜜汁叉燒包",
+            zh: "蜜汁叉烧包",
             en: "Honey Char Siu Bao",
             note: "Split-top, soft, proper sweet-savoury filling.",
             tag: "Signature"
           },
           {
-            zh: "干蒸燒賣",
+            zh: "干蒸烧卖",
             en: "Pork and Shrimp Siu Mai",
             note: "The plain version, and a reliable test of the steamer.",
             tag: "Signature"
@@ -1526,19 +1526,19 @@ const RESTAURANTS = [
             tag: "Signature"
           },
           {
-            zh: "鹹煎餅",
+            zh: "咸煎饼",
             en: "Salty Fried Cake",
             note: "Chewy, faintly fermented, sesame-coated. Order it to share.",
             tag: "Signature"
           },
           {
-            zh: "鮮蝦腐皮卷",
+            zh: "鲜虾腐皮卷",
             en: "Shrimp Bean-Curd Roll",
             note: "Fried to order. Do not let it sit.",
             tag: "Signature"
           },
           {
-            zh: "香煎蘿蔔糕",
+            zh: "香煎萝卜糕",
             en: "Pan-Fried Turnip Cake",
             note: "Crisp edges, peppery centre.",
             tag: "Signature"
@@ -1590,31 +1590,31 @@ const RESTAURANTS = [
     quote: { text: "A teahouse is a room, a trolley and a pot of tea — everything else is detail.", cite: "The Xiguan teahouse tradition 蘩楼 is reviving" },
     dishes: [
           {
-            zh: "露筍蝦餃皇",
+            zh: "露笋虾饺皇",
             en: "Asparagus Shrimp Dumpling",
             note: "The house benchmark — order it before anything else.",
             tag: "Signature"
           },
           {
-            zh: "香脆明蝦紅米腸",
+            zh: "香脆明虾红米肠",
             en: "Crispy Shrimp Rice-Noodle Roll",
             note: "Three textures in one bite: soft red rice wrapper, crisp middle, whole shrimp.",
             tag: "Signature"
           },
           {
-            zh: "XO醬山椒蒸鳳爪",
+            zh: "XO酱山椒蒸凤爪",
             en: "Chicken Feet with XO Sauce and Sichuan Pepper",
             note: "The version that made the top five. Hot, savoury, slightly numbing.",
             tag: "Signature"
           },
           {
-            zh: "蘩樓艇仔粥",
+            zh: "蘩楼艇仔粥",
             en: "Fan Lou Sampan Congee",
             note: "Rice congee with the classic garnish — peanuts, squid, pork skin.",
             tag: "Signature"
           },
           {
-            zh: "金牌脆皮乳鴿",
+            zh: "金牌脆皮乳鸽",
             en: "Golden Crisp Roast Pigeon",
             note: "Roasted to order, split at the table. Best shared between two.",
             tag: "Signature"
@@ -1626,13 +1626,13 @@ const RESTAURANTS = [
             tag: "Signature"
           },
           {
-            zh: "蜜汁叉燒包",
+            zh: "蜜汁叉烧包",
             en: "Honey Char Siu Bao",
             note: "Split-top, soft, sweet-savoury.",
             tag: "Signature"
           },
           {
-            zh: "馬拉糕",
+            zh: "马拉糕",
             en: "Steamed Sponge Cake",
             note: "Brown-sugar sweet, light. The thing to order while waiting.",
             tag: "Signature"
@@ -1644,7 +1644,7 @@ const RESTAURANTS = [
             tag: "Signature"
           },
           {
-            zh: "香煎蘿蔔糕",
+            zh: "香煎萝卜糕",
             en: "Pan-Fried Turnip Cake",
             note: "Crisp outside, loose inside.",
             tag: "Signature"
@@ -1672,7 +1672,7 @@ const RESTAURANTS = [
     locZh: "镇宁路",
     cuisine: "Shanghainese (benbang)",
     cuisineZh: "本幫菜",
-    price: "¥600–900 per person",
+    price: "¥580–800 per person",
     area: "Changning",
     addressEn: "375 Zhenning Road, Changning District, Shanghai",
     addressZh: "上海市長寧區鎮寧路375號",
@@ -1680,7 +1680,8 @@ const RESTAURANTS = [
     card: "MICHELIN star plus a Black Pearl diamond. All private rooms, so book with a group and take the whole evening.",
     awards: [
       { mark: "★", label: "MICHELIN One Star", note: "Current Shanghai guide" },
-      { mark: "珠", label: "Black Pearl — One Diamond", note: "黑珍珠一钻" }
+      { mark: "珠", label: "Black Pearl — One Diamond", note: "2026 黑珍珠一钻" },
+      { mark: "1", label: "No. 1 Shanghai Smoked Fish", note: "Dianping 菜品榜 · 王牌菜" }
     ],
     story: [
       "The house is one of three 1920s villas on Zhenning Road, collectively known as 福园. Original timber staircases, old window frames and patterned floor tiles were kept; the rooms were converted into private dining suites rather than knocked through into a single restaurant floor.",
@@ -1696,72 +1697,76 @@ const RESTAURANTS = [
     quote: { text: "Old Shanghai, served one room at a time.", cite: "The house's own description of the format" },
     dishes: [
           {
-            zh: "青魚禿肺",
-            en: "Black Carp Swim Bladder",
-            note: "The dish that proves the kitchen's bona fides. Rich, gelatinous, faintly sweet.",
-            tag: "Signature"
-          },
-          {
-            zh: "香溢紅燒肉",
-            en: "Red-Braised Pork Belly",
-            note: "Slow-braised, lacquered, served in a clay pot. The benchmark order.",
-            tag: "Signature"
-          },
-          {
-            zh: "滬式油爆蝦",
-            en: "Shanghai Flash-Fried River Shrimp",
-            note: "Shells crisp enough to eat, sauce reduced to a glaze.",
-            tag: "Signature"
-          },
-          {
-            zh: "老上海熏魚",
+            zh: "老上海熏鱼",
             en: "Old-Shanghai Smoked Fish",
-            note: "Sweet, dark, served cold. The starter every table orders.",
-            tag: "Signature"
+            price: "¥128",
+            note: "No. 1 on Dianping's Shanghai smoked-fish chart. Crisp outside, juicy inside, sweet-savoury rather than smoky.",
+            tag: "No. 1"
           },
           {
             zh: "清炒蟹粉配吐司",
             en: "Stir-Fried Crab Roe with Toast",
-            note: "Rich enough that the toast is not a gimmick — it is the delivery system.",
+            price: "¥398",
+            note: "A full bowl of pure crab roe, baguette toasted and drizzled with aged vinegar. The most expensive plate on the list, and the one to order once.",
             tag: "Signature"
           },
           {
-            zh: "響油鳝糊",
-            en: "Sizzling Shredded Eel",
-            note: "Hot oil poured at the table; the hiss is the point.",
-            tag: "Signature"
+            zh: "香溢红烧肉",
+            en: "Fragrant Red-Braised Pork Belly",
+            price: "¥228",
+            note: "No. 5 on the Shanghai red-braised-pork chart. The fat turns to jelly, the lean stays lean — order rice with it.",
+            tag: "Top 5"
+          },
+          {
+            zh: "腰果苔条酥",
+            en: "Cashew and Seaweed Pastry",
+            price: "¥38",
+            note: "Cashew with seaweed powder: a sweet-savoury pastry that should not work and does. The cheapest thing in the ten.",
+            tag: "Pastry"
           },
           {
             zh: "糖藕",
-            en: "Sweet Lotus Root with Glutinous Rice",
-            note: "Cold, honeyed, stuffed with rice. The dessert to order early.",
-            tag: "Signature"
+            en: "Sweet Lotus Root",
+            price: "¥58",
+            note: "Crisp outside, soft within, honeyed through. Order it early — it is also the dessert.",
+            tag: "Cold"
           },
           {
-            zh: "黃魚煨麵",
+            zh: "黄鱼煨面",
             en: "Yellow Croaker Noodles",
-            note: "Fish cooked until it collapses into the broth. A Shanghainese comfort dish.",
+            price: "¥38",
+            note: "The broth is cooked down from fish bones for hours; the noodles are almost secondary to it.",
+            tag: "Noodles"
+          },
+          {
+            zh: "沪式油爆虾",
+            en: "Shanghai Flash-Fried River Shrimp",
+            price: "¥228",
+            note: "Shells glossy and crisp enough to eat whole. The sugar in the glaze should stop just short of burnt.",
             tag: "Signature"
           },
           {
-            zh: "芥末芝麻蝦",
+            zh: "鸡头米小豌豆",
+            en: "Gorgon Nut and Baby Peas",
+            price: "¥88",
+            note: "Sweet peas, springy gorgon nut — the palate cleanser between the heavy dishes.",
+            tag: "Vegetable"
+          },
+          {
+            zh: "响油鳝糊",
+            en: "Sizzling Shredded Eel",
+            price: "¥188",
+            note: "Hot oil poured at the table; white pepper is the finishing note. Stir before it cools.",
+            tag: "Signature"
+          },
+          {
+            zh: "芥末芝麻虾",
             en: "Mustard and Sesame Prawns",
-            note: "The modern note on the menu — sharp, nutty, served cold.",
-            tag: "Signature"
-          },
-          {
-            zh: "蟹粉豆腐",
-            en: "Crab Roe with Tofu",
-            note: "Seasonal. Ask whether the crab is from Taihu before ordering.",
-            tag: "Signature"
+            price: "¥188",
+            note: "Prawns plump, mustard restrained, sesame on the finish. Served cold.",
+            tag: "Cold"
           },
         ],
-        dishSource: "Dianping 推荐菜 for the Zhenning Road house — the old benbang repertoire, in order of how often it is photographed.",
-        dishBadge: "Source: Dianping 推荐菜 · top ten only",
-    branches: [
-      { city: "Shanghai", name: "福1039", en: "Fu 1039", note: "Same family, adjacent villa, slightly more casual register." },
-      { city: "Shanghai", name: "福1015", en: "Fu 1015", note: "The third villa in the group; strongest for larger private dinners." }
-    ],
     sources: [
       { label: "MICHELIN Guide Shanghai", url: "https://guide.michelin.com/" },
       { label: "The Paper — 方元 interview", url: "https://www.thepaper.cn/" }
@@ -1801,61 +1806,61 @@ const RESTAURANTS = [
     quote: { text: "浓油赤酱 — heavy oil, dark soy, and no apologies.", cite: "The benbang rule the kitchen cooks by" },
     dishes: [
           {
-            zh: "金牌紅燒肉",
+            zh: "金牌红烧肉",
             en: "Signature Red-Braised Pork Belly",
             note: "Sweet, dark and collapsing. Order rice with it, not noodles.",
             tag: "Signature"
           },
           {
-            zh: "油爆蝦",
+            zh: "油爆虾",
             en: "Flash-Fried River Shrimp",
             note: "Eat the shells. The sugar in the glaze should be just short of burnt.",
             tag: "Signature"
           },
           {
-            zh: "本幫熏魚",
+            zh: "本帮熏鱼",
             en: "Benbang Smoked Fish",
             note: "Cold, sticky, sweet-savoury. The first thing to order.",
             tag: "Signature"
           },
           {
-            zh: "老上海醬爆豬肝",
+            zh: "老上海酱爆猪肝",
             en: "Old-Shanghai Pork Liver in Bean Sauce",
             note: "Fast wok, soft liver, a lot of sauce. Order it to share.",
             tag: "Signature"
           },
           {
-            zh: "蟹粉撈飯",
+            zh: "蟹粉捞饭",
             en: "Crab Roe over Rice",
             note: "Served by the small or large portion, dine-in only. The most expensive comfort food on the menu.",
             tag: "Signature"
           },
           {
-            zh: "松鼠桂魚",
+            zh: "松鼠桂鱼",
             en: "Squirrel Mandarin Fish",
             note: "Sweet-and-sour, scored and fried into shape. A banquet dish, priced like one.",
             tag: "Signature"
           },
           {
-            zh: "草頭圈子",
+            zh: "草头圈子",
             en: "Braised Pork Intestine with Clover",
             note: "The dish that separates locals from visitors. Cleaned properly, it has no off note.",
             tag: "Signature"
           },
           {
-            zh: "醬鴨",
+            zh: "酱鸭",
             en: "Soy-Braised Duck",
             note: "Cold, dark, sliced thin. A benbang starter.",
             tag: "Signature"
           },
           {
-            zh: "響油鱔絲",
+            zh: "响油鳝丝",
             en: "Sizzling Shredded Eel",
             note: "Hot oil at the table, then stir before the eel cools.",
             tag: "Signature"
           },
           {
-            zh: "酒釀圓子",
+            zh: "酒酿圆子",
             en: "Fermented Rice Wine with Glutinous Balls",
             note: "The dessert. Warm, faintly alcoholic, not too sweet.",
             tag: "Signature"
@@ -1898,27 +1903,27 @@ const RESTAURANTS = [
     whyFamous: [
       "No. 1 on Dianping's Huangpu district creative-restaurant check-in chart.",
       "4.7 across more than 32,000 reviews — volume as much as score.",
-      "招牌玻璃乳鴿 — glass-crisp squab, the most-ordered dish in the house.",
+      "招牌玻璃乳鸽 — glass-crisp squab, the most-ordered dish in the house.",
       "Tableside theatre: dry ice under the beef, flame on the ribs, lab glassware for the fruit tea."
     ],
     quote: { text: "A restaurant built for the camera — and the squab is genuinely good.", cite: "The honest version" },
     dishes: [
       {
-        zh: "招牌玻璃乳鴿",
+        zh: "招牌玻璃乳鸽",
         en: "Signature Glass-Skin Squab",
         price: "¥129",
         note: "The top order: lacquered skin thin enough to see through, meat still pink at the bone. Eat it with your hands.",
         tag: "Signature"
       },
       {
-        zh: "沖浪鮑魚泡飯",
+        zh: "冲浪鲍鱼泡饭",
         en: "\"Surfing\" Abalone Rice",
         price: "¥89",
         note: "Abalone and rice with hot broth poured at the table — the name is the pour. Let it sit a minute before eating.",
         tag: "Signature"
       },
       {
-        zh: "實驗中的水果茶",
+        zh: "实验中的水果茶",
         en: "\"Experiment\" Fruit Tea",
         price: "¥49",
         note: "Served in lab glassware, sweet-sour and built for photographs. The most-ordered drink on the list.",
@@ -1939,14 +1944,14 @@ const RESTAURANTS = [
         tag: "Signature"
       },
       {
-        zh: "原創紅酒鵝肝烤鴨配蔬菜沙拉",
+        zh: "原创红酒鹅肝烤鸭配蔬菜沙拉",
         en: "Red-Wine Foie Gras with Roast Duck and Salad",
         price: "¥179",
         note: "The most expensive plate in the ten: roast duck, foie gras, red-wine reduction, a salad to cut it.",
         tag: "Signature"
       },
       {
-        zh: "鵝肝麵包塔",
+        zh: "鹅肝面包塔",
         en: "Foie Gras Bread Tower",
         price: "¥79",
         note: "Foie gras on toast with a little mustard — the starter to share. Rich enough that two bites each is enough.",
@@ -1960,14 +1965,14 @@ const RESTAURANTS = [
         tag: "Dim sum"
       },
       {
-        zh: "撈汁小海鮮",
+        zh: "捞汁小海鲜",
         en: "Seafood in Chilled Dressing",
         price: "¥79",
         note: "Head-on prawns in a sour-savoury dressing. Order it cold, between the fried courses.",
         tag: "Cold"
       },
       {
-        zh: "斑斕芒果布丁",
+        zh: "斑斓芒果布丁",
         en: "Pandan Mango Pudding",
         price: "¥22",
         note: "The dessert: strong mango, bright green, made for the last photo of the night.",
