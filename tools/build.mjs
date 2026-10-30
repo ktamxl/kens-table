@@ -2101,6 +2101,119 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 外滩家宴·上海本帮菜（罗斯福公馆店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "yangs-shengjian",
+    city: "shanghai",
+    status: "want",
+    nameEn: "Yang's Fried Dumplings",
+    nameZh: "小杨生煎",
+    locEn: "Zhujiajiao Ancient Town",
+    locZh: "朱家角古镇店",
+    cuisine: "Shanghai snack / shengjian",
+    cuisineZh: "生煎・上海小吃",
+    price: "¥25–40 per person",
+    area: "Zhujiajiao, Qingpu",
+    addressEn: "266 Xinfeng Road, Zhujiajiao, Qingpu District — 1.2 km from the Dazhimen plaza",
+    addressZh: "青浦区朱家角镇新风路266号（近大西镇大拇指广场，步行约1.2公里）",
+    tagline: "The Shanghai chain that made soup-filled shengjian a household name — at ¥6 a bun.",
+    card: "No. 1 shengjian in Qingpu, ¥28 a head. Order the classic pork bun and the duck vermicelli soup, and nothing else.",
+    awards: [
+      { mark: "1", label: "No. 1 Shengjian in Qingpu", note: "Dianping 好评榜" },
+      { mark: "4.1", label: "Dianping 4.1 / 5", note: "2,657 reviews — read the bun score, not the room" }
+    ],
+    story: [
+      "小杨生煎 started in 1994 on Wujiang Road with one shop and one idea: a shengjian with more soup than the old style, folded pleat-side down and fried until the base is crisp. It became a chain — one of the few Shanghai snack brands that travelled outside the city — and the bun is now the reference point for the form.",
+      "This branch is in Zhujiajiao's old town, open from 06:30 to 22:00 and priced for locals and day-trippers alike: ¥28 a head. You queue at the counter, take a tray, and eat at a plastic table. It is not a restaurant in any ceremonial sense.",
+      "The 4.1 overall score is worth reading carefully. The signature bun has 5,593 likes — by far the most-liked item in the shop — while the room, the queue and the service drag the average down. Judge it on the bun."
+    ],
+    whyFamous: [
+      "The bun: pork and jelly filling, crisp base, soup that bursts on the first bite.",
+      "5,593 likes on the signature shengjian — the most-liked dish in the shop.",
+      "A 1994 Shanghai original that turned a street snack into a city-wide chain.",
+      "Absurdly cheap: ¥6 for the classic bun, ¥28 for a full meal."
+    ],
+    quote: { text: "A ¥6 bun with more soup than the old style — that was the whole idea.", cite: "How Yang's changed shengjian" },
+    dishes: [
+      {
+        zh: "小杨生煎",
+        en: "Yang's Pork Shengjian",
+        price: "¥6",
+        note: "The one that built the chain: pork and jelly filling, pleat-side down, crisp base, soup that bursts on the first bite.",
+        tag: "No. 1"
+      },
+      {
+        zh: "老鸭粉丝汤",
+        en: "Duck and Vermicelli Soup",
+        price: "¥17",
+        note: "The classic pairing — duck broth, glass noodles, a little pepper. The 藤椒 version adds Sichuan pepper heat.",
+        tag: "Soup"
+      },
+      {
+        zh: "藤椒大虾生煎",
+        en: "Sichuan-Pepper Prawn Shengjian",
+        price: "¥22",
+        note: "The same bun with a whole prawn and a numbing note. Order it alongside the pork, not instead.",
+        tag: "Variant"
+      },
+      {
+        zh: "鱼丸汤",
+        en: "Fish Ball Soup",
+        price: "¥12",
+        note: "Springy fish balls in clear broth — the cheap order that makes the meal a meal.",
+        tag: "Soup"
+      },
+      {
+        zh: "特色酸辣粉",
+        en: "House Hot and Sour Noodles",
+        price: "¥14",
+        note: "Sweet potato noodles, vinegar and chilli. The non-bun order for anyone who wants heat.",
+        tag: "Noodles"
+      },
+      {
+        zh: "荠菜生煎",
+        en: "Shepherd's Purse Shengjian",
+        price: "¥12",
+        note: "The vegetarian option: greens rather than pork, same crisp base. Order it in spring.",
+        tag: "Variant"
+      },
+      {
+        zh: "里脊肉",
+        en: "Pork Tenderloin Skewers",
+        price: "¥6",
+        note: "Grilled skewers, springy and peppery. The side that turns two buns into a meal.",
+        tag: "Side"
+      },
+      {
+        zh: "特色炸猪排",
+        en: "House Fried Pork Chop",
+        price: "¥15",
+        note: "Thin, crisp, Shanghai-style. Best with the vinegar dip if they have it.",
+        tag: "Fried"
+      },
+      {
+        zh: "口水鸡茄香风味肉沫拌面",
+        en: "Mouth-Watering Chicken Noodles with Minced Pork",
+        price: "¥17.2",
+        note: "Cold chicken, minced pork, tomato-savoury sauce over noodles. The most substantial non-bun plate.",
+        tag: "Noodles"
+      },
+      {
+        zh: "油豆腐牛肉粉丝汤",
+        en: "Beef and Fried Tofu Vermicelli Soup",
+        price: "¥17.2",
+        note: "Beef slices and fried tofu in broth — the heartiest soup on the list.",
+        tag: "Soup"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The app vouchers are the value: ¥4 for a single bun (from ¥12) and ¥17.4 for the set meal. Cash prices at the counter are higher.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Zhujiajiao branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A Shanghai chain with branches across the city — this page covers the Zhujiajiao old-town shop, the one you would stop at while visiting the water town. Other branches are the same menu, not a different restaurant.",
+    sources: [
+      { label: "Dianping — 小杨生煎（朱家角古镇店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
