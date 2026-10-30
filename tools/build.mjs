@@ -477,42 +477,45 @@ const RESTAURANTS = [
     city: "hongkong",
     status: "want",
     nameEn: "Yung Kee Roast Goose",
-    nameZh: "鏞記燒鵝",
-    locEn: "Tsim Sha Tsui",
-    locZh: "尖沙咀",
+    nameZh: "榕記陳皮燒鵝",
+    locEn: "Kimberley Road, Tsim Sha Tsui",
+    locZh: "尖沙咀金巴利道",
     cuisine: "Cantonese roast meats",
     cuisineZh: "粵式燒味",
     price: "HK$80–200 per person",
     area: "Tsim Sha Tsui",
-    addressEn: "Tsim Sha Tsui — listings differ on the exact street; confirm the shop on OpenRice before you go",
-    addressZh: "尖沙咀（門牌以 OpenRice 最新資料為準）",
-    tagline: "The Yung Kee name in rice-plate form, in Kowloon.",
-    card: "Roast goose on rice with a drink, at a Kowloon price. A casual shop trading on Hong Kong's most famous goose name — not the Central dining room.",
-    awards: [],
+    addressEn: "Shop in Wing Lee Building, 27–31 Kimberley Road, Tsim Sha Tsui",
+    addressZh: "尖沙咀金巴利道27–31號永利大廈地舖",
+    tagline: "Roast goose marinated with aged tangerine peel — a Kimberley Road shop, not the Central institution.",
+    card: "The goose is rubbed with old 陳皮 before it roasts, which is why the fat tastes of citrus rather than smoke. Order the leg on rice.",
+    awards: [
+      { mark: "金", label: "HKTB Char Siu Gold Award", note: "For 榕哥's lemongrass and black-pepper char siu" },
+      { mark: "馬", label: "China Restaurant Golden Horse Award", note: "A chef's award, not a venue rating" }
+    ],
     story: [
-      "鏞記 is the name that made Cantonese roast goose famous: the Central restaurant opened in 1942 and spent the next seventy years as the reference point for the dish. This Tsim Sha Tsui address is a different proposition — a casual roast-meat shop selling goose, char siu and roast pork over rice, with a drink, at a price that has more to do with Kowloon than with Wellington Street.",
-      "That distinction matters. If you want the linen tablecloths, the century-old room and the full 鏞記 menu, book the Central restaurant. If you want a plate of goose at 2pm without a reservation, this is the useful version.",
-      "Order the goose on rice and ask for a little extra sauce on the side rather than poured over the skin. The skin is the reason you are here; sauce on top softens it before you get to the table."
+      "榕記陳皮燒鵝 is the shop of 榕哥, a Cantonese roast-meat chef who built his reputation on two things: char siu and goose. His lemongrass-and-black-pepper char siu took a gold award from the Hong Kong Tourism Board, and he has collected the China Restaurant Golden Horse Award and a Hong Kong Top Ten Chefs title along the way. The restaurant under his own name opened in 2016.",
+      "The goose is the reason to come. He uses female black-brown geese of around five and a half catties — smaller birds, less fat — and rubs them with aged tangerine peel among a dozen other aromatics before roasting. The peel does something smoke cannot: it cuts the fat so the skin tastes bright rather than heavy.",
+      "One warning about the name. This is 榕記 on Kimberley Road, not 鏞記酒家 on Wellington Street in Central. The English romanisation is identical and the two are constantly confused; they are separate businesses, with separate menus and separate rooms. If you want the 1942 Central institution, book there. If you want the goose with the tangerine peel, come here."
     ],
     whyFamous: [
-      "The Yung Kee name — Hong Kong's most recognisable roast goose, in a casual rice-shop format.",
-      "Goose, char siu and crispy pork sold by the plate rather than by the banquet.",
-      "Fast, cheap by Hong Kong standards, and open through the afternoon.",
-      "A useful contrast to the Central restaurant: same name, completely different meal."
+      "陳皮燒鵝 — goose marinated with aged tangerine peel, the house signature.",
+      "A char siu that won a Hong Kong Tourism Board gold award for its lemongrass and black-pepper marinade.",
+      "Goose leg on rice for around HK$138 — the order most tables make.",
+      "A chef-led shop rather than a chain: 榕哥 still runs the roasting."
     ],
-    quote: { text: "Same name, different meal — check which one you booked.", cite: "The important distinction" },
+    quote: { text: "Old tangerine peel cuts the fat. That is the whole trick.", cite: "The house technique" },
     knownSignatures: [
-      { zh: "燒鵝飯", en: "Roast Goose on Rice", note: "The order. Ask for sauce on the side so the skin stays crisp." },
-      { zh: "叉燒飯", en: "Char Siu on Rice", note: "Ask for 半肥瘦 — half fat, half lean — or you will get the dry end." },
-      { zh: "燒肉", en: "Crispy Roast Pork", note: "Added to a goose plate rather than ordered alone." },
-      { zh: "例湯", en: "Soup of the Day", note: "Usually a pork-bone and vegetable broth. Included in most set plates." }
+      { zh: "陳皮燒鵝", en: "Aged Tangerine-Peel Roast Goose", note: "The signature. Ask for the leg if you are ordering by the portion; the breast is leaner but less interesting." },
+      { zh: "燒鵝脾飯", en: "Roast Goose Leg on Rice", note: "The single order. Sauce on the side so the skin stays crisp." },
+      { zh: "金獎傳統叉燒", en: "Award-Winning Traditional Char Siu", note: "Lemongrass and black pepper in the marinade — sweeter and more fragrant than the usual honey glaze." },
+      { zh: "紅燒乳鴿", en: "Roast Pigeon", note: "Small, dark, best eaten with your hands. A regular add-on to a goose order." },
+      { zh: "乾炒牛河", en: "Dry-Fried Beef Ho Fun", note: "The wok-hei test of any Cantonese kitchen. Order it if you are sharing." }
     ],
-    branches: [
-      { city: "Hong Kong", name: "鏞記酒家（中環）", en: "Yung Kee Restaurant, Central", note: "The 1942 original: full menu, table service, book ahead." }
-    ],
+    branches: [],
+    singleNote: "One shop, in Wing Lee Building on Kimberley Road. Despite the identical English name, it is not 鏞記酒家 in Central — different owners, different menu.",
     sources: [
-      { label: "Yung Kee Restaurant", url: "https://yungkee.com.hk/" },
-      { label: "OpenRice", url: "https://www.openrice.com/" }
+      { label: "OpenRice — 榕記陳皮燒鵝", url: "https://www.openrice.com/" },
+      { label: "Trip.com", url: "https://www.trip.com/" }
     ]
   },
 

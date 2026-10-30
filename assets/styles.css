@@ -1039,7 +1039,7 @@ button { font: inherit; color: inherit; }
 .status-block .status-switch { border-color: var(--line); background: transparent; }
 .status-block .status-switch button { color: var(--muted); }
 .status-block .status-switch button[aria-pressed="true"] { background: var(--ink); color: var(--paper-2); }
-.status-hint {
+.status-block .status-hint {
   font-size: .72rem;
   color: var(--muted);
   margin-top: 10px;
