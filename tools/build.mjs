@@ -3486,6 +3486,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 大鸽饭（福田COCO Park店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "xinxing-restaurant",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Xinxing Restaurant",
+    nameZh: "新兴饭店·非遗粤菜·老字号早茶",
+    locEn: "Beijing Road, Tianzi Pier",
+    locZh: "北京路天字码头店",
+    cuisine: "Cantonese old brand",
+    cuisineZh: "广州菜・老字号",
+    price: "¥90–130 per person",
+    area: "Beijing Road, Yuexiu",
+    addressEn: "2/F, 15 Beijing Road, Yuexiu — 150 m from Beijing Road station exit A1",
+    addressZh: "越秀区北京路15号2层（地铁北京路站A1口步行约150米）",
+    tagline: "A 116-year-old Guangzhou brand, still cooking mutton and roast goose the old way.",
+    card: "No. 2 in Beijing Road for repeat customers, 4.6 from 4,900 reviews, ¥92 a head. Order the mutton, the glass-skin goose, and the baked goat milk.",
+    awards: [
+      { mark: "2", label: "No. 2 Guangzhou Restaurant in Beijing Road", note: "Dianping 回头客榜 — repeat customers" },
+      { mark: "4.6", label: "Dianping 4.6 / 5", note: "4,893 reviews at the time of listing" },
+      { mark: "非", label: "Intangible Heritage Cantonese", note: "非遗粤菜 — 116 years, per the shop banner" }
+    ],
+    story: [
+      "新兴饭店 has been on Beijing Road for a very long time — its own banner counts 116 years, which puts its founding in the 1910s — and it holds intangible-heritage status for its Cantonese cooking, specifically the mutton dishes.",
+      "The menu has two poles. One is mutton: 焖羊 braised until it comes off the bone, 羊杂汤 in a milky broth, and a banquet version with abalone at ¥538. The other is classic Cantonese — glass-skin roast goose, white-cut chicken, steamed fish, and old dim sum like the 榄粉果 that carries the heritage label.",
+      "It also does morning tea from 08:00, which is why locals treat it as two restaurants: a yum cha room in the morning, a mutton house at night. The 柚子叉烧餐包 and the baked goat milk belong to the morning; the goose and the claypot belong to the evening.",
+      "It is No. 2 in Beijing Road for repeat customers — behind only one other room — which for a 116-year-old address is the metric that matters."
+    ],
+    whyFamous: [
+      "116 years on Beijing Road, with intangible-heritage status for its Cantonese technique.",
+      "焖羊 — braised mutton, the dish the restaurant is known for across the city.",
+      "玻璃脆皮烧鹅 — glass-skin goose, and a proper old-school dim sum list in the morning.",
+      "No. 2 in the district for repeat customers, not tourists."
+    ],
+    quote: { text: "Two restaurants in one: yum cha in the morning, mutton at night.", cite: "How to use it" },
+    dishes: [
+      {
+        zh: "酥皮焗羊奶",
+        en: "Puff-Pastry Baked Goat Milk",
+        price: "¥23",
+        note: "The top order and the cheapest thing here: hot goat milk under a pastry lid. Sweet, faintly gamey, unlike anything else on the menu.",
+        tag: "No. 1"
+      },
+      {
+        zh: "玻璃脆皮烧鹅",
+        en: "Glass-Skin Roast Goose",
+        price: "¥198",
+        note: "The other signature — skin thin enough to see through, fat rendered to a lacquer. Order a quarter for two.",
+        tag: "No. 2"
+      },
+      {
+        zh: "非遗娥姐榄粉果",
+        en: "Heritage Olive-Shaped Dumpling",
+        price: "¥20",
+        note: "The dim sum that carries the intangible-heritage label: translucent wrapper, pork and vegetable filling, steamed to order.",
+        tag: "No. 3"
+      },
+      {
+        zh: "新兴秘制鲍鱼焖羊",
+        en: "Secret-Recipe Braised Mutton with Abalone",
+        price: "¥538",
+        note: "The banquet version: mutton braised until it falls off the bone, abalone added for sweetness. Order it for four or more.",
+        tag: "No. 4"
+      },
+      {
+        zh: "新兴秘制焖羊",
+        en: "Secret-Recipe Braised Mutton",
+        price: "¥178",
+        note: "The dish the restaurant is famous for. Soft enough to pull apart, no gamey edge, sauce thick enough to hold rice.",
+        tag: "No. 5"
+      },
+      {
+        zh: "柚子叉烧餐包10只",
+        en: "Pomelo Char Siu Buns (10)",
+        price: "¥23",
+        note: "Ten small buns with a pomelo-sweet char siu filling. The thing to order with morning tea.",
+        tag: "No. 6"
+      },
+      {
+        zh: "风味羊杂汤",
+        en: "Mutton Offal Soup",
+        price: "¥19",
+        note: "Milky broth, offal and pickled vegetables. The cheap bowl that explains why the mutton is good.",
+        tag: "No. 7"
+      },
+      {
+        zh: "鲜花椒蒸无骨鲫鱼",
+        en: "Steamed Boneless Crucian Carp with Sichuan Pepper",
+        price: "¥128",
+        note: "One fish, two ways: meat steamed, bones fried. The pepper is there to cut the freshwater taste.",
+        tag: "No. 8"
+      },
+      {
+        zh: "石烹金汤花胶翅",
+        en: "Stone-Cooked Fish Maw in Golden Broth",
+        price: "¥68",
+        note: "Fish maw in a pumpkin-gold stock, served in a hot stone bowl. Order it as the soup course.",
+        tag: "No. 9"
+      },
+      {
+        zh: "葱油淋白切鸡",
+        en: "White-Cut Chicken with Scallion Oil",
+        price: "¥78",
+        note: "Poached chicken, chilled, scallion oil poured over. The control order against the heavier mutton dishes.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The sets are good value: ¥153 for the two-person classic dim sum, ¥230 for the Canton Fair selection, and ¥460 for the four-person 'Qing dynasty merchant' banquet. The 100-yuan voucher sells for ¥90.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Beijing Road Tianzi Pier branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Beijing Road room, by Tianzi Pier. The brand is 116 years old and has other addresses in Guangzhou; this page covers the one on the old street.",
+    sources: [
+      { label: "Dianping — 新兴饭店（北京路天字码头店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
