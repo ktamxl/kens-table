@@ -4749,6 +4749,121 @@ const RESTAURANTS = [
       { label: "Dianping — 白天鹅宾馆·玉堂春暖", url: "https://www.dianping.com/" },
       { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
     ]
+  },
+{
+    slug: "xi-shi-gun",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Xi Shi Gun",
+    nameZh: "喜势滚·花胶鸡海鲜火锅",
+    locEn: "Tianhe South Road",
+    locZh: "天河店",
+    cuisine: "Fish maw chicken and seafood hot pot",
+    cuisineZh: "海鲜火锅・花胶鸡",
+    price: "¥280–450 per person",
+    area: "Zhujiang New Town, Tianhe",
+    addressEn: "24 Tianhe South 2nd Road, Tianhe — 370 m from Shipaiqiao station exit A",
+    addressZh: "天河区天河南二路24号（石牌桥站A口步行约370米，近体育中心站A口）",
+    tagline: "Golden fish-maw chicken broth, luxury add-ons, and a kitchen that stays open until 4am.",
+    card: "4.9 from 2,181 reviews, 1,643 of them local. Order the small fish-maw pot, the mantis shrimp, and the oysters.",
+    awards: [
+      { mark: "锋", label: "Fengwei Treasure List 2026", note: "锋味宝藏榜 2026 上榜餐厅" },
+      { mark: "4.9", label: "Dianping 4.9 / 5", note: "2,181 reviews at the time of listing" },
+      { mark: "荐", label: "Locals Recommend", note: "1,643 local reviews — 当地人推荐" }
+    ],
+    story: [
+      "喜势滚 does one thing with conviction: a golden fish-maw and chicken broth, simmered until it is thick enough to coat a spoon, then used as the base for everything else. It has been on the Fengwei Treasure List for 2026 and holds 4.9 across 2,181 reviews, with 1,643 of those from locals.",
+      "The format is luxury hot pot. You start with the small pot at ¥188 — fish maw, sea cucumber, half a chicken — drink a bowl of the broth before anything goes in, and then add what you like: live grouper, Thai mantis shrimp, A5 wagyu, palm-sized oysters at ¥38 each.",
+      "The prices climb fast if you let them: the large pot is ¥588, the leopard grouper ¥688 by weight, the wagyu ¥568. But the ¥38 oysters and the ¥38 osmanthus dessert keep a table of four within reach of ¥280 a head.",
+      "It stays open until four in the morning, which in Zhujiang New Town is a genuine service. Book for late — the room is busiest after ten."
+    ],
+    whyFamous: [
+      "The golden fish-maw chicken broth — drink it before anything goes in.",
+      "4.9 across 2,181 reviews, with 1,643 local recommendations.",
+      "Open until 04:00, which almost nothing else in the district is.",
+      "A ¥38 oyster and a ¥38 dessert alongside a ¥688 grouper — the range is the point."
+    ],
+    quote: { text: "Drink a bowl of the broth before you cook anything in it. That is the whole first course.", cite: "How to eat here" },
+    dishes: [
+      {
+        zh: "5A雪花和牛",
+        en: "A5 Snowflake Wagyu",
+        price: "¥568",
+        note: "The top order: A5 wagyu, sliced thin, cooked for seconds in the broth. Marbling like a print — do not leave it in.",
+        tag: "No. 1"
+      },
+      {
+        zh: "蟹皇花胶鱼翅辽参汤",
+        en: "Crab Roe, Fish Maw, Fin and Sea Cucumber Soup",
+        price: "¥268",
+        note: "A pot built on three expensive things — fish maw, fin and sea cucumber — with crab roe for sweetness. Ask what is in it that day.",
+        tag: "No. 2"
+      },
+      {
+        zh: "泰国濑尿虾",
+        en: "Thai Mantis Shrimp",
+        price: "¥168",
+        note: "Live mantis shrimp, split and cooked at the table. The cheapest luxury on the list and the one to order first.",
+        tag: "No. 3"
+      },
+      {
+        zh: "游水大东星斑",
+        en: "Live Leopard Coral Grouper",
+        price: "¥688",
+        note: "Whole live grouper, sliced and poached for three seconds a piece. Priced by weight — confirm before it leaves the tank.",
+        tag: "No. 4"
+      },
+      {
+        zh: "养颜花胶辽参葵花鸡锅",
+        en: "Fish Maw, Sea Cucumber and Sunflower Chicken Pot",
+        price: "¥188",
+        note: "The house pot in its smaller form: golden broth, fish maw, sea cucumber, half a chicken. This is the order that makes the restaurant.",
+        tag: "No. 5"
+      },
+      {
+        zh: "游水老鼠斑",
+        en: "Live Humpback Grouper",
+        price: "¥288",
+        note: "The connoisseur's fish — fewer bones, richer skin. Cheaper than the leopard grouper and, to some, better.",
+        tag: "No. 6"
+      },
+      {
+        zh: "深海乳山蚝",
+        en: "Deep-Sea Rushan Oyster",
+        price: "¥38",
+        note: "A palm-sized oyster poached in the broth until it just firms. At ¥38, order four.",
+        tag: "No. 7"
+      },
+      {
+        zh: "桂花雪燕羹",
+        en: "Osmanthus Snow Bird's Nest Soup",
+        price: "¥38",
+        note: "Sweet, cold, slippery — the dessert that resets the palate after a rich pot. The cheapest thing on the list.",
+        tag: "No. 8"
+      },
+      {
+        zh: "花胶鱼翅辽参葵花鸡锅",
+        en: "Large Fish Maw, Fin, Sea Cucumber and Chicken Pot",
+        price: "¥588",
+        note: "The same pot at banquet size, with more of everything. Order it for four or more; it is the reason groups book.",
+        tag: "No. 9"
+      },
+      {
+        zh: "花胶鸡",
+        en: "Fish Maw Chicken Pot",
+        price: "",
+        note: "The base pot — golden, collagen-thick, and the thing to drink a bowl of before anything goes in. Ask for the price by size.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Live fish is priced by weight — confirm before it leaves the tank. The 100-yuan voucher sells for ¥80; the ¥562 set feeds two to three.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Tianhe branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room on Tianhe South 2nd Road, near Shipaiqiao. The brand has other branches in Guangzhou; this is the one on the 2026 list.",
+    sources: [
+      { label: "Dianping — 喜势滚·花胶鸡海鲜火锅（天河店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
