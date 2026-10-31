@@ -4289,6 +4289,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 粤兴起超级海鲜大排档（二沙岛店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "cantonese-morning-tea-steigenberger",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Cantonese Morning Tea",
+    nameZh: "广式早茶（广州施柏阁大观酒店）",
+    locEn: "Steigenberger Guangzhou, Huadu",
+    locZh: "施柏阁大观酒店",
+    cuisine: "Cantonese dim sum",
+    cuisineZh: "粤式茶点",
+    price: "¥95–150 per person",
+    area: "Sunac / Huadu",
+    addressEn: "75 Fenghuang North Road, Huadu — 1.4 km on foot from Guangzhou Sunac Mall",
+    addressZh: "广州花都区凤凰北路75号（距广州融创茂步行约1.4公里）",
+    tagline: "Hotel dim sum in Huadu, ranked No. 1 in the Sunac district for Cantonese taste.",
+    card: "No. 1 Cantonese restaurant in the Sunac area, 4.8 from 2,521 reviews, ¥95 a head. Order the shrimp dumplings and the egg tarts.",
+    awards: [
+      { mark: "1", label: "No. 1 Cantonese Restaurant in the Sunac Area", note: "Dianping 口味榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "2,521 reviews at the time of listing" },
+      { mark: "荐", label: "Locals Recommend", note: "1,045 local reviews — 当地人推荐" }
+    ],
+    story: [
+      "This is the Cantonese restaurant inside the Steigenberger Guangzhou in Huadu — a hotel dining room that has become the best-reviewed dim sum address in the Sunac district, which is otherwise a part of the city built around a resort rather than a neighbourhood.",
+      "Morning tea runs from 08:00 to 14:30 and the menu is a proper 粤式茶点 list: shrimp dumplings two ways, chicken feet, spare ribs in soy bean, rice rolls, egg tarts, baked char siu buns. The kitchen is stronger on steaming than on frying, which is the right way round for dim sum.",
+      "It ranks No. 1 for Cantonese taste in the area with 4.8 across 2,521 reviews and 1,045 local recommendations — that last number matters here, because Huadu is a district where a hotel restaurant could easily survive on resort traffic alone.",
+      "It is a useful stop if you are out at Sunac for the snow park or the mall: 1.4 km on foot, free parking, private rooms, and a ¥80 voucher for ¥100 in the app."
+    ],
+    whyFamous: [
+      "No. 1 Cantonese restaurant for taste in the Sunac district.",
+      "1,045 local recommendations — locals, not just hotel guests.",
+      "Dim sum from 08:00 to 14:30, including a ¥70 shrimp-and-oyster dumpling.",
+      "Free parking and private rooms, which is rare for a dim sum room at this price."
+    ],
+    quote: { text: "Order both shrimp dumplings and decide which one the kitchen believes in.", cite: "How to order" },
+    dishes: [
+      {
+        zh: "翡翠鲜虾饺",
+        en: "Jade Shrimp Dumpling",
+        price: "¥38",
+        note: "The top order: spinach-tinted wrapper, whole shrimp, bamboo shoot for crunch. The benchmark dim sum of the room.",
+        tag: "No. 1"
+      },
+      {
+        zh: "黑松露虾饺皇",
+        en: "Black Truffle Shrimp Dumpling",
+        price: "¥38",
+        note: "The same dumpling with truffle folded through. Earthy rather than overpowering — order both and compare.",
+        tag: "No. 2"
+      },
+      {
+        zh: "百合酱凤爪",
+        en: "Chicken Feet in Lily-Bulb Sauce",
+        price: "¥38",
+        note: "Steamed until the skin slips, sauce sweet-savoury. The dish that tells you whether the steamer is right.",
+        tag: "No. 3"
+      },
+      {
+        zh: "面豉蒸排骨",
+        en: "Steamed Pork Ribs in Soy-Bean Sauce",
+        price: "¥38",
+        note: "Small, fatty ribs with fermented soybean. Made for congee, and better than most hotel versions.",
+        tag: "No. 4"
+      },
+      {
+        zh: "鲜虾生蚝饺",
+        en: "Shrimp and Oyster Dumpling",
+        price: "¥70",
+        note: "The luxury dumpling: shrimp and oyster in a translucent wrapper. The most expensive dim sum here, and worth one order.",
+        tag: "No. 5"
+      },
+      {
+        zh: "原味猪肉丸",
+        en: "Pork Meatball",
+        price: "",
+        note: "Hand-beaten pork, springy, steamed plain. The old-school item most tables skip and should not.",
+        tag: "No. 6"
+      },
+      {
+        zh: "葡式蛋挞",
+        en: "Portuguese Egg Tart",
+        price: "¥18",
+        note: "Custard just set, pastry shattering. The best value on the list at ¥18.",
+        tag: "No. 7"
+      },
+      {
+        zh: "杂菌罗汉斋肠粉",
+        en: "Mushroom and Vegetable Rice Roll",
+        price: "¥18",
+        note: "Rice roll with mixed mushrooms and vegetables — the vegetarian order that does not taste like a compromise.",
+        tag: "No. 8"
+      },
+      {
+        zh: "广味葱油捞面",
+        en: "Cantonese Scallion Oil Noodles",
+        price: "",
+        note: "Noodles tossed in scallion oil, no sauce. Simple enough that the noodle texture is the whole dish.",
+        tag: "No. 9"
+      },
+      {
+        zh: "叉烧焗餐包",
+        en: "Baked Char Siu Bun",
+        price: "",
+        note: "Soft milk-bread bun with a faintly sweet char siu filling. The thing to order for children, and for the table.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing; a few items are only available inside the ¥108.1 set, so no price is shown. The 100-yuan voucher sells for ¥80 and is not valid in private rooms.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Steigenberger Guangzhou — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One dining room, inside the Steigenberger in Huadu. It is a hotel restaurant rather than a chain — the address is the point if you are at Sunac.",
+    sources: [
+      { label: "Dianping — 广式早茶（广州施柏阁大观酒店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
