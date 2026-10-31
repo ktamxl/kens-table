@@ -3715,6 +3715,122 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 荔雅图 Li Chateau", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "lei-garden",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Lei Garden",
+    nameZh: "利苑酒家",
+    locEn: "Yi'an Plaza, Jianshe 6th Road",
+    locZh: "宜安广场店",
+    cuisine: "Cantonese",
+    cuisineZh: "广州菜・粤菜",
+    price: "¥230–350 per person",
+    area: "Jianshe 6th Road, Yuexiu",
+    addressEn: "4/F, Yi'an Plaza, 33 Jianshe 6th Road, Yuexiu — 510 m from Taojin station exit A",
+    addressZh: "越秀区建设六马路33号宜安广场4楼（淘金站A口步行约510米）",
+    tagline: "Twenty-two years on Jianshe 6th Road, one Black Pearl diamond, and a pigeon ranked third in the city.",
+    card: "Black Pearl one diamond 2026, 4.8 from 13,000 reviews, ¥230 a head. Order the seafood rice, the pigeon, and the three-layer pork.",
+    awards: [
+      { mark: "珠", label: "Black Pearl — One Diamond", note: "2026 黑珍珠一钻餐厅" },
+      { mark: "3", label: "No. 3 Pigeon in Guangzhou", note: "Dianping 王牌菜 · 菜品榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "13,035 reviews at the time of listing" }
+    ],
+    story: [
+      "利苑 is one of the names that defined modern Cantonese dining: founded in Hong Kong in 1973, it built its reputation on dim sum made to a standard rather than to a price, and on a kitchen that treats roast meats as a discipline. The Guangzhou rooms followed, and this one on Jianshe 6th Road has been listed for twenty-two years.",
+      "It holds a Black Pearl diamond as of 2026, and 4.8 across 13,035 reviews — numbers that are hard to sustain in a city that opens new Cantonese rooms every month. The dining room is a proper 酒家: white cloths, private rooms, ten-person tables, free parking.",
+      "The menu is the Cantonese canon done properly: 贵妃海鲜泡饭, roast pigeon ranked third in Guangzhou, three-layer pork with glass-crisp skin, old-fire soup, and a 佛跳墙 at ¥468 for the table. The pastry section is unusually strong for a savoury restaurant — the cheese-and-blueberry napoleon has 322 saves.",
+      "One quirk: the app lists the three-layer pork twice, as 冰皮 and 冰烧. It is the same cut — order one."
+    ],
+    whyFamous: [
+      "Black Pearl one diamond (2026) and twenty-two years at the same address.",
+      "Roast pigeon ranked No. 3 in Guangzhou.",
+      "Three-layer pork with skin that crackles — the benchmark for Cantonese roast pork.",
+      "A pastry section strong enough to carry dessert: the napoleon and the turnip puff."
+    ],
+    quote: { text: "The pigeon is ranked third in the city; the three-layer pork is why the kitchen has held a diamond.", cite: "The house in one line" },
+    dishes: [
+      {
+        zh: "贵妃海鲜泡饭",
+        en: "Seafood Rice in Golden Broth",
+        price: "¥160",
+        note: "The top order: rice in a golden shellfish broth, prawn and crab sweetness doing the work. Ask for the crisp rice on the side.",
+        tag: "No. 1"
+      },
+      {
+        zh: "芝士蓝莓拿破仑",
+        en: "Cheese and Blueberry Napoleon",
+        price: "¥38",
+        note: "The pastry everyone photographs — shatters without collapsing, cream cheese and blueberry inside. Order one to share.",
+        tag: "No. 2"
+      },
+      {
+        zh: "乳鸽",
+        en: "Roast Pigeon",
+        price: "¥110",
+        note: "No. 3 on Guangzhou's pigeon chart. Skin like glass, meat still juicy — the reason to book a table rather than order takeaway.",
+        tag: "No. 3"
+      },
+      {
+        zh: "冰皮三层肉",
+        en: "Ice-Skin Three-Layer Pork",
+        price: "¥130",
+        note: "Crisp skin, three distinct layers of fat and lean. The Cantonese roast pork benchmark, and the dish the kitchen is judged by.",
+        tag: "No. 4"
+      },
+      {
+        zh: "杨枝甘露配沙琪玛",
+        en: "Mango Pomelo Sago with Sachima",
+        price: "¥52",
+        note: "The dessert course: cold mango, pomelo, sago, with a piece of sachima for crunch. Order it before you are full.",
+        tag: "No. 5"
+      },
+      {
+        zh: "冰烧三层肉",
+        en: "Ice-Roasted Three-Layer Pork",
+        price: "¥130",
+        note: "The same cut, listed a second time under its other name. One order is enough — do not let the app talk you into two.",
+        tag: "Duplicate"
+      },
+      {
+        zh: "银萝千层酥",
+        en: "Turnip Puff Pastry",
+        price: "¥35",
+        note: "A thousand-layer pastry around turnip. Savoury, flaky, and the cheapest thing on the list.",
+        tag: "No. 7"
+      },
+      {
+        zh: "老火靓汤",
+        en: "Slow-Boiled Soup of the Day",
+        price: "¥42",
+        note: "The soup that tells you the kitchen is Cantonese: four hours, no shortcuts, no stock powder. Ask what it is that day.",
+        tag: "No. 8"
+      },
+      {
+        zh: "烤乳鸭",
+        en: "Roast Baby Duck",
+        price: "¥120",
+        note: "Smaller and richer than the pigeon — crisp skin, a little more fat. Order it instead of the pigeon if you want more meat.",
+        tag: "No. 9"
+      },
+      {
+        zh: "佛跳墙",
+        en: "Buddha Jumps Over the Wall",
+        price: "¥468",
+        note: "The banquet dish: abalone, fish maw, sea cucumber and more, in a thick brown broth. Order it for the table, not for one.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The Black Pearl tasting menus are the value if you want the full range: ¥398 and ¥698 per person. The two three-layer pork entries are one dish — order once.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Yi'an Plaza branch — ranked by the app's like counts, with dish-chart positions where they exist.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Yi'an Plaza room, in Yuexiu. Lei Garden has rooms across Hong Kong, Guangzhou and Singapore; this page covers the Guangzhou one with the Black Pearl diamond.",
+    sources: [
+      { label: "Dianping — 利苑酒家（宜安广场店）", url: "https://www.dianping.com/" },
+      { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
+    ]
   }
 ];
 
