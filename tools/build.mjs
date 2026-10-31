@@ -3372,6 +3372,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 悦景汇海鲜酒家（深圳首店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "da-ge-fan",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Da Ge Fan",
+    nameZh: "大鸽饭",
+    locEn: "COCO Park, Futian",
+    locZh: "福田 COCO Park 店",
+    cuisine: "Cantonese pigeon specialist",
+    cuisineZh: "粤菜・鸽",
+    price: "¥120–170 per person",
+    area: "Shopping Park, Futian",
+    addressEn: "L3C-021, Phase 1, Futian Galaxy COCO Park, 268 Fuhua 3rd Road, Futian — 90 m from Shopping Park station exit C",
+    addressZh: "福田区福华三路268号福田星河COCO Park一期3层L3C-021（购物公园站C口步行约90米）",
+    tagline: "Pigeon three ways, from a restaurant with its own pigeon farm.",
+    card: "No. 1 in the COCO Park food chart, 4.8 from 13,300 reviews. Order the braised pigeon, the pigeon rice, and the broth rice.",
+    awards: [
+      { mark: "1", label: "No. 1 Restaurant in the COCO Park Food Chart", note: "Dianping 热门榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "13,303 reviews at the time of listing" }
+    ],
+    story: [
+      "大鸽饭 does one thing and does it in quantity: pigeon. The banner in the shop promises a 自有鸽场 — its own pigeon farm — with birds killed daily, which is why the skin is still tight and the meat has not started to loosen.",
+      "There are three classic preparations: 红烧 (braised and glazed), 盐焗 (baked in coarse salt) and 生炸 (deep-fried). Each comes in a 鸽皇 size at ¥59 and, for the salt-baked version, a smaller ¥23 bird. Order two preparations between three people and compare — that is the point of the place.",
+      "The rice is the other half of the name. 大鸽饭 at ¥19 is rice cooked with pigeon fat and a little meat; 黑松露大鸽饭 at ¥69 adds truffle and a claypot crust worth fighting over. The 鸽汤泡饭 at ¥89 is the gentler option — milky broth poured over rice.",
+      "It is a mall restaurant on the third floor of COCO Park, three years old, and currently No. 1 in the complex's food chart. Book, or go early — the queue starts before service."
+    ],
+    whyFamous: [
+      "Its own pigeon farm, daily kill — the banner's claim, and the reason the skin is good.",
+      "Three preparations of pigeon, each available in two sizes.",
+      "黑松露大鸽饭 — claypot rice with pigeon and truffle, mixed at the table.",
+      "No. 1 in the COCO Park food chart, 4.8 across 13,303 reviews."
+    ],
+    quote: { text: "Order two preparations and compare. That is the reason to come with three people.", cite: "How to order" },
+    dishes: [
+      {
+        zh: "爆汁红烧鸽皇",
+        en: "Juicy Red-Braised Pigeon",
+        price: "¥59",
+        note: "The dish with 590 likes — by far the most-ordered thing here. Skin lacquered, juice running the moment you bite. Eat it with your hands.",
+        tag: "No. 1"
+      },
+      {
+        zh: "黑松露大鸽饭",
+        en: "Black Truffle Pigeon Rice",
+        price: "¥69",
+        note: "Claypot rice with pigeon and truffle, mixed at the table. The truffle is a gimmick that works; the crust at the bottom is the real prize.",
+        tag: "No. 2"
+      },
+      {
+        zh: "传统盐焗鸽皇",
+        en: "Traditional Salt-Baked Pigeon",
+        price: "¥59",
+        note: "Baked in coarse salt, skin crackling, meat falling off the bone. The purist's order of the three.",
+        tag: "No. 3"
+      },
+      {
+        zh: "大鸽饭",
+        en: "Pigeon Rice",
+        price: "¥19",
+        note: "The namesake, and the cheapest way in: rice cooked with pigeon fat and a little meat. Order it alongside a whole bird.",
+        tag: "No. 4"
+      },
+      {
+        zh: "传统生炸红烧鸽",
+        en: "Traditional Deep-Fried Red Pigeon",
+        price: "¥59",
+        note: "Fried rather than braised — drier skin, deeper colour, more crunch. The one to order if you like texture over juice.",
+        tag: "No. 5"
+      },
+      {
+        zh: "红葱头焗排骨",
+        en: "Baked Pork Ribs with Shallots",
+        price: "¥69",
+        note: "The non-pigeon dish everyone orders. Shallots cook down into the ribs until everything is sweet and soft.",
+        tag: "No. 6"
+      },
+      {
+        zh: "鸽汤泡饭",
+        en: "Pigeon Broth Rice",
+        price: "¥89",
+        note: "Milky pigeon broth poured over rice. Gentle, restorative, and the thing to order after two fried birds.",
+        tag: "No. 7"
+      },
+      {
+        zh: "经典盐焗鸽",
+        en: "Classic Salt-Baked Pigeon (smaller)",
+        price: "¥23",
+        note: "The smaller salt-baked bird. Order it if there are two of you and you want a third preparation without committing to a 鸽皇.",
+        tag: "No. 8"
+      },
+      {
+        zh: "菜心炒鸽杂",
+        en: "Choy Sum with Pigeon Offal",
+        price: "¥56",
+        note: "Liver, gizzard and heart wok-fried with greens. The dish that proves the farm is real — nothing is wasted.",
+        tag: "No. 9"
+      },
+      {
+        zh: "和味爽鱼皮",
+        en: "Chilled Fish Skin in Soy Dressing",
+        price: "¥36",
+        note: "Cold, crunchy fish skin with mustard and soy. The palate reset between the pigeons.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. A whole pigeon feeds one; three people should order two birds, one rice and one vegetable. The 100-yuan voucher is usually available in the app.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Futian COCO Park branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "A chain with its own pigeon farm. This page covers the Futian COCO Park branch; the others run the same short menu.",
+    sources: [
+      { label: "Dianping — 大鸽饭（福田COCO Park店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
