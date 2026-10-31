@@ -3601,6 +3601,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 新兴饭店（北京路天字码头店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "li-chateau",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Li Chateau",
+    nameZh: "荔雅图",
+    locEn: "Grandview Mall / Marriott, Tianhe",
+    locZh: "正佳广场店",
+    cuisine: "French",
+    cuisineZh: "法国菜",
+    price: "¥350–500 per person",
+    area: "Tianhe Road / Sports Centre",
+    addressEn: "B1, main entrance of the Marriott, Grandview Mall, 228 Tianhe Road, Tianhe — 230 m from Sports Centre station",
+    addressZh: "天河区天河路228号正佳广场万豪酒店正门B1层（体育中心站步行约230米）",
+    tagline: "Classic French in a Marriott basement — candles, rose petals, and a proper Wellington.",
+    card: "4.9 for environment, 4.7 for taste, ¥353 a head. Order the Wellington, the escargot, and the mushroom soup.",
+    awards: [
+      { mark: "锋", label: "Fengwei Treasure List 2026", note: "锋味宝藏榜 — Dianping list, 2026" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "4,338 reviews at the time of listing" }
+    ],
+    story: [
+      "Li Chateau has been in the basement of the Marriott at Grandview Mall for twelve years — long enough that it has become the default answer in Tianhe to 'where do we go for an anniversary'. White cloths, candles, roses on the table if you ask when you book.",
+      "The menu is classical French rather than modern: mushroom soup under a truffle foam, escargot with brioche, Parma ham and melon, beef Wellington, foie gras risotto, a ribeye with peppercorn sauce. Nothing is deconstructed; everything is what it says it is.",
+      "The scores tell the story honestly: 4.9 for environment, 4.8 for service, 4.7 for taste. It is a room first and a kitchen second — go for the evening, and order the Wellington because it is genuinely good, not because the room needs an excuse.",
+      "One pricing note: the ¥6 tiger prawn at the top of the list is an add-on inside the ¥1,262 four-person set, not a dish you can order alone."
+    ],
+    whyFamous: [
+      "Twelve years in the same Marriott basement — the Tianhe default for anniversaries.",
+      "4.9 for environment: candles, roses, and a room built for two.",
+      "Beef Wellington and escargot with brioche — classical French, no deconstruction.",
+      "On the 2026 Fengwei Treasure List (锋味宝藏榜)."
+    ],
+    quote: { text: "A room first, a kitchen second — and the Wellington is genuinely good.", cite: "The honest version" },
+    dishes: [
+      {
+        zh: "西班牙黄油老虎虾",
+        en: "Spanish Butter Tiger Prawns",
+        price: "¥6",
+        note: "The ¥6 price is an add-on to the ¥1,262 four-person set, not a standalone order. Sweet prawns, butter, a little paprika.",
+        tag: "No. 1"
+      },
+      {
+        zh: "黑松露蘑菇浓汤",
+        en: "Black Truffle Mushroom Soup",
+        price: "¥68",
+        note: "Truffle that does not shout, cream whipped light. The dish most tables start with.",
+        tag: "No. 2"
+      },
+      {
+        zh: "惠灵顿和牛里脊",
+        en: "Wagyu Beef Wellington",
+        price: "¥368",
+        note: "The showpiece: pastry that shatters, wagyu still pink. Order it for two and share a starter.",
+        tag: "No. 3"
+      },
+      {
+        zh: "餐前面包与小吃",
+        en: "Bread and Amuse-Bouche",
+        price: "¥38",
+        note: "Warm buttered bread — reviewers say they cannot stop eating it. The cheapest way to start well.",
+        tag: "No. 4"
+      },
+      {
+        zh: "蒜香焗蜗牛配菌菇及布里欧修",
+        en: "Garlic Escargot with Mushrooms and Brioche",
+        price: "¥98",
+        note: "Snails in garlic butter, brioche to mop it up. The most old-school French thing on the menu.",
+        tag: "No. 5"
+      },
+      {
+        zh: "帕尔玛火腿配哈密瓜",
+        en: "Parma Ham with Cantaloupe",
+        price: "¥98",
+        note: "The classic pairing, done properly: salt, sweet, cold. Order it before anything hot.",
+        tag: "No. 6"
+      },
+      {
+        zh: "柚子雪葩",
+        en: "Yuzu Sorbet",
+        price: "¥38",
+        note: "Sharp, cold, with candied peel. The palate reset between the main and dessert.",
+        tag: "No. 7"
+      },
+      {
+        zh: "意大利黑松露烩饭配香煎鹅肝",
+        en: "Black Truffle Risotto with Seared Foie Gras",
+        price: "¥158",
+        note: "Rice loose enough to move, foie gras seared hard on one side. Rich — share it.",
+        tag: "No. 8"
+      },
+      {
+        zh: "180天谷饲肉眼布拉诺",
+        en: "180-Day Grain-Fed Ribeye",
+        price: "¥298",
+        note: "Grilled ribeye, rested properly, served with a peppercorn sauce. The steak to order if you are not having Wellington.",
+        tag: "No. 9"
+      },
+      {
+        zh: "南瓜汤",
+        en: "Pumpkin Soup",
+        price: "¥68",
+        note: "Sweet pumpkin, a little seared scallop on top. The other soup, and the one to order in winter.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Set menus are the value: ¥462 for the two-person light dinner, ¥612 for the two-person Wellington set, and ¥1,262 for four. The 100-yuan voucher sells for ¥87; private rooms are excluded.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Grandview Mall branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room, in the Marriott at Grandview Mall. Book ahead for weekends and ask for a corner table when you do.",
+    sources: [
+      { label: "Dianping — 荔雅图 Li Chateau", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
