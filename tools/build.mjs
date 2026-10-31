@@ -3145,6 +3145,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 徐记海鲜（科技园店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "xiao-nan-ji",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Xiao Nan Ji",
+    nameZh: "小煵记·深圳本地菜",
+    locEn: "Nanxin Road, Nanshan",
+    locZh: "南新店",
+    cuisine: "Shenzhen local Cantonese",
+    cuisineZh: "粤菜・深圳本地菜",
+    price: "¥120–180 per person",
+    area: "Nanshan centre",
+    addressEn: "106 Nantai Building, Tianxia community, Nanshan — 490 m from Daxin station exit D",
+    addressZh: "南山区田厦社区南台大厦106（地铁1号线大新站D口步行约490米）",
+    tagline: "Seventeen years of Shenzhen local cooking, open until midnight, on the 2026 Must-Eat List.",
+    card: "2026 Must-Eat List, 4.4 from 12,800 reviews. Order the soy prawns, the salt-and-pepper fish, and the iced lemon tea.",
+    awards: [
+      { mark: "必", label: "Dianping Must-Eat List 2026", note: "2026 上榜餐厅" },
+      { mark: "4.4", label: "Dianping 4.4 / 5", note: "12,799 reviews at the time of listing" }
+    ],
+    story: [
+      "小煵记 has been cooking what it calls 深圳本地菜 for seventeen years — Shenzhen local food, which in practice means old Cantonese with a bit of Hakka and Chaozhou in it, cooked in a big, loud room that stays open until midnight.",
+      "The menu is built for sharing and for beer: soy-sauce prawns, salt-and-pepper nine-bar fish, black-bean chicken in a claypot, salt-baked baby crab. Nothing is plated for a photograph; everything is plated for a table of six.",
+      "It made the 2026 Must-Eat List, and the volume tells its own story — 12,799 reviews at 4.4, with the iced lemon tea outselling every dish (9,000 in six months). That is what a neighbourhood institution looks like: not a destination, a habit.",
+      "One practical thing: the room is busy from 6pm and stays busy. Go late rather than early."
+    ],
+    whyFamous: [
+      "2026 Dianping Must-Eat List — seventeen years in, still on it.",
+      "豉油皇大虾 — the most-ordered dish, 7,000 sold in six months.",
+      "Open until midnight, which in Nanshan is a public service.",
+      "A neighbourhood institution: 12,799 reviews, iced lemon tea outselling everything."
+    ],
+    quote: { text: "Not a destination — a habit. The lemon tea outsells every dish on the menu.", cite: "What the numbers say" },
+    dishes: [
+      {
+        zh: "豉油皇大虾",
+        en: "Prawns in Master Soy Sauce",
+        price: "¥94",
+        note: "The top order — 135 likes and 7,000 sold in six months. Shell-on, wok-heavy, sweet at the edges; eat them with your hands.",
+        tag: "No. 1"
+      },
+      {
+        zh: "椒盐九肚鱼",
+        en: "Salt-and-Pepper Bombay Duck",
+        price: "¥39",
+        note: "Nine-bar fish fried in a salt-and-pepper crust, soft enough to eat without noticing the bones. 5,000 sold in six months.",
+        tag: "No. 2"
+      },
+      {
+        zh: "豆豉鸡",
+        en: "Black-Bean Chicken",
+        price: "¥88",
+        note: "Claypot chicken with fermented black beans — skin caramelised, meat still juicy. The most Cantonese thing on the menu.",
+        tag: "No. 3"
+      },
+      {
+        zh: "冻柠茶",
+        en: "Iced Lemon Tea",
+        price: "¥18",
+        note: "9,000 sold in six months, more than any dish. Strong tea, lemon, crushed ice — the reason people come at midnight.",
+        tag: "Drink"
+      },
+      {
+        zh: "炒圣子皇",
+        en: "Wok-Fried Razor Clams",
+        price: "¥98",
+        note: "Fat clams, no grit, ginger and scallion. A test of the kitchen's seafood handling.",
+        tag: "Wok"
+      },
+      {
+        zh: "盐焗奄仔蟹",
+        en: "Salt-Baked Baby Mud Crab",
+        price: "¥138",
+        note: "Young crab baked in coarse salt; the roe turns to liquid butter. Order it in season.",
+        tag: "Crab"
+      },
+      {
+        zh: "咕噜肉",
+        en: "Sweet-and-Sour Pork",
+        price: "¥68",
+        note: "Crisp outside, sweet-sour balanced rather than cloying. The dish that tells you the wok is hot.",
+        tag: "Classic"
+      },
+      {
+        zh: "椒丝腐乳通菜",
+        en: "Water Spinach with Chilli and Fermented Bean Curd",
+        price: "",
+        note: "Morning glory fried with fermented bean curd — funky, salty, the correct vegetable for this table.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "芥兰炒双宝",
+        en: "Gai Lan with Two Delicacies",
+        price: "¥68",
+        note: "Chinese broccoli with two kinds of offal, wok-fried until the stems squeak.",
+        tag: "Vegetable"
+      },
+      {
+        zh: "南记煎鸭",
+        en: "Nan Ji Pan-Fried Duck",
+        price: "¥188",
+        note: "The house legacy dish: duck braised then pan-fried, dry outside rather than fatty. Order it for the table.",
+        tag: "Legacy"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing; the water spinach is market-priced. The set menus are the value: ¥190 for the two-person 本地炒菜 set and ¥390 for four. The 50-yuan voucher sells for ¥40.5.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Nanxin Road branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room on Nanxin Road, in Nanshan. The brand has other branches in Shenzhen; this page covers the original, which is the one on the Must-Eat List.",
+    sources: [
+      { label: "Dianping — 小煵记·深圳本地菜（南新店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
