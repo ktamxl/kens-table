@@ -3259,6 +3259,119 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 小煵记·深圳本地菜（南新店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "yuejinghui",
+    city: "shenzhen",
+    status: "want",
+    nameEn: "Yuejinghui Seafood Restaurant",
+    nameZh: "悦景汇海鲜酒家·粤菜·早茶",
+    locEn: "Yuehaimen, Nanshan",
+    locZh: "深圳首店",
+    cuisine: "Cantonese seafood and morning tea",
+    cuisineZh: "粤菜・早茶",
+    price: "¥240–350 per person",
+    area: "Science Park, Nanshan",
+    addressEn: "2–3/F, Caixun Technology Building, Nanshan — 90 m from Yuehaimen station exit E",
+    addressZh: "南山区彩讯科技大厦2—3楼（粤海门站E/F2出口，步行约90米）",
+    tagline: "Morning tea and banquet seafood on the second floor of a Nanshan office tower.",
+    card: "4.7 from 3,343 reviews, ¥238 a head. Order the pigeon, the shrimp dumpling, and the char siu — the dim sum is the reason to come early.",
+    awards: [
+      { mark: "4.7", label: "Dianping 4.7 / 5", note: "3,343 reviews at the time of listing" }
+    ],
+    story: [
+      "悦景汇 occupies the second and third floors of the Caixun Technology Building in Nanshan, ninety metres from Yuehaimen station. It is a proper Cantonese 酒家: white cloths, private rooms, ten-person tables, and a morning-tea service that runs from 09:30 to 15:00 before the seafood dinner shift begins.",
+      "The menu is a banquet menu, which means it is wider than it is deep. Cantonese classics — 红烧乳鸽, 秘制叉烧, 虾饺 — sit next to a Chaoshan clam dish, a Hunan stir-fry, and a Beijing-style fruitwood duck carved at the table. That range is normal for a room built to host family lunches and company dinners.",
+      "The dim sum is the reason to come early: the shrimp dumpling is ¥29 and properly made, and the crisp-topped char siu bun is worth the mess. In the evening the duck and the herbal chicken take over.",
+      "One quirk: the Dianping list includes the fruitwood duck twice, as 烤鸭 and 片皮鸭. It is one order — carved at the table — so do not order both."
+    ],
+    whyFamous: [
+      "Morning tea from 09:30 to 15:00, in a district where that is rare.",
+      "4.7 across 3,343 reviews — a banquet room that still satisfies à la carte diners.",
+      "Fruitwood duck carved at the table, and a ¥29 shrimp dumpling that punches above it.",
+      "A genuinely wide menu: Cantonese, Chaoshan, Hunan and Beijing in one kitchen."
+    ],
+    quote: { text: "Come for yum cha, stay for the duck. Do not order the duck twice.", cite: "How to eat here" },
+    dishes: [
+      {
+        zh: "红烧乳鸽",
+        en: "Red-Braised Pigeon",
+        price: "¥68",
+        note: "The top order: braised then glazed, skin sticky, meat still pink. The best value on a banquet menu.",
+        tag: "No. 1"
+      },
+      {
+        zh: "悦景汇虾饺皇",
+        en: "Yuejinghui Shrimp Dumpling",
+        price: "¥29",
+        note: "Wrapper translucent enough to see the shrimp through it. Three to a basket — order two baskets.",
+        tag: "No. 2"
+      },
+      {
+        zh: "秘制叉烧",
+        en: "Secret-Recipe Char Siu",
+        price: "¥128",
+        note: "Thick-cut, charred at the edges, honeyed but not sweet. The dish to judge the barbecue section by.",
+        tag: "No. 3"
+      },
+      {
+        zh: "金不换炒薄壳",
+        en: "Wok-Fried Clams with Thai Basil",
+        price: "¥68",
+        note: "A Chaoshan dish — tiny clams, Thai basil, a lot of wok heat. Order it with beer.",
+        tag: "No. 4"
+      },
+      {
+        zh: "农家小炒肉",
+        en: "Farmhouse Stir-Fried Pork",
+        price: "¥68",
+        note: "Hunan-style, chilli-heavy, thin pork with green peppers. The one non-Cantonese dish everyone orders.",
+        tag: "No. 5"
+      },
+      {
+        zh: "酥皮叉烧包",
+        en: "Crisp-Topped Char Siu Bun",
+        price: "¥84",
+        note: "A thousand-layer crust over char siu — the pastry shatters when you pick it up. Share, or wear it.",
+        tag: "No. 6"
+      },
+      {
+        zh: "果木烤鸭",
+        en: "Fruitwood Roast Duck",
+        price: "¥238",
+        note: "Carved at the table, skin first. The room's showpiece and the reason to book a big table.",
+        tag: "No. 7"
+      },
+      {
+        zh: "药膳水晶鸡",
+        en: "Herbal Crystal Chicken",
+        price: "¥256",
+        note: "Poached chicken in a herb broth, served cold. Skin springy, meat faintly medicinal — in the right way.",
+        tag: "No. 8"
+      },
+      {
+        zh: "西柚汁焗生蚝",
+        en: "Baked Oyster with Grapefruit Juice",
+        price: "¥69",
+        note: "Oyster baked under a citrus crust. The acidity cuts the cheese and the oyster's richness.",
+        tag: "No. 9"
+      },
+      {
+        zh: "果木烤片皮鸭",
+        en: "Fruitwood Sliced Duck (same duck, second listing)",
+        price: "¥238",
+        note: "The app lists the duck twice, once as 烤鸭 and once as 片皮鸭. It is one order, carved at the table — do not order both.",
+        tag: "Duplicate"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The set menus are the value: ¥180 for the two-to-three-person Chaozhou set, ¥480 for the four-person dim sum set, and ¥3,680 for the ten-person banquet. The 100-yuan voucher sells for ¥84.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Shenzhen first store — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Shenzhen first store, next to Yuehaimen station. The group runs banquet rooms in other cities; this page covers the Shenzhen one.",
+    sources: [
+      { label: "Dianping — 悦景汇海鲜酒家（深圳首店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
