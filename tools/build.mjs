@@ -4864,6 +4864,125 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 喜势滚·花胶鸡海鲜火锅（天河店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "tao-tao-ju",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Tao Tao Ju",
+    nameZh: "陶陶居酒家",
+    locEn: "Dishi Pu Road — the original 1880 shop",
+    locZh: "第十甫路总店",
+    cuisine: "Cantonese teahouse, dim sum",
+    cuisineZh: "粤式茶点",
+    price: "¥102 per person",
+    area: "Shangxiajiu, Liwan",
+    addressEn: "20 Dishi Pu Road, Liwan — 400 m from Huangsha station exit B",
+    addressZh: "荔湾区第十甫路20号（黄沙站B口步行约400米）",
+    tagline: "Guangzhou's oldest teahouse, still hand-making dim sum at 146 years old — and 45,000 people have reviewed it.",
+    card: "Founded 1880, 4.6 from 45,049 reviews, ¥102 a head. Eight straight years on the Must-Eat List. Order the prawn dumpling and the iced sweet-and-sour pork.",
+    awards: [
+      { mark: "必", label: "Dianping Must-Eat List 2026", note: "2026 必吃榜 · 连续 8 年上榜" },
+      { mark: "3", label: "No. 3 Prawn Dumpling in Guangzhou", note: "Dianping 王牌菜 · 广州虾饺榜" },
+      { mark: "米", label: "Michelin Guangzhou Recommendation", note: "连续 5 年 · 广州美食地标" }
+    ],
+    story: [
+      "陶陶居 opened in 1880 on 第十甫路 in Xiguan, and it is the oldest teahouse still trading in Guangzhou. The signboard over the door is attributed to 康有为; 鲁迅 ate here in 1927 and wrote it into his diary. It has been on Dianping for twenty-two years and has 45,049 reviews — a number no other Cantonese restaurant on this site comes close to.",
+      "What it sells is not nostalgia. The kitchen still hand-makes dim sum daily, the prawn dumpling is ranked third in Guangzhou, and the restaurant has appeared on the Must-Eat List for eight consecutive years and in the Michelin Guangzhou guide for five.",
+      "The menu runs from ¥24 to ¥98 with almost nothing in between that is not worth ordering: iced sweet-and-sour pork with a cold crust and hot centre, a century-old roast goose, a durian swan pastry, and a hollow sugar puff that collapses when you pick it up.",
+      "Come at 8am for the tea service, or after 5pm for the goose. The queue system is real — take a number and walk around Shangxiajiu while you wait."
+    ],
+    whyFamous: [
+      "Founded 1880 — the oldest teahouse in Guangzhou still operating.",
+      "Eight consecutive years on the Dianping Must-Eat List; five in the Michelin guide.",
+      "The No. 3 prawn dumpling in the city, at ¥36.",
+      "45,049 reviews. Nothing else in Guangzhou Cantonese cooking is reviewed at that scale."
+    ],
+    quote: { text: "Eight straight years on the Must-Eat List, and the dumpling still costs ¥36.", cite: "Reading the numbers" },
+    dishes: [
+      {
+        zh: "陶陶居大虾饺",
+        en: "Tao Tao Ju Prawn Dumpling",
+        price: "¥36",
+        note: "No. 3 prawn dumpling in Guangzhou, and the most-liked dish here by a distance — 453 likes. Wrapper thin enough to see the shrimp through.",
+        tag: "No. 1"
+      },
+      {
+        zh: "锦绣海鲜红米肠",
+        en: "Seafood Rice-Noodle Roll",
+        price: "¥36",
+        note: "Red rice-noodle sheet around shrimp and crisp fritter. Soft outside, shattering inside — the best texture contrast on the menu.",
+        tag: "No. 2"
+      },
+      {
+        zh: "百搭酱皇蒸凤爪",
+        en: "Steamed Chicken Feet in Supreme Sauce",
+        price: "¥31",
+        note: "Falls off the bone, sauce deep and savoury rather than sweet. The dim sum that tells you whether the kitchen is awake.",
+        tag: "No. 3"
+      },
+      {
+        zh: "冰镇咕噜肉",
+        en: "Iced Sweet-and-Sour Pork",
+        price: "¥78",
+        note: "Served over ice: the crust stays cold and crisp while the pork inside is hot. The trick dish, and it works.",
+        tag: "No. 4"
+      },
+      {
+        zh: "百年陶陶居烧鹅",
+        en: "Century Roast Goose",
+        price: "¥98",
+        note: "The house goose, skin roasted to a dark gold. Order the lower half if you like fat, the breast if you do not.",
+        tag: "No. 5"
+      },
+      {
+        zh: "卡珍芝士糯米鸡",
+        en: "Cheese Glutinous Rice Chicken",
+        price: "¥36",
+        note: "A modern addition — cheese pulling over sticky rice and chicken. Not traditional, and the table will finish it anyway.",
+        tag: "No. 6"
+      },
+      {
+        zh: "鲜果榴莲天鹅酥",
+        en: "Durian Swan Pastry",
+        price: "¥30",
+        note: "Swan-shaped, filled with durian. The most photographed plate in the room; order it for the person who claims not to like durian.",
+        tag: "No. 7"
+      },
+      {
+        zh: "一口脆豆腐",
+        en: "Crisp Tofu Bites",
+        price: "¥32",
+        note: "Silken tofu in a breadcrumb shell, fried to order. Dip in the chilli sauce, not the salt.",
+        tag: "No. 8"
+      },
+      {
+        zh: "冰花沙翁",
+        en: "Ice-Flower Sachima Puff",
+        price: "¥24",
+        note: "A hollow sugar-dusted puff that collapses on contact. The cheapest thing worth ordering twice.",
+        tag: "No. 9"
+      },
+      {
+        zh: "啫啫生菜煲",
+        en: "Sizzling Lettuce Claypot",
+        price: "¥48",
+        note: "Lettuce hit with shrimp paste in a hot claypot — the lid comes off hissing. Order it to cut the richness.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The ¥350 set feeds four for dim sum; the 100-yuan voucher sells for ¥87. Tea is charged per person on top.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Dishi Pu Road original — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [
+      { city: "Guangzhou", name: "陶陶居（正佳广场店）", en: "Zhengjia Plaza", note: "Same city, mall branch — easier to book, shorter queue." },
+      { city: "Shenzhen", name: "陶陶居（深圳）", en: "Shenzhen branches", note: "Several in Shenzhen; this page covers the 1880 shop." }
+    ],
+    singleNote: "The original shop on 第十甫路 is the one to go to. Mall branches are convenient; they are not the same room.",
+    sources: [
+      { label: "Dianping — 陶陶居酒家（第十甫路总店）", url: "https://www.dianping.com/" },
+      { label: "Michelin Guide — Guangzhou", url: "https://guide.michelin.com/" }
+    ]
   }
 ];
 
