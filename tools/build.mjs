@@ -3831,6 +3831,120 @@ const RESTAURANTS = [
       { label: "Dianping — 利苑酒家（宜安广场店）", url: "https://www.dianping.com/" },
       { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
     ]
+  },
+{
+    slug: "dongyuan",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Dongyuan",
+    nameZh: "东园·广州味·点心与烧鹅",
+    locEn: "Tianyu Plaza, Tianhe",
+    locZh: "天娱广场店",
+    cuisine: "Guangzhou Cantonese",
+    cuisineZh: "广州菜",
+    price: "¥90–130 per person",
+    area: "Shipai / Longkou, Tianhe",
+    addressEn: "11/F West Tower, Tianyu Plaza, Tianhe — 40 m from Gangding station exit A",
+    addressZh: "天河区天娱广场西塔11楼（岗顶站A口步行约40米）",
+    tagline: "Tile-kiln roast goose with a rule: not sold more than 45 minutes out of the oven.",
+    card: "No. 1 Guangzhou restaurant in Tianhe for repeat customers, 4.8 from 10,300 reviews, ¥90 a head. Order the goose and the choy sum.",
+    awards: [
+      { mark: "1", label: "No. 1 Guangzhou Restaurant in Tianhe", note: "Dianping 回头客榜 — repeat customers" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "10,303 reviews at the time of listing" }
+    ],
+    story: [
+      "东园 is on the eleventh floor of Tianyu Plaza's west tower, forty metres from Gangding station — an unlikely address for a roast goose specialist until you get out of the lift and the whole floor smells of the kiln.",
+      "The banner makes two claims: 瓦窑烧鹅, tile-kiln roast goose, and 出炉超45分不卖 — nothing sold more than 45 minutes after it leaves the oven. That second rule is worth more than a star: it is why the skin still crackles when the plate reaches you.",
+      "It has been open three years and is No. 1 in Tianhe for repeat customers, with 4.8 across 10,303 reviews at ¥90 a head. Morning tea runs from 08:30, dinner from 17:00; the goose is the constant.",
+      "The rest of the menu is Guangzhou home cooking with a few playful notes — guava and green plum on the prawns, mint and strawberry on the char siu, a koi-shaped jelly in the mango sago. The kitchen is having fun; the classics are still done straight."
+    ],
+    whyFamous: [
+      "4,540 likes on the roast goose — the most-liked dish across every page on this site.",
+      "The 45-minute rule: goose is not sold more than 45 minutes after roasting.",
+      "No. 1 Guangzhou restaurant in Tianhe for repeat customers.",
+      "Old-style wok cooking on the vegetables: 生炒 choy sum rather than blanched."
+    ],
+    quote: { text: "Forty-five minutes out of the oven or it does not leave the kitchen. That is the whole pitch.", cite: "The house rule" },
+    dishes: [
+      {
+        zh: "东园果木烧鹅",
+        en: "Dongyuan Fruitwood Roast Goose",
+        price: "¥88",
+        note: "4,540 likes — the most-liked dish on any page in this list. Fruitwood-roasted, skin crackling, meat juicy; the plum sauce cuts the fat.",
+        tag: "No. 1"
+      },
+      {
+        zh: "大师傅生炒宁夏菜心",
+        en: "Wok-Fried Ningxia Choy Sum",
+        price: "¥48",
+        note: "Stir-fried rather than blanched, so the stems stay crisp and the leaves char slightly. The best vegetable order in the room.",
+        tag: "No. 2"
+      },
+      {
+        zh: "缤纷四季咕噜肉",
+        en: "Four-Season Sweet-and-Sour Pork",
+        price: "¥59",
+        note: "Crisp pork with seasonal fruit — pineapple, strawberry, whatever is in. Sharper and less sugary than the classic.",
+        tag: "No. 3"
+      },
+      {
+        zh: "红芭乐青梅焗罗氏虾",
+        en: "Baked Prawns with Guava and Green Plum",
+        price: "¥98",
+        note: "Prawns baked under a fruit-sour glaze. The oddest dish on the list and one of the best — order it if you like sharp flavours.",
+        tag: "No. 4"
+      },
+      {
+        zh: "脆椒一口牛",
+        en: "Crisp Chilli Beef Cubes",
+        price: "¥98",
+        note: "Beef cubes with dried chilli and asparagus, cooked fast so the inside stays soft. Eats like a steak, costs like a stir-fry.",
+        tag: "No. 5"
+      },
+      {
+        zh: "奶酪烤贝贝瓜",
+        en: "Baked Baby Pumpkin with Cheese",
+        price: "¥26",
+        note: "Sweet pumpkin under melted cheese. Sounds wrong, works — the cheapest thing on the list and the one children fight over.",
+        tag: "No. 6"
+      },
+      {
+        zh: "锦鲤阿达子杨枝甘露",
+        en: "Koi Mango Pomelo Sago",
+        price: "¥28",
+        note: "Mango pomelo sago with a koi-shaped jelly. The dessert the room photographs; the mango is genuinely good.",
+        tag: "No. 7"
+      },
+      {
+        zh: "葱蒜油浸笋壳鱼",
+        en: "Fish Poached in Scallion and Garlic Oil",
+        price: "¥179",
+        note: "Whole fish in hot scallion oil — crisp outside, soft inside, the oil carrying the aromatics. The most expensive savoury dish here.",
+        tag: "No. 8"
+      },
+      {
+        zh: "薄荷黑金叉烧",
+        en: "Mint and Black-Gold Char Siu",
+        price: "¥79",
+        note: "Char siu glazed dark and finished with mint and strawberry. A gimmick that earns its place — the mint cuts the glaze.",
+        tag: "No. 9"
+      },
+      {
+        zh: "东园果木烧鹅拼玉米",
+        en: "Roast Goose with Sweetcorn",
+        price: "¥106",
+        note: "The goose again, plated with corn — the app lists it separately, but it is the same bird. Order the plain goose unless you want the corn.",
+        tag: "Duplicate"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The sets are the value: ¥172 for the two-to-three-person 东园豪华餐, ¥250 for the four-person autumn tasting menu, and ¥378 for the four-person dim sum set (valid at all branches).",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Tianyu Plaza branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Tianyu Plaza room, in Tianhe. The brand has other branches in Guangzhou — this page covers the one at the top of the repeat-customer chart.",
+    sources: [
+      { label: "Dianping — 东园·广州味·点心与烧鹅（天娱广场店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
