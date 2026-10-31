@@ -4404,6 +4404,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 广式早茶（广州施柏阁大观酒店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "mentang-claypot",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Mentang Sizzling Claypot",
+    nameZh: "门堂啫啫煲",
+    locEn: "Tianhe South Road",
+    locZh: "天河南店",
+    cuisine: "Cantonese claypot",
+    cuisineZh: "广州菜・啫啫煲",
+    price: "¥99–150 per person",
+    area: "Zhengjia Plaza, Tianhe",
+    addressEn: "G/F North Gate, Hongfa Building, 19–21 Tianhe South 2nd Road, Tianhe — 120 m from Shipaiqiao station exit A",
+    addressZh: "天河区天河南二路19、21号宏发大厦首层北门旁（石牌桥站A口步行约120米）",
+    tagline: "One technique, 188 dishes: everything arrives hissing in a claypot.",
+    card: "No. 1 Cantonese restaurant in the Zhengjia Plaza chart, 4.8 from 4,469 reviews, ¥99 a head. Order the sand-ginger chicken and the claypot rice.",
+    awards: [
+      { mark: "1", label: "No. 1 Cantonese Restaurant, Zhengjia Plaza", note: "Dianping 热门榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "4,469 reviews at the time of listing" }
+    ],
+    story: [
+      "门堂啫啫煲 is built on a single technique. 啫啫 is the sound a claypot makes when very hot oil meets wet ingredients — the pot is heated until it is almost smoking, the food goes in, and it finishes cooking at the table while the lid is still rattling.",
+      "That constraint explains the menu: 188 recommended dishes, almost all of them some version of the same idea. Chicken with sand ginger, beef shank with basil, pork neck with pickled chilli, eel, intestine, prawns, fish. The kitchen is not varying the method; it is varying what goes into the pot.",
+      "It is No. 1 in the Zhengjia Plaza Cantonese chart at ¥99 a head, with 4.8 across 4,469 reviews. The sand-ginger chicken alone sold 10,000 portions in six months — in a city that eats a lot of chicken.",
+      "The other thing worth ordering is the 腊味煲仔饭: rice, cured sausage and preserved pork, with the crust scraped up at the end. It is a different claypot, cooked a different way, and it is a local speciality."
+    ],
+    whyFamous: [
+      "Everything arrives hissing — 啫啫 is the technique and the brand.",
+      "Sand-ginger chicken: 10,000 portions sold in six months.",
+      "No. 1 Cantonese restaurant in the Zhengjia Plaza chart.",
+      "Claypot rice with cured meats, ordered alongside the sizzling dishes."
+    ],
+    quote: { text: "The pot keeps cooking at the table. Eat from the edges first.", cite: "How to eat 啫啫" },
+    dishes: [
+      {
+        zh: "沙姜啫走地鸡",
+        en: "Sizzling Free-Range Chicken with Sand Ginger",
+        price: "¥78",
+        note: "The house dish and the volume leader — 10,000 sold in six months. Sand ginger is sharper than ordinary ginger; it cuts the chicken fat cleanly.",
+        tag: "No. 1"
+      },
+      {
+        zh: "九层塔香茅啫牛展",
+        en: "Sizzling Beef Shank with Basil and Lemongrass",
+        price: "¥88",
+        note: "Beef shank braised then finished in the pot with basil and lemongrass. The aromatics hit you before the plate lands.",
+        tag: "No. 2"
+      },
+      {
+        zh: "五彩椒泡菜啫猪颈肉",
+        en: "Sizzling Pork Neck with Pickled Peppers",
+        price: "¥58",
+        note: "Pork neck — the fatty, springy cut — with pickled chilli for acid. Mildly hot, and the best value in the top three.",
+        tag: "No. 3"
+      },
+      {
+        zh: "啫黄鳝",
+        en: "Sizzling Eel",
+        price: "¥88",
+        note: "Eel cut into lengths, cooked hard in the pot until the skin blisters. The most Cantonese order on the menu.",
+        tag: "No. 4"
+      },
+      {
+        zh: "腊味煲仔饭",
+        en: "Claypot Rice with Cured Meats",
+        price: "¥48",
+        note: "The other claypot: rice, lap cheong, preserved pork, and a crust at the bottom worth scraping. A local speciality.",
+        tag: "No. 5"
+      },
+      {
+        zh: "藤椒啫牛蛙",
+        en: "Sizzling Bullfrog with Sichuan Pepper",
+        price: "¥58",
+        note: "Numbing rather than hot, with frog leg meat that stays springy. Order it if you want heat without chilli oil.",
+        tag: "No. 6"
+      },
+      {
+        zh: "金牌啫大肠",
+        en: "Signature Sizzling Pork Intestine",
+        price: "¥78",
+        note: "Cleaned properly, no off note, crisp at the edges and soft inside. The dish that separates the kitchen from its competitors.",
+        tag: "No. 7"
+      },
+      {
+        zh: "虾酱香茅啫罗氏虾",
+        en: "Sizzling Prawns with Shrimp Paste and Lemongrass",
+        price: "¥128",
+        note: "The most expensive thing in the ten: prawns in fermented shrimp paste, shells licked clean by the pot. Order it with rice.",
+        tag: "No. 8"
+      },
+      {
+        zh: "黄椒酱焗黄花鱼",
+        en: "Baked Yellow Croaker with Yellow Pepper Sauce",
+        price: "¥88",
+        note: "Fish baked under a fermented yellow-pepper sauce — sour, savoury, not as hot as it looks.",
+        tag: "No. 9"
+      },
+      {
+        zh: "百秒黄花鱼",
+        en: "Hundred-Second Yellow Croaker",
+        price: "¥38",
+        note: "Steamed for a hundred seconds, no more. The cheapest way to eat fish here and the one that shows the kitchen's timing.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The sets are the value: ¥258 for the two-person 啫煲 set, ¥200 for the 'good times' two-person set, ¥361 for three, and ¥461 for the four-pot set. Vouchers: 100 for 85, and a 300-minus-30 coupon.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Tianhe South branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Tianhe South room, near Shipaiqiao. The brand has other branches in Guangzhou; this is the one at the top of the Zhengjia Plaza chart.",
+    sources: [
+      { label: "Dianping — 门堂啫啫煲（天河南店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
