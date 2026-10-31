@@ -4174,6 +4174,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 烈焰·纯血和牛烧肉（黑金店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "yue-xing-qi",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Yue Xing Qi Seafood Dai Pai Dong",
+    nameZh: "粤兴起超级海鲜大排档",
+    locEn: "Ersha Island",
+    locZh: "二沙岛店",
+    cuisine: "Cantonese seafood, dai pai dong",
+    cuisineZh: "海鲜・大排档",
+    price: "¥105–200 per person",
+    area: "Ersha Island / Yanjiang Road",
+    addressEn: "G/F, 43 Qingbo Road, Ersha Island — 150 m from Haixinsha Park",
+    addressZh: "二沙岛晴波路43号首层（海心沙公园步行约150米）",
+    tagline: "A seafood dai pai dong on Ersha Island, open until 1:30 in the morning.",
+    card: "No. 1 seafood restaurant for taste on Ersha Island, 4.8 from 1,907 reviews, ¥105 a head. Order the mantis shrimp and the prawns with roe.",
+    awards: [
+      { mark: "1", label: "No. 1 Seafood Restaurant for Taste, Ersha Island", note: "Dianping 口味榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "1,907 reviews at the time of listing" },
+      { mark: "荐", label: "Locals Recommend", note: "962 local reviews — 当地人推荐" }
+    ],
+    story: [
+      "粤兴起 is a 大排档 in the proper sense: tanks at the front, plastic stools, woks going hard, and a crowd that arrives after nine and stays past midnight. It sits on Qingbo Road on Ersha Island, a hundred and fifty metres from Haixinsha Park, and it opens at five in the evening and closes at half past one.",
+      "The seafood is the point. Mantis shrimp the length of a forearm, Sri Lankan crab under a mountain of fried garlic, a six-catty Boston lobster wok-fried with ginger and scallion. Prices are by weight for the big items, so ask before the tank bag closes.",
+      "It is No. 1 on Ersha Island for seafood taste, 4.8 across 1,907 reviews, and — unusually — reviewed by locals rather than tourists: 962 local recommendations.",
+      "The non-seafood dishes are not an afterthought. The honey roast goose, the sizzling chicken claypot and the ¥38 fried rice noodles are what the regulars order alongside the shellfish."
+    ],
+    whyFamous: [
+      "Arm-length Thai mantis shrimp, cut at the table.",
+      "No. 1 seafood restaurant for taste on Ersha Island, with 962 local recommendations.",
+      "Open until 01:30 — the late-night seafood room in this part of the city.",
+      "Big-ticket crab and lobster priced by weight, cooked Cantonese-style rather than drowned in sauce."
+    ],
+    quote: { text: "Ask the weight before the tank bag closes. Then order the mantis shrimp anyway.", cite: "How to order" },
+    dishes: [
+      {
+        zh: "中号泰国手臂爆肉濑尿虾",
+        en: "Thai Arm-Sized Mantis Shrimp",
+        price: "¥188",
+        note: "The signature: a mantis shrimp the length of your forearm, cut open at the table so you can pull the meat out in one piece.",
+        tag: "No. 1"
+      },
+      {
+        zh: "啫啫走地鸡",
+        en: "Sizzling Free-Range Chicken",
+        price: "¥78",
+        note: "Claypot chicken with ginger and spring onion, still bubbling when it lands. 700+ sold in six months.",
+        tag: "No. 2"
+      },
+      {
+        zh: "兴起蜜汁烧鹅",
+        en: "Yue Xing Qi Honey Roast Goose",
+        price: "¥98",
+        note: "Honey-glazed, roasted dark, skin crisp under the glaze. The non-seafood order everyone still makes.",
+        tag: "No. 3"
+      },
+      {
+        zh: "美极爆膏罗氏虾",
+        en: "Prawns with Roe in Maggi Sauce",
+        price: "¥138",
+        note: "Prawns split and flash-fried in Maggi, roe still soft. 1,000+ sold in six months — the most-ordered dish in volume.",
+        tag: "No. 4"
+      },
+      {
+        zh: "鸡蛋炒米粉",
+        en: "Egg Fried Rice Noodles",
+        price: "¥38",
+        note: "Wok-fried rice noodles with egg and bean sprouts. The cheap order that soaks up everything else.",
+        tag: "No. 5"
+      },
+      {
+        zh: "姜葱炒波龙",
+        en: "Boston Lobster with Ginger and Scallion",
+        price: "¥298",
+        note: "A six-catty lobster wok-fried with ginger and scallion — the classic Cantonese treatment, no cheese, no sauce.",
+        tag: "No. 6"
+      },
+      {
+        zh: "避风塘斯里兰卡蟹",
+        en: "Typhoon-Shelter Sri Lankan Crab",
+        price: "¥750",
+        note: "The showpiece: crab buried under fried garlic and chilli. Priced by weight — confirm before it goes in the tank.",
+        tag: "No. 7"
+      },
+      {
+        zh: "怀旧咕噜肉",
+        en: "Nostalgic Sweet-and-Sour Pork",
+        price: "¥58",
+        note: "Crisp shell, hot pineapple, sauce balanced sharp rather than sugary. The dish that tells you the wok is hot.",
+        tag: "No. 8"
+      },
+      {
+        zh: "蒜蓉生蚝",
+        en: "Grilled Oysters with Garlic",
+        price: "¥19.8",
+        note: "Fat oysters under garlic, grilled until the edges curl. At ¥19.8, order a round for the table.",
+        tag: "No. 9"
+      },
+      {
+        zh: "椒盐牛蛙",
+        en: "Salt-and-Pepper Bullfrog",
+        price: "¥68",
+        note: "Crisp, peppery, springy. 800+ sold in six months, and the best beer food on the menu.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. Crab and lobster are market-priced by weight — confirm at the table. The 100-yuan voucher sells for ¥87 and up to ten can be used per table.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Ersha Island branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room on Qingbo Road, Ersha Island. The brand has other dai pai dong in Guangzhou; this is the one at the top of the island's taste chart.",
+    sources: [
+      { label: "Dianping — 粤兴起超级海鲜大排档（二沙岛店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
