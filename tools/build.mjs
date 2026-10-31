@@ -3945,6 +3945,120 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 东园·广州味·点心与烧鹅（天娱广场店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "mao-kaiseki",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Mao Kaiseki",
+    nameZh: "茂·会席料理·OMAKASE·烧鸟·天妇罗",
+    locEn: "Guangyue Tiandi, Zhujiang New Town",
+    locZh: "广粤天地店",
+    cuisine: "Japanese kaiseki / omakase",
+    cuisineZh: "日本料理・会席",
+    price: "¥500–860 per person",
+    area: "Xingsheng Road / Racecourse, Tianhe",
+    addressEn: "Shop 80, North Gate, Guangyue Tiandi, 5-43 Qingfeng Street, Zhujiang New Town — 730 m from Tancun station exit A",
+    addressZh: "珠江新城清风街5-43号广粤天地北门80铺（特斯拉旁，潭村站A口步行约730米）",
+    tagline: "A small omakase room in Guangyue Tiandi — 126 reviews, second in the district for taste.",
+    card: "Second in the district's Japanese taste chart, ¥502 a head. Book the ¥530 omakase and add the ¥20 kinmedai.",
+    awards: [
+      { mark: "2", label: "No. 2 Japanese Restaurant for Taste, Xingsheng Road", note: "Dianping 口味榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "126 reviews — a small, young room" }
+    ],
+    story: [
+      "茂 is a small Japanese room in Guangyue Tiandi, behind the north gate near the Tesla showroom — the kind of address that exists for people who already know it. Eleven-thirty to two, five-thirty to eleven, private rooms, phone booking only.",
+      "It runs omakase rather than an à la carte menu: ¥530 for the 甄选 set, ¥860 for the 极上, and lunch sets at ¥240 (yakitori and sushi) and ¥282 (twelve pieces of sushi). The kitchen also does yakitori and tempura, which is why the name lists all three.",
+      "The reviews are few — 126 — so treat the 4.8 as promising rather than proven. What is proven is the taste ranking: No. 2 in the Xingsheng Road Japanese chart, which is a district with a lot of Japanese restaurants.",
+      "Order the ¥530 set and add the ¥20 kinmedai sushi and the ¥38 sesame ice cream. That is the useful version of this restaurant."
+    ],
+    whyFamous: [
+      "No. 2 for taste in the Xingsheng Road Japanese chart.",
+      "Omakase from ¥530, with a ¥860 极上 menu built around wagyu and truffle.",
+      "Bluefin tuna with foie gras — the dish at the top of the list.",
+      "Lunch sets at ¥240–282, which is how to try it without the dinner spend."
+    ],
+    quote: { text: "Book the ¥530 set, add the ¥20 kinmedai. That is the useful version.", cite: "How to order" },
+    dishes: [
+      {
+        zh: "蓝鳍金枪鱼配法国鹅肝",
+        en: "Bluefin Tuna with French Foie Gras",
+        price: "",
+        note: "The top order, served inside the ¥530 omakase. Tuna and foie gras on the same bite — rich against rich, cut by a little acid.",
+        tag: "No. 1"
+      },
+      {
+        zh: "海胆",
+        en: "Sea Urchin",
+        price: "",
+        note: "Fresh urchin, no garnish beyond salt. Comes in the set; the sweetness is the point.",
+        tag: "No. 2"
+      },
+      {
+        zh: "日本星鳗配泰国香菜",
+        en: "Japanese Anago with Thai Coriander",
+        price: "",
+        note: "Conger eel brushed with sweet soy, coriander on top. The coriander is the surprise — it lifts the glaze.",
+        tag: "No. 3"
+      },
+      {
+        zh: "海胆手卷",
+        en: "Sea Urchin Hand Roll",
+        price: "",
+        note: "Nori, warm rice, urchin. Eat it the second it reaches you — the nori softens fast.",
+        tag: "No. 4"
+      },
+      {
+        zh: "黑松露和牛",
+        en: "Black Truffle Wagyu",
+        price: "",
+        note: "From the ¥860 极上 set: seared wagyu with shaved truffle. The most expensive thing the kitchen serves.",
+        tag: "No. 5"
+      },
+      {
+        zh: "自家制甜品",
+        en: "House-Made Dessert",
+        price: "¥38",
+        note: "Sesame ice cream, churned in-house — nutty, not too sweet. The only dessert on the list you can order alone.",
+        tag: "No. 6"
+      },
+      {
+        zh: "金鲷",
+        en: "Kinmedai (Golden Snapper) Sushi",
+        price: "¥20",
+        note: "One piece, seared skin side, served warm. The cheapest single item and the best value.",
+        tag: "No. 7"
+      },
+      {
+        zh: "本鲔寿司",
+        en: "Hon-Maguro Sushi",
+        price: "¥38",
+        note: "Bluefin akami, aged briefly, rice packed loose. The 12-course lunch is built around this.",
+        tag: "No. 8"
+      },
+      {
+        zh: "海螺刺身",
+        en: "Conch Sashimi",
+        price: "",
+        note: "Sliced thin, crunchy, served cold. A texture course between the fatty fish.",
+        tag: "No. 9"
+      },
+      {
+        zh: "黑松露茶碗蒸",
+        en: "Black Truffle Chawanmushi",
+        price: "¥48",
+        note: "Steamed egg with truffle oil — soft, savoury, the dish to order if you want something warm between sashimi.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Most of the top ten are courses inside the omakase, so they carry no separate price. The ¥240 lunch set (yakitori and sushi) and ¥282 twelve-piece sushi set are the value entries; the 100-yuan voucher sells for ¥82.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Guangyue Tiandi branch — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room at the north gate of Guangyue Tiandi. Book ahead — it is small, and the counter is the point.",
+    sources: [
+      { label: "Dianping — 茂·会席料理（广粤天地店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
