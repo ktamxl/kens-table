@@ -4059,6 +4059,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 茂·会席料理（广粤天地店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "lieyan-yakiniku",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Lieyan Yakiniku",
+    nameZh: "烈焰·纯血和牛烧肉",
+    locEn: "Zhujiang New Town",
+    locZh: "黑金店",
+    cuisine: "Japanese yakiniku / wagyu",
+    cuisineZh: "日式烧肉・和牛",
+    price: "¥390–700 per person",
+    area: "Zhujiang New Town, Tianhe",
+    addressEn: "2/F, Kaihua International Centre, 5 Xiancun Road, Zhujiang New Town — next to the Ritz-Carlton, 300 m from Opera House station exit B",
+    addressZh: "珠江新城冼村路5号凯华国际中心2楼（丽思卡尔顿酒店旁，大剧院站B口步行约300米）",
+    tagline: "Australian pure-blood wagyu, grilled at the table, from ¥58 fried rice to a ¥1,988 golden bull.",
+    card: "No. 2 yakiniku restaurant in Zhujiang New Town for taste, 4.8 from 2,682 reviews. Order the short rib and the wagyu fried rice.",
+    awards: [
+      { mark: "2", label: "No. 2 Yakiniku Restaurant in Zhujiang New Town", note: "Dianping 口味榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "2,682 reviews at the time of listing" },
+      { mark: "美", label: "Dianping 漂亮饭", note: "Listed for presentation as well as food" }
+    ],
+    story: [
+      "烈焰 is a wagyu yakiniku room on the second floor of the Kaihua International Centre, next to the Ritz-Carlton in Zhujiang New Town. Four years old, private rooms, free parking, and open until midnight — which in this district is the real luxury.",
+      "The beef is Australian pure-blood wagyu, and the menu is built around cuts rather than courses: thick-cut marbled rib, short rib, outside skirt, ribeye. The grill is at the table and the staff will cook the first piece for you, which is worth accepting.",
+      "The pricing is deliberately wide. 和牛炒饭 at ¥58 and a ¥198 wagyu flower make it possible to eat here without spending ¥400; the 至尊金牛 at ¥1,988 is a platter on a golden bull, ordered for birthdays and photographed by everyone in the room.",
+      "It is No. 2 in Zhujiang New Town for yakiniku taste, with 4.8 across 2,682 reviews. Book for dinner — the room fills after eight."
+    ],
+    whyFamous: [
+      "Australian pure-blood wagyu, cut and grilled at the table.",
+      "No. 2 for yakiniku taste in Zhujiang New Town.",
+      "The ¥1,988 golden-bull platter and the blue-flame ribeye — theatre with good beef underneath.",
+      "A ¥58 wagyu fried rice that makes the restaurant accessible."
+    ],
+    quote: { text: "Let the staff cook the first piece. Then take over.", cite: "How to eat here" },
+    dishes: [
+      {
+        zh: "本物红罐牛肉",
+        en: "Red-Jar Beef",
+        price: "",
+        note: "The top order: thin-sliced beef brought in a red jar and grilled at the table. One bite, a lot of juice — the cheapest way to taste the beef.",
+        tag: "No. 1"
+      },
+      {
+        zh: "霜降厚切和牛",
+        en: "Thick-Cut Marbled Wagyu",
+        price: "¥498",
+        note: "Cut thick, grilled rare, finished with sea salt and pepper only. The purest expression of the beef on the menu.",
+        tag: "No. 2"
+      },
+      {
+        zh: "镇店之宝·至尊金牛",
+        en: "House Treasure — Golden Bull",
+        price: "¥1,988",
+        note: "The showpiece: a full wagyu platter presented on a golden bull. Order it for a celebration, and book it ahead.",
+        tag: "No. 3"
+      },
+      {
+        zh: "霜降和牛小排",
+        en: "Marbled Wagyu Short Rib",
+        price: "¥368",
+        note: "The one most tables order — marbling like a print, fat rendering into the rice. 100+ sold in six months.",
+        tag: "No. 4"
+      },
+      {
+        zh: "纯血·至尊牛小排",
+        en: "Pure-Blood Wagyu Short Rib",
+        price: "¥698",
+        note: "A step up from the standard rib: more fat, more depth, cooked a little slower. Share it between two.",
+        tag: "No. 5"
+      },
+      {
+        zh: "和牛之花",
+        en: "Wagyu Flower",
+        price: "¥198",
+        note: "Thin slices arranged as a rose. Pretty, and genuinely good — the petals cook in seconds.",
+        tag: "No. 6"
+      },
+      {
+        zh: "烈焰牛排",
+        en: "Flame Steak",
+        price: "¥238",
+        note: "Thick-cut wagyu steak, seared hard and rested. The order if you want one piece of meat rather than a tasting.",
+        tag: "No. 7"
+      },
+      {
+        zh: "烈焰和牛炒饭",
+        en: "Wagyu Fried Rice",
+        price: "¥58",
+        note: "The cheapest thing here and one of the best: rice fried with wagyu trim and egg. 600+ sold in six months.",
+        tag: "No. 8"
+      },
+      {
+        zh: "特选·M9+霸王横隔膜",
+        en: "M9+ Wagyu Outside Skirt",
+        price: "¥328",
+        note: "Skirt steak with the deepest beef flavour on the menu. Chewier than the rib, and worth it.",
+        tag: "No. 9"
+      },
+      {
+        zh: "纯血·至尊眼肉",
+        en: "Pure-Blood Wagyu Ribeye",
+        price: "¥898",
+        note: "Brought to the table in a box, then torched with a blue flame in front of you. Theatre, but the meat is the point.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing; the red-jar beef is part of a set. The ¥2,993 six-person pure-blood wagyu banquet is the value route for a group, and the 100-yuan voucher sells for ¥82 (up to four per table).",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Black Gold store — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "The Black Gold store in Zhujiang New Town. The brand has other rooms in Guangzhou; this is the one at the top of the district taste chart.",
+    sources: [
+      { label: "Dianping — 烈焰·纯血和牛烧肉（黑金店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
