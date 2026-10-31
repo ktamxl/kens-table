@@ -4983,6 +4983,123 @@ const RESTAURANTS = [
       { label: "Dianping — 陶陶居酒家（第十甫路总店）", url: "https://www.dianping.com/" },
       { label: "Michelin Guide — Guangzhou", url: "https://guide.michelin.com/" }
     ]
+  },
+{
+    slug: "qiao-mei-shi-jia",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Qiao Mei Shi Jia",
+    nameZh: "侨美食家",
+    locEn: "Shamian flagship",
+    locZh: "沙面总店",
+    cuisine: "Guangzhou home cooking, roast meats",
+    cuisineZh: "广州菜・烧腊",
+    price: "¥120–180 per person",
+    area: "Shamian Island, Liwan",
+    addressEn: "52 Shamian South Street, Liwan — opposite the White Swan, 790 m from Huangsha exit E",
+    addressZh: "荔湾区沙面南街52号（白天鹅宾馆斜对面，黄沙站E口步行约790米）",
+    tagline: "Forty-one years on Shamian, and the No. 1 Cantonese restaurant in Guangzhou by sales volume.",
+    card: "4.8 from 37,458 reviews, ¥122 a head, No. 1 on the Cantonese sales chart. Order the heritage squab and the dark char siu.",
+    awards: [
+      { mark: "1", label: "No. 1 Cantonese Restaurant in Guangzhou", note: "点评榜单 · 广州广州菜销量榜 第 1 名" },
+      { mark: "3", label: "No. 3 Char Siu in Guangzhou", note: "王牌菜 · 广州叉烧榜" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "37,458 reviews at the time of listing" }
+    ],
+    story: [
+      "侨美食家 has been on Shamian for forty-one years, directly across the road from the White Swan — which means it has spent four decades cooking for people who chose not to eat in the hotel. It ranks first in Guangzhou for Cantonese food by sales volume, and holds 4.8 across 37,458 reviews with environment and service both at 4.8.",
+      "The cooking is Guangzhou home food done at scale: a braised squab made to a heritage recipe, char siu ranked third in the city, eel fried rice from Taishan, Swiss-sauce platters that belong to the Hong Kong side of the Cantonese family, and a ¥23 almond tea ground by hand.",
+      "The best-liked dish is the ¥58 squab, with 474 saves — more than three times the saves of the ¥888 mantis shrimp at the bottom of the list. That is the shape of the restaurant: the cheap, old dishes carry it.",
+      "Book, or take a number and wait. It is a large room with private rooms upstairs, free parking, and a queue at 7pm on a Saturday."
+    ],
+    whyFamous: [
+      "No. 1 in Guangzhou for Cantonese food by sales volume.",
+      "A braised squab made to a heritage (非遗) recipe — the most-saved dish on the menu.",
+      "Char siu ranked No. 3 in the city, at ¥98.",
+      "Forty-one years opposite the White Swan, on Shamian."
+    ],
+    quote: { text: "474 saves on a ¥58 squab; 36 on an ¥888 shrimp. The menu tells you where to sit.", cite: "Reading the list" },
+    dishes: [
+      {
+        zh: "非遗红烧乳鸽",
+        en: "Heritage Braised Squab",
+        price: "¥58",
+        note: "Intangible-heritage recipe, 474 saves — the most-saved dish here. Braised then fried, skin dark and lacquered. Order one per person.",
+        tag: "No. 1"
+      },
+      {
+        zh: "秘制脆皮黑叉烧",
+        en: "Crisp-Skin Dark Char Siu",
+        price: "¥98",
+        note: "No. 3 char siu in Guangzhou, and the fatty cut is the one to ask for. Black-edged, sweet-savoury, crisp at the rim.",
+        tag: "No. 2"
+      },
+      {
+        zh: "台山黄鳝炒饭",
+        en: "Taishan Eel Fried Rice",
+        price: "¥88",
+        note: "Eel shredded through rice fried hard in a wok. The best carbohydrate order on the menu and the one locals come back for.",
+        tag: "No. 3"
+      },
+      {
+        zh: "牛肉味卤水天府花生",
+        en: "Braised Peanuts, Beef Master Stock",
+        price: "¥18",
+        note: "¥18 and worth ordering before anything else arrives. Soft outside, firm inside, tasting of the master stock.",
+        tag: "No. 4"
+      },
+      {
+        zh: "家嫂煮娃娃菜",
+        en: "Baby Cabbage in Broth",
+        price: "¥58",
+        note: "Cabbage simmered in a light stock — the dish that makes the rest of the table possible. Order it with the char siu.",
+        tag: "No. 5"
+      },
+      {
+        zh: "瑞士汁拼盘",
+        en: "Swiss-Sauce Platter",
+        price: "¥58",
+        note: "Swiss sauce is a Hong Kong Cantonese invention — soy, sugar and spice. Here it glosses pigeon and offal; the bones carry the flavour.",
+        tag: "No. 6"
+      },
+      {
+        zh: "招牌广式烧卤三拼",
+        en: "House Roast and Braise Trio",
+        price: "¥112",
+        note: "Three roasts on one plate — the efficient way to try the barbecue section. Ask for the goose to be cut from the lower half.",
+        tag: "No. 7"
+      },
+      {
+        zh: "十八香椒盐九肚鱼",
+        en: "Eighteen-Spice Salt-and-Pepper Bombay Duck",
+        price: "¥78",
+        note: "Bombay duck in a spiced batter, fried until the bones vanish. The best drinking food on the list.",
+        tag: "No. 8"
+      },
+      {
+        zh: "杨府手磨杏仁茶",
+        en: "Hand-Ground Almond Tea",
+        price: "¥23",
+        note: "Ground almond, no milk, thickened naturally. Sweet and faintly bitter — the proper end to a roast-heavy meal.",
+        tag: "No. 9"
+      },
+      {
+        zh: "十八香椒盐富贵虾",
+        en: "Eighteen-Spice Salt-and-Pepper Mantis Shrimp",
+        price: "¥888",
+        note: "Priced by weight, and the outlier on the menu — 28 likes against the ¥18 peanuts' 49. Order it only if the table wants to spend.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The ¥290 set is recommended for two and covers the squab, the eel rice and the cabbage. The 100-yuan voucher sells for ¥87; the mantis shrimp is priced by weight.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Shamian flagship — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [
+      { city: "Guangzhou", name: "侨美食家（其他分店）", en: "Other Guangzhou branches", note: "A chain — this page covers the Shamian original." }
+    ],
+    singleNote: "The Shamian shop is the original and the one on the sales chart. Other branches exist; they are not this room.",
+    sources: [
+      { label: "Dianping — 侨美食家·41年地道粤菜（沙面总店）", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
