@@ -4633,6 +4633,122 @@ const RESTAURANTS = [
       { label: "Dianping — 炳胜私厨（中达旗舰店）", url: "https://www.dianping.com/" },
       { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
     ]
+  },
+{
+    slug: "yutang-chunnuan",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Yutang Chunnuan",
+    nameZh: "玉堂春暖",
+    locEn: "White Swan Hotel, Shamian Island",
+    locZh: "白天鹅宾馆",
+    cuisine: "Cantonese",
+    cuisineZh: "粤菜",
+    price: "¥400–600 per person",
+    area: "Shamian Island, Liwan",
+    addressEn: "3/F, White Swan Hotel, 1 Shamian South Street, Liwan — 500 m from Huangsha station",
+    addressZh: "荔湾区沙面南街1号白天鹅宾馆三楼（黄沙站步行约500米）",
+    tagline: "The White Swan's Cantonese dining room — two Black Pearl diamonds, and the best char siu bun in Guangzhou.",
+    card: "Black Pearl two diamonds 2026, 4.9 for setting, 5,289 local reviews. Order the sachima, the Iberico char siu, and the char siu buns.",
+    awards: [
+      { mark: "珠", label: "Black Pearl — Two Diamonds", note: "2026 黑珍珠二钻餐厅" },
+      { mark: "1", label: "No. 1 Char Siu Bun in Guangzhou", note: "Dianping 王牌菜 · 菜品榜" },
+      { mark: "2", label: "No. 2 Char Siu in Guangzhou", note: "Dianping 王牌菜 · 菜品榜" }
+    ],
+    story: [
+      "The White Swan opened on Shamian Island in 1983 as one of China's first joint-venture five-star hotels, built on the river with a garden running through the lobby. 玉堂春暖 is its Cantonese dining room, on the third floor, overlooking the water and the indoor waterfall.",
+      "It has been on Dianping for twenty-two years and holds two Black Pearl diamonds as of 2026 — but the reviews are not tourist reviews: 5,289 are local. That is the number that matters for a hotel restaurant on an island everyone visits once.",
+      "The menu is the Guangzhou canon, done at a level the city's hotel restaurants rarely reach: Iberico char siu ranked second in Guangzhou, a char siu bun ranked first, white-cut sunflower chicken, and a sachima that has been saved 607 times — more than any other dish here.",
+      "Environment scores 4.9 and service 4.9. It is expensive by local standards and still full; book for dinner and ask for a table by the window."
+    ],
+    whyFamous: [
+      "Two Black Pearl diamonds (2026) in a hotel that opened in 1983.",
+      "The No. 1 char siu bun and No. 2 char siu in Guangzhou, both on the same menu.",
+      "5,289 local reviews — locals, not day-trippers.",
+      "The room: third floor, river view, the White Swan's indoor waterfall."
+    ],
+    quote: { text: "A hotel restaurant with 5,289 local reviews. That is the hard thing to earn.", cite: "Reading the numbers" },
+    dishes: [
+      {
+        zh: "榄仁萨其马",
+        en: "Sachima with Olive Kernels",
+        price: "¥68",
+        note: "The most-saved dish in the restaurant — 607 saves. Loose, not sticky, with olive kernels through it. The best version of a humble pastry in the city.",
+        tag: "No. 1"
+      },
+      {
+        zh: "伊比利亚黑毛猪叉烧",
+        en: "Iberico Pork Char Siu",
+        price: "¥268",
+        note: "No. 2 char siu in Guangzhou. Iberico pork instead of local — nuttier fat, deeper char. Order it with rice, not as a starter.",
+        tag: "No. 2"
+      },
+      {
+        zh: "白切葵花鸡",
+        en: "White-Cut Sunflower Chicken",
+        price: "¥368",
+        note: "Half a bird, poached and chilled, skin yellow and translucent. The chicken equivalent of a good consommé: nothing to hide behind.",
+        tag: "No. 3"
+      },
+      {
+        zh: "羊城鲜虾饺",
+        en: "Canton Shrimp Dumpling",
+        price: "¥68",
+        note: "Wrapper thin enough to read through, whole shrimp, bamboo shoot. The benchmark against which every other dim sum list should be judged.",
+        tag: "No. 4"
+      },
+      {
+        zh: "酥皮叉烧包",
+        en: "Crisp-Topped Char Siu Bun",
+        price: "¥78",
+        note: "No. 1 char siu bun in Guangzhou. The top cracks and shatters; the filling is savoury rather than sweet. Order two.",
+        tag: "No. 5"
+      },
+      {
+        zh: "鲍鱼天鹅酥",
+        en: "Abalone Swan Pastry",
+        price: "¥96",
+        note: "A swan-shaped pastry filled with abalone. The most photographed thing on the menu, and it tastes better than it needs to.",
+        tag: "No. 6"
+      },
+      {
+        zh: "香茅乳鸽",
+        en: "Lemongrass Pigeon",
+        price: "",
+        note: "No. 5 pigeon in Guangzhou. Lemongrass in the marinade, skin roasted hard. The price shown in the app is a promotional one — ask.",
+        tag: "No. 7"
+      },
+      {
+        zh: "化皮蛋挞",
+        en: "Flaky Egg Tart",
+        price: "¥65",
+        note: "The pastry is the point: layer on layer, custard just set. Eat it within a minute of it reaching the table.",
+        tag: "No. 8"
+      },
+      {
+        zh: "蜜汁蒸凤爪",
+        en: "Steamed Chicken Feet in Honey Sauce",
+        price: "¥65",
+        note: "Soft enough to fall off the bone, sweetness restrained. The dim sum that separates a good kitchen from a great one.",
+        tag: "No. 9"
+      },
+      {
+        zh: "白卤水鹅掌翼",
+        en: "Poached Goose Webs and Wings",
+        price: "¥148",
+        note: "Poached in white master stock rather than soy — cleaner, more delicate. The dish to order with a glass of something cold.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing. The Black Pearl tasting menus start at ¥260 (Iberico char siu set) and run to the ¥1,128 set for two with wine. The pigeon price shown in the app is promotional — confirm at the table.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the White Swan Hotel — ranked by the app's like counts, with dish-chart positions where they exist.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One dining room, on the third floor of the White Swan. There is no second 玉堂春暖 — the hotel is the restaurant.",
+    sources: [
+      { label: "Dianping — 白天鹅宾馆·玉堂春暖", url: "https://www.dianping.com/" },
+      { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
+    ]
   }
 ];
 
