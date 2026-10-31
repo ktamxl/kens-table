@@ -5150,6 +5150,7 @@ function topbar(root, currentCity = "") {
     <nav class="topnav" aria-label="Main">
       <a href="${root}index.html">The list</a>
       <a href="${root}restaurants/index.html" class="hide-sm">All ${total}</a>
+      <a href="${root}accolades/index.html">Accolades</a>
       <a href="${root}index.html#how-it-works" class="hide-sm">How it works</a>
     </nav>
   </div>
@@ -5185,6 +5186,7 @@ function footer(root) {
         <div class="foot-links" style="margin-top:22px">
           <a href="${root}index.html">The list</a>
           <a href="${root}restaurants/index.html">All restaurants</a>
+          <a href="${root}accolades/index.html">Accolades</a>
           ${CITIES.map((c) => `<a href="${root}cities/${c.key}/index.html">${esc(c.en)}</a>`).join("")}
           <a href="${root}index.html#how-it-works">How it works</a>
         </div>
@@ -5427,6 +5429,21 @@ function buildHome() {
         </a>`
           )
           .join("\n")}
+      </div>
+    </div>
+  </section>
+  <section class="section acc-band" id="accolades">
+    <div class="wrap">
+      <div class="acc-band-inner">
+        <div>
+          <p class="section-kicker">The guides</p>
+          <h2 class="section-title">What the awards actually mean</h2>
+          <p class="section-note" style="max-width:600px">
+            Black Pearl, the MICHELIN Guide and 一饭封神 — what each one measures,
+            and the 2026 top tier in China, city by city.
+          </p>
+        </div>
+        <a class="acc-band-link" href="accolades/index.html">Read the accolades <span>&rarr;</span></a>
       </div>
     </div>
   </section>
@@ -5810,6 +5827,258 @@ function buildDetail(r, prev, next, root = "../../") {
    Write
    ──────────────────────────────────────────────────────────── */
 
+function buildAccolades() {
+  const root = "../";
+  const rows = (list) =>
+    list
+      .map(
+        (r) => `        <tr>
+          <td class="r">${r.n}</td>
+          <td class="name">${esc(r.en)}<span class="zh">${esc(r.zh)}</span></td>
+          <td class="city">${esc(r.city)}</td>
+          <td class="award${r.top ? " top" : ""}">${esc(r.award)}</td>
+          <td class="note">${esc(r.note)}</td>
+        </tr>`
+      )
+      .join("\n");
+
+  const bp = [
+    { n: "01", en: "Jingji · Rong School Imperial Cuisine", zh: "京季荣派官府菜", city: "Beijing", award: "Three diamonds", top: true, note: "Promoted from two diamonds in 2026." },
+    { n: "02", en: "Jingxi Hui · The Bund", zh: "菁禧荟（外滩店）", city: "Shanghai", award: "Three diamonds", top: true, note: "Seven years at three diamonds. Teochew cooking." },
+    { n: "03", en: "Yongfu · North Bund", zh: "甬府·北外滩", city: "Shanghai", award: "Three diamonds", top: true, note: "Fifth consecutive year. Ningbo cuisine." },
+    { n: "04", en: "Yu Waitan · Xintiandi", zh: "遇外滩（新天地店）", city: "Shanghai", award: "Three diamonds", top: true, note: "Promoted from two diamonds in 2026. Fujian cooking." },
+    { n: "05", en: "Jin Sha · Four Seasons Hangzhou", zh: "杭州西子湖四季酒店·金沙厅", city: "Hangzhou", award: "Three diamonds", top: true, note: "The only restaurant to hold three diamonds in all nine editions." },
+    { n: "06", en: "Xin Rong Ji · Linghu", zh: "新荣记·灵湖店", city: "Taizhou", award: "Three diamonds", top: true, note: "Eight years at three diamonds. The group's flagship." },
+    { n: "07", en: "Bingsheng Private Kitchen", zh: "炳胜私厨", city: "Guangzhou", award: "Two diamonds", top: false, note: "On this site. The group's fine-dining room." },
+    { n: "08", en: "Yutang Chunnuan · White Swan", zh: "玉堂春暖（白天鹅宾馆）", city: "Guangzhou", award: "Two diamonds", top: false, note: "On this site. The White Swan's Cantonese room." }
+  ];
+
+  const michelin = [
+    { n: "01", en: "Taian Table", zh: "泰安门", city: "Shanghai", award: "★★★", top: true, note: "The only three-star in the 2026 Shanghai–Jiangsu–Zhejiang guide." },
+    { n: "02", en: "Chao Shang Chao · Chaoyang", zh: "潮上潮（朝阳）", city: "Beijing", award: "★★★", top: true, note: "Teochew. Also holds a Black Pearl diamond." },
+    { n: "03", en: "Xin Rong Ji · Xinyuan South Road", zh: "新荣记（新源南路）", city: "Beijing", award: "★★★", top: true, note: "The group also holds three Black Pearl diamonds in Taizhou." },
+    { n: "04", en: "Tou Zao", zh: "头灶", city: "Shanghai", award: "★★", top: false, note: "Promoted from one star in 2026." },
+    { n: "05", en: "Jingxi Hui · The Bund", zh: "菁禧荟（外滩）", city: "Shanghai", award: "★★", top: false, note: "Promoted from one star in 2026 — and three Black Pearl diamonds." },
+    { n: "06", en: "Tang Court", zh: "唐阁", city: "Shanghai", award: "★★", top: false, note: "Promoted from one star in 2026. Cantonese." },
+    { n: "07", en: "102 House", zh: "壹零贰小馆", city: "Shanghai", award: "★★", top: false, note: "Held two stars through the merger of the guides." },
+    { n: "08", en: "Fu He Hui", zh: "福和慧", city: "Shanghai", award: "★★", top: false, note: "Vegetarian tasting menu. Two stars held." },
+    { n: "09", en: "Xie Xiang Lou", zh: "解香楼", city: "Hangzhou", award: "★★", top: false, note: "Promoted to two stars in the new regional guide." },
+    { n: "10", en: "Jiang by Chef Fei", zh: "江", city: "Guangzhou", award: "★★", top: false, note: "Guangzhou's ceiling in 2026 — the city has no three-star." }
+  ];
+
+  const show = [
+    { n: "01", en: "Deng Huadong · Nanxing Yuan", zh: "邓华东 · 南兴园", city: "Shanghai", award: "Champion", top: true, note: "Won with mapo tofu. Sichuan cooking, five dishes in the final." },
+    { n: "02", en: "Ou Haoran", zh: "欧浩然", city: "—", award: "Finalist", top: false, note: "The 'kitchen panda' — came up through the small-chef bracket." },
+    { n: "03", en: "Zhang Wenwen", zh: "张雯雯", city: "—", award: "Finalist", top: false, note: "The only woman captain in the final six. First to qualify." },
+    { n: "04", en: "Nianshao Youwei (Andre)", zh: "年少有为", city: "Guangzhou", award: "Finalist", top: false, note: "Zhizhu Plant Kitchen. Opened 2024; a MICHELIN nod within nine months." },
+    { n: "05", en: "Eric Räty · Arbor", zh: "Eric Räty · Arbor", city: "Hong Kong", award: "Finalist", top: false, note: "Two MICHELIN stars. Finnish, head chef at nineteen." },
+    { n: "06", en: "Liu Yongkang · ÉPURE", zh: "刘永康 · ÉPURE", city: "Hong Kong", award: "Finalist", top: false, note: "Took the last final place with avocado and crab." },
+    { n: "07", en: "Su Hua · Longyin Shanfang", zh: "苏华 · 龙吟山房", city: "Nanjing", award: "Out in the qualifier", top: false, note: "Black Pearl two diamonds. Went out on the clock, not on technique." },
+    { n: "08", en: "Cao Siquan · Bingsheng Group", zh: "曹嗣全 · 炳胜集团", city: "Guangzhou", award: "Competed", top: false, note: "His dishes are still tagged 一饭封神 on Dianping." },
+    { n: "09", en: "Du Guojin · Xian Cheng", zh: "杜国金 · 鲜承", city: "Xiamen", award: "Competed", top: false, note: "Waldorf Astoria Xiamen. Fujian seafood." },
+    { n: "10", en: "Zhang Jiayu", zh: "张嘉裕", city: "Macau", award: "Competed", top: false, note: "Ran the restaurant-survival round; eliminated in the final qualifier." }
+  ];
+
+  const body = `
+<main id="main" class="acc-main">
+  <section class="acc-hero">
+    <div class="wrap">
+      <p class="eyebrow">Ken's Table · The Accolades</p>
+      <h1>The Accolades<span>榮 譽 榜</span></h1>
+      <p class="acc-lede">
+        Three things decide the top of Chinese dining: a guide built on Chinese palates,
+        a French guide built on European ones, and — as of this year — a television show.
+        They disagree constantly. This page explains what each one actually measures,
+        then lists the 2026 top tier in China, city by city.
+      </p>
+      <div class="acc-method">
+        <strong>How these lists are built.</strong> No guide publishes a national 1–10 ranking.
+        Black Pearl ranks in diamond tiers, MICHELIN ranks by city guide, and 一饭封神
+        eliminates until one chef is left. Each list below is the guide's own top tier in the
+        guide's own order — filled out only where we can verify a restaurant, never padded
+        to reach a round number.
+      </div>
+      <nav class="acc-jump" aria-label="Accolades">
+        <a href="#black-pearl">01 · Black Pearl</a>
+        <a href="#michelin">02 · MICHELIN</a>
+        <a href="#divine-dish">03 · 一饭封神</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="acc-sec" id="black-pearl">
+    <div class="wrap">
+      <header class="acc-head">
+        <span class="acc-num">01</span>
+        <h2>Black Pearl <em>黑珍珠餐厅指南</em></h2>
+      </header>
+      <p class="acc-sub">Meituan · Chinese palate · 263 restaurants in 32 cities</p>
+      <div class="acc-body">
+        <p>
+          Black Pearl was launched by Meituan in January 2018 with an explicit argument:
+          that a Chinese restaurant should be judged by Chinese standards of cooking, not by
+          a European guide's. It ranks in three tiers — <strong>one diamond</strong>,
+          <strong>two diamonds</strong>, and <strong>three diamonds</strong>, which the guide
+          calls “once in a lifetime”. It covers only Chinese cooking, and its judges are
+          drawn from the Chinese industry.
+        </p>
+        <p>
+          The 2026 edition was released in Quanzhou on 27 January. It is the first edition
+          with <strong>no Hong Kong, Macau, Taiwan or overseas cities</strong>, which is why the
+          total fell from 370 to 263 — inside the mainland the list actually grew by seven.
+          Of those 263: <strong>6 three-diamond, 25 two-diamond, 232 one-diamond</strong>.
+          Forty-six restaurants entered, seven were promoted, thirty-nine dropped, six were
+          demoted. 2026 also introduced a service-team award, won by Xin Chang Fu in Changsha.
+        </p>
+        <ul class="acc-facts">
+          <li><b>6</b><span>Three-diamond restaurants</span></li>
+          <li><b>263</b><span>Restaurants listed</span></li>
+          <li><b>32</b><span>Cities</span></li>
+          <li><b>46</b><span>New entries in 2026</span></li>
+        </ul>
+        <div class="acc-table-wrap">
+          <table class="acc-table">
+            <thead>
+              <tr><th>#</th><th>Restaurant</th><th>City</th><th>Award</th><th>What to know</th></tr>
+            </thead>
+            <tbody>
+${rows(bp)}
+            </tbody>
+          </table>
+        </div>
+        <p class="acc-note">
+          This list stops at eight because only six restaurants hold three diamonds in 2026.
+          Rows 7 and 8 are the two-diamond rooms already documented on this site; the other
+          23 two-diamond restaurants are in the guide but not listed here. City spread at the
+          top: Shanghai 61 restaurants, Beijing 35, Hangzhou 20, Guangzhou 18, Chengdu 18.
+          Guangzhou has had no three-diamond restaurant for three years running.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="acc-sec" id="michelin">
+    <div class="wrap">
+      <header class="acc-head">
+        <span class="acc-num">02</span>
+        <h2>MICHELIN <em>米其林指南</em></h2>
+      </header>
+      <p class="acc-sub">France · European palate · three stars, by city guide</p>
+      <div class="acc-body">
+        <p>
+          The MICHELIN Guide has been awarding stars since 1900 and has been in mainland
+          China since 2016. The tiers are fixed: <strong>one star</strong> for high-quality
+          cooking worth a stop, <strong>two</strong> for excellent cooking worth a detour,
+          <strong>three</strong> for exceptional cuisine worth a journey. Unlike Black Pearl,
+          it judges every cuisine, which is why French and Italian kitchens sit inside a
+          Chinese city guide.
+        </p>
+        <p>
+          2026 was a structural year: the guides were merged into regions. The
+          <strong>Shanghai–Jiangsu–Zhejiang</strong> guide (released 9 April in Taizhou) now
+          covers eight cities and 409 restaurants, with 77 starred: one three-star, 14
+          two-star, 62 one-star. Beijing's 2026 guide lists 99 restaurants with two
+          three-stars. Guangzhou and Shenzhen were merged into one guide in August — and
+          <strong>neither city has a three-star restaurant</strong>.
+        </p>
+        <ul class="acc-facts">
+          <li><b>3</b><span>Three-star restaurants in mainland China</span></li>
+          <li><b>1</b><span>In the Shanghai–Jiangsu–Zhejiang guide</span></li>
+          <li><b>2</b><span>In Beijing</span></li>
+          <li><b>0</b><span>In Guangzhou and Shenzhen</span></li>
+        </ul>
+        <div class="acc-table-wrap">
+          <table class="acc-table">
+            <thead>
+              <tr><th>#</th><th>Restaurant</th><th>City</th><th>Stars</th><th>What to know</th></tr>
+            </thead>
+            <tbody>
+${rows(michelin)}
+            </tbody>
+          </table>
+        </div>
+        <p class="acc-note">
+          Only three restaurants in mainland China hold three stars in 2026, so rows 4–10 are
+          two-star restaurants — the next tier down, in the guides' own order. Ultraviolet by
+          Paul Pairet, long one of Shanghai's two three-stars, closed before this edition.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="acc-sec" id="divine-dish">
+    <div class="wrap">
+      <header class="acc-head">
+        <span class="acc-num">03</span>
+        <h2>The Divine Dish <em>一饭封神</em></h2>
+      </header>
+      <p class="acc-sub">Television · 东方卫视 · a knockout, not a guide</p>
+      <div class="acc-body">
+        <p>
+          一饭封神 is not a guide and does not pretend to be. It is a cooking competition —
+          a hundred chefs, split into established “big chefs” and unknown “small chefs”,
+          cooking head to head under 谢霆锋, 张勇 and 郑永麒. Season one ran on Tencent Video
+          in 2025 and was won by 屈雨瑜. Season two moved to 东方卫视, ran from 1 August to
+          1 October 2026, and ended with <strong>邓华东</strong>, a Sichuan chef in his late
+          sixties at 南兴园 in Shanghai, winning with a plate of <strong>mapo tofu</strong>.
+        </p>
+        <p>
+          The format is why it belongs on this page: no ties, no revival rounds, one dish
+          decides. Chefs with three MICHELIN stars and chefs from street stalls go out on the
+          same rule. It has made the reputation of cooks who were unknown eighteen months ago,
+          and Dianping now tags their dishes with the show's name.
+        </p>
+        <ul class="acc-facts">
+          <li><b>100</b><span>Chefs at the start</span></li>
+          <li><b>6</b><span>In the final</span></li>
+          <li><b>1</b><span>Champion</span></li>
+          <li><b>3</b><span>Judges</span></li>
+        </ul>
+        <div class="acc-table-wrap">
+          <table class="acc-table">
+            <thead>
+              <tr><th>#</th><th>Chef · Kitchen</th><th>City</th><th>Result</th><th>What to know</th></tr>
+            </thead>
+            <tbody>
+${rows(show)}
+            </tbody>
+          </table>
+        </div>
+        <p class="acc-note">
+          The show ranks only the champion. Rows 2–6 are the other finalists, rows 7–10 went
+          out before the final — the “Result” column is a stage reached, not a position.
+          A dash in the city column means the chef cooks independently rather than at a
+          restaurant we can name.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="acc-sec acc-sources">
+    <div class="wrap">
+      <h2>Sources</h2>
+      <ol>
+        <li><a href="https://i.ifeng.com/c/8qHH4lRP6w8">2026 黑珍珠餐厅指南洞察报告</a> — full 2026 numbers, the six three-diamond restaurants, promotions and demotions.</li>
+        <li><a href="https://www.michelin.com.cn/news/2026/0409.html">MICHELIN Guide Shanghai–Jiangsu–Zhejiang 2026</a> — 409 restaurants, 77 starred, one three-star.</li>
+        <li><a href="https://www.chinanews.com.cn/sh/2026/08-19/10680126.shtml">2026 广州深圳米其林指南</a> — merged guide; Guangzhou's three two-stars.</li>
+        <li><a href="https://www.163.com/dy/article/KD2RHK9I0525801S.html">2026 北京米其林指南</a> — 99 restaurants, two and six and twenty-four.</li>
+        <li><a href="https://news.qq.com/rain/a/20260924A0B1MU00">《一饭封神2》六强名单</a> — the final six, and how the last place was won.</li>
+        <li><a href="https://www.sohu.com/a/1085081150_123021769">《一饭封神2》终极对决</a> — the final, and the mapo tofu.</li>
+      </ol>
+    </div>
+  </section>
+</main>`;
+
+  return page({
+    root,
+    title: "The Accolades — Black Pearl, MICHELIN and 一饭封神 · Ken's Table",
+    description:
+      "What Black Pearl, the MICHELIN Guide and 一饭封神 actually measure — and the 2026 top tier in China, city by city.",
+    body,
+    bodyClass: "acc"
+  });
+}
+
 function write(rel, content) {
   const full = path.join(OUT, rel);
   fs.mkdirSync(path.dirname(full), { recursive: true });
@@ -5819,6 +6088,7 @@ function write(rel, content) {
 
 write("index.html", buildHome());
 write("restaurants/index.html", buildIndex("../"));
+write("accolades/index.html", buildAccolades());
 CITIES.forEach((c) => write(`cities/${c.key}/index.html`, buildCity(c, "../../")));
 
 RESTAURANTS.forEach((r, i) => {

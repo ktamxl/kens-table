@@ -1774,3 +1774,146 @@ button { font: inherit; color: inherit; }
   .rhero .cn-name { color: #7d5f22; }
   .rlayout { grid-template-columns: 1fr; }
 }
+
+/* ============================================================
+   ACCOLADES — Black Pearl · MICHELIN · 一饭封神
+   ============================================================ */
+.acc-main { background: var(--paper); }
+
+.acc-hero {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 84px 0 62px;
+  border-bottom: 1px solid rgba(217,189,133,.22);
+}
+.acc-hero .eyebrow {
+  font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--brass-soft); margin-bottom: 26px;
+}
+.acc-hero h1 {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(2.4rem, 5.2vw, 4.1rem); line-height: 1.02; letter-spacing: -.02em;
+}
+.acc-hero h1 span {
+  display: block; font-size: .34em; letter-spacing: .3em;
+  color: var(--brass-soft); margin-top: 18px;
+}
+.acc-lede {
+  max-width: 720px; margin-top: 30px;
+  font-family: var(--serif); font-size: 1.2rem; line-height: 1.62; color: #e8e2d6;
+}
+.acc-method {
+  max-width: 720px; margin-top: 26px; padding: 18px 22px;
+  border-left: 2px solid var(--brass);
+  background: rgba(217,189,133,.06);
+  font-size: .9rem; line-height: 1.65; color: #cdc7bb;
+}
+.acc-jump { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+.acc-jump a {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  padding: 9px 15px; border: 1px solid rgba(217,189,133,.4);
+  color: var(--brass-soft); text-decoration: none; border-radius: 2px;
+}
+.acc-jump a:hover { background: rgba(217,189,133,.12); color: #fff; }
+
+.acc-sec { padding: 78px 0 10px; }
+.acc-sec + .acc-sec { border-top: 1px solid var(--line); }
+.acc-head { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
+.acc-num {
+  font-family: var(--serif); font-size: .95rem; color: var(--brass);
+  letter-spacing: .1em;
+}
+.acc-head h2 {
+  font-family: var(--serif); font-weight: 400; font-size: clamp(1.9rem, 3.4vw, 2.7rem);
+  letter-spacing: -.015em;
+}
+.acc-head h2 em {
+  font-style: normal; font-size: .46em; letter-spacing: .12em;
+  color: var(--muted); margin-left: 14px;
+}
+.acc-sub {
+  font-size: 12px; letter-spacing: .13em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 30px;
+}
+.acc-body { display: grid; grid-template-columns: minmax(0, 1fr); max-width: 940px; }
+.acc-body p {
+  font-size: 1.02rem; line-height: 1.72; color: var(--ink-soft); margin-bottom: 18px;
+}
+.acc-body p strong { color: var(--ink); font-weight: 600; }
+.acc-body p .cn { font-family: var(--serif); }
+
+.acc-facts {
+  list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1px; background: var(--line-soft); border: 1px solid var(--line-soft);
+  margin: 8px 0 34px;
+}
+.acc-facts li { background: var(--paper-2); padding: 16px 18px; }
+.acc-facts b {
+  display: block; font-family: var(--serif); font-size: 1.5rem;
+  font-weight: 400; color: var(--ink); line-height: 1.15;
+}
+.acc-facts span {
+  display: block; margin-top: 6px; font-size: 11px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--muted); line-height: 1.5;
+}
+
+.acc-table-wrap { overflow-x: auto; border-top: 2px solid var(--ink); margin-bottom: 18px; }
+.acc-table { width: 100%; border-collapse: collapse; min-width: 660px; }
+.acc-table thead th {
+  text-align: left; font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--muted); font-weight: 500; padding: 12px 12px 11px;
+  border-bottom: 1px solid var(--line);
+}
+.acc-table td {
+  padding: 15px 12px; vertical-align: top; border-bottom: 1px solid var(--line-soft);
+  font-size: .94rem; color: var(--ink-soft); line-height: 1.5;
+}
+.acc-table tr:hover td { background: rgba(176,138,69,.05); }
+.acc-table .r { width: 34px; color: var(--brass); font-family: var(--serif); font-size: .9rem; }
+.acc-table .name { color: var(--ink); font-weight: 600; }
+.acc-table .name .zh {
+  display: block; font-family: var(--serif); font-weight: 400;
+  font-size: .84rem; color: var(--muted); margin-top: 3px; letter-spacing: .04em;
+}
+.acc-table .city { white-space: nowrap; font-size: .86rem; }
+.acc-table .award { white-space: nowrap; font-size: .82rem; letter-spacing: .04em; color: var(--ink); }
+.acc-table .award.top { color: var(--red); font-weight: 600; }
+.acc-table .note { font-size: .87rem; color: var(--muted); }
+
+.acc-note {
+  border-left: 2px solid var(--line); padding-left: 16px;
+  font-size: .87rem !important; color: var(--muted) !important; line-height: 1.62 !important;
+}
+
+.acc-sources { padding-bottom: 90px; }
+.acc-sources h2 {
+  font-family: var(--serif); font-weight: 400; font-size: 1.5rem; margin-bottom: 18px;
+}
+.acc-sources ol { list-style: none; }
+.acc-sources li {
+  padding: 11px 0; border-bottom: 1px solid var(--line-soft);
+  font-size: .88rem; color: var(--ink-soft);
+}
+.acc-sources a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+.acc-sources a:hover { border-bottom-color: var(--ink); }
+
+@media (max-width: 720px) {
+  .acc-hero { padding: 56px 0 44px; }
+  .acc-sec { padding: 52px 0 6px; }
+  .acc-head h2 em { display: block; margin: 8px 0 0; }
+  .acc-table { min-width: 600px; }
+}
+
+.acc-band { background: var(--ink); color: var(--paper); padding: 58px 0; border-top: 1px solid rgba(217,189,133,.18); }
+.acc-band-inner { display: flex; align-items: center; justify-content: space-between; gap: 34px; flex-wrap: wrap; }
+.acc-band .section-kicker { color: var(--brass-soft); }
+.acc-band .section-title { color: var(--paper); font-family: var(--serif); font-weight: 400; margin-bottom: 10px; }
+.acc-band .section-note { color: #b9b3a7; margin: 0; text-align: left; max-width: 62ch; }
+.acc-band-link {
+  flex: none; display: inline-flex; align-items: center; gap: 12px;
+  padding: 14px 22px; border: 1px solid rgba(217,189,133,.45); border-radius: 2px;
+  color: var(--brass-soft); text-decoration: none;
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+}
+.acc-band-link span { font-size: 1rem; line-height: 1; }
+.acc-band-link:hover { background: rgba(217,189,133,.12); color: #fff; }
