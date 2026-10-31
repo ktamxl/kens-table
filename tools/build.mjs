@@ -4518,6 +4518,121 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 门堂啫啫煲（天河南店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "bingsheng-private-kitchen",
+    city: "guangzhou",
+    status: "want",
+    nameEn: "Bingsheng Private Kitchen",
+    nameZh: "炳胜私厨",
+    locEn: "Zhongda flagship, Zhujiang New Town",
+    locZh: "中达旗舰店",
+    cuisine: "Cantonese, fine dining",
+    cuisineZh: "粤菜・私房菜",
+    price: "¥498–800 per person",
+    area: "Zhujiang New Town, Tianhe",
+    addressEn: "201 Poly Zhongda Plaza, 21 Xingguo Road, Tianhe — 450 m from Liede station",
+    addressZh: "天河区兴国路21号保利中达广场201号（猎德站步行约450米）",
+    tagline: "The Bingsheng group's fine-dining room — two Black Pearl diamonds, and a ¥15 bun at the top of the list.",
+    card: "Two Black Pearl diamonds 2026, 4.8 from 2,110 reviews, ¥498 a head. Order the crab with melon, the claypot rice, and the pineapple bun.",
+    awards: [
+      { mark: "珠", label: "Black Pearl — Two Diamonds", note: "2026 黑珍珠二钻餐厅" },
+      { mark: "4.8", label: "Dianping 4.8 / 5", note: "2,110 reviews at the time of listing" }
+    ],
+    story: [
+      "炳胜私厨 is the formal room in the Bingsheng group — the one that takes the roast meats and dim sum that made 炳胜品味 famous and serves them at a slower pace, in a quieter room, at three times the price. It holds two Black Pearl diamonds as of 2026, the highest award in the group.",
+      "The menu is still Cantonese, but the register is different: Doumen roe crab braised with black-hair melon, claypot rice with Yunnan ham and dried ceps, thirty-year Xinhui tangerine peel double-boiled with bird's nest, and the group's signature goose upgraded with truffle and a gravy sealed inside.",
+      "The chef's name on the banner is 曹嗣全, and the group's own history is on the wall: founded in Guangzhou in 1996, thirty years ago, starting from a seafood stall under Haizhu Bridge. The private kitchen is what that stall became at the top end.",
+      "The detail that keeps it honest: the most-liked dish on the menu is a ¥15 pineapple bun. Expensive restaurants are usually judged on their cheapest item, and this one earns it."
+    ],
+    whyFamous: [
+      "Two Black Pearl diamonds — the group's highest-rated room.",
+      "Doumen roe crab with black-hair melon, a dish built on the roe rather than the crab meat.",
+      "The Bingsheng goose with truffle and sealed gravy — the fine-dining version of the signature.",
+      "A ¥15 pineapple bun that outsells everything on a ¥498 menu."
+    ],
+    quote: { text: "The most-liked dish on a ¥498 menu is a ¥15 bun. That tells you something.", cite: "Reading the list" },
+    dishes: [
+      {
+        zh: "菠萝酥皮大包",
+        en: "Pineapple Crisp Bun",
+        price: "¥15",
+        note: "The most-liked item on the list and the cheapest: a sugar-crust top that shatters, soft bread under it. Order it at the start, not the end.",
+        tag: "No. 1"
+      },
+      {
+        zh: "烧味小三拼",
+        en: "Small BBQ Trio",
+        price: "¥188",
+        note: "Char siu, roast goose and crispy pork on one plate. The dark char siu is the one to note — slightly bitter at the edges, in the right way.",
+        tag: "No. 2"
+      },
+      {
+        zh: "炳胜辣虾菇玉带水晶饺",
+        en: "Bingsheng Chilli Shrimp and Scallop Dumpling",
+        price: "",
+        note: "A crystal dumpling with shrimp, scallop and a chilli edge. The dim sum that shows the kitchen is not only about roast meats.",
+        tag: "No. 3"
+      },
+      {
+        zh: "炳胜辣海胆鲜虾水晶饺",
+        en: "Bingsheng Chilli Sea Urchin and Shrimp Dumpling",
+        price: "¥58",
+        note: "The luxury version — sea urchin folded into the shrimp. Order one basket between two.",
+        tag: "No. 4"
+      },
+      {
+        zh: "斗门膏蟹焖黑毛节瓜",
+        en: "Doumen Roe Crab Braised with Black-Hair Melon",
+        price: "¥458",
+        note: "Crab roe melting into the melon until the vegetable tastes of shellfish. The best dish on the list for the money.",
+        tag: "No. 5"
+      },
+      {
+        zh: "云腿干巴菌啫熊猫米饭",
+        en: "Yunnan Ham and Cep Rice in a Claypot",
+        price: "¥298",
+        note: "Claypot rice with Yunnan ham and dried ceps — nutty, savoury, with a crust at the bottom. The carbohydrate order of the night.",
+        tag: "No. 6"
+      },
+      {
+        zh: "泰国香茅玻璃脆皮乳鸽",
+        en: "Glass-Skin Pigeon with Thai Lemongrass",
+        price: "",
+        note: "Skin like glass, lemongrass in the marinade rather than on top. The best pigeon in the group.",
+        tag: "No. 7"
+      },
+      {
+        zh: "新会东甲三十年陈皮炖燕窝",
+        en: "30-Year Tangerine Peel and Bird's Nest",
+        price: "¥288",
+        note: "Double-boiled with thirty-year Xinhui peel — sweet, faintly bitter, expensive. The dessert that is not really a dessert.",
+        tag: "No. 8"
+      },
+      {
+        zh: "黑松露灌汤脆皮烧鹅",
+        en: "Black Truffle Crispy Roast Goose with Gravy",
+        price: "¥188",
+        note: "The group's signature goose, upgraded with truffle and a gravy sealed inside. Order it if you have not had the 品味 version.",
+        tag: "No. 9"
+      },
+      {
+        zh: "深海拆鱼羹",
+        en: "Hand-Shredded Deep-Sea Fish Soup",
+        price: "",
+        note: "Fish picked apart by hand and thickened into a soup with garoupa. Gentle, and the right thing after the crab.",
+        tag: "No. 10"
+      },
+    ],
+    dishNote: "Prices from the Dianping listing; a few items are only available inside the set menus, so no price is shown. Sets: ¥760 three-person lunch, ¥1,291 two-person Black Pearl menu, ¥1,691 three-person chef's menu. The 200-yuan voucher sells for ¥182.",
+    dishSource: "Dianping 推荐菜, TOP 1–10 for the Zhongda flagship — ranked by the app's like counts.",
+    dishBadge: "Source: Dianping 推荐菜 · TOP 1–10",
+    branches: [],
+    singleNote: "One room in Poly Zhongda Plaza. It is a sister brand to 炳胜品味, which has its own page on this site — same group, different kitchen, different bill.",
+    sources: [
+      { label: "Dianping — 炳胜私厨（中达旗舰店）", url: "https://www.dianping.com/" },
+      { label: "Black Pearl Restaurant Guide", url: "https://www.meituan.com/" }
+    ]
   }
 ];
 
