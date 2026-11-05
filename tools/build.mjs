@@ -5100,6 +5100,109 @@ const RESTAURANTS = [
     sources: [
       { label: "Dianping — 侨美食家·41年地道粤菜（沙面总店）", url: "https://www.dianping.com/" }
     ]
+  },
+{
+    slug: "chatterbox-cafe",
+    city: "hongkong",
+    status: "want",
+    nameEn: "Chatterbox Café",
+    nameZh: "文華海南雞飯",
+    locEn: "K11 MUSEA, Tsim Sha Tsui",
+    locZh: "尖沙咀 K11 MUSEA",
+    cuisine: "Singaporean, Hainanese",
+    cuisineZh: "東南亞菜・海南雞",
+    price: "HK$200–300 per person",
+    area: "Tsim Sha Tsui",
+    addressEn: "Shop B110, B1, K11 MUSEA, 18 Salisbury Road, Tsim Sha Tsui — 2 min from East Tsim Sha Tsui exit J",
+    addressZh: "尖沙咀梳士巴利道18號維港文化匯 K11 MUSEA B1樓 B110 號舖（尖東站 J 出口步行約2分鐘）",
+    tagline: "The chicken rice that started in a Singapore hotel lobby in 1971 — now in a Kowloon mall basement.",
+    card: "4.6 from 932 reviews, No. 5 in Tsim Sha Tsui for Southeast Asian. Order the HK$138 chicken rice, the salted egg wings and a pandan milk tea.",
+    awards: [
+      { mark: "5", label: "No. 5 Southeast Asian in Tsim Sha Tsui", note: "Dianping 尖沙咀東南亞菜熱門榜" },
+      { mark: "4.6", label: "Dianping 4.6 / 5", note: "932 reviews at the time of listing" }
+    ],
+    story: [
+      "Chatterbox opened in 1971 in the Mandarin Singapore, as the hotel's coffee house, and its Hainanese chicken rice became the thing people queued for in a five-star lobby. That is the whole reason this outpost exists: a hotel dish that outgrew the hotel.",
+      "The Hong Kong branch sits in the basement of K11 MUSEA, on the Tsim Sha Tsui waterfront — a food-hall setting rather than a dining room, with the same recipe lineage on the menu. It holds 4.6 across 932 reviews, with environment scoring 4.8, and ranks fifth in Tsim Sha Tsui for Southeast Asian cooking.",
+      "The order writes itself. The HK$138 chicken rice is the entry point and the most-liked dish by a wide margin; the HK$362 whole bird is for a table of four. Around it: salted egg yolk wings at HK$48, a chicken laksa with real chilli, and a Singapore fried kway teow with the wok hei you would hope for in a hawker centre.",
+      "It is a mall restaurant, and it feels like one — but the chicken is the genuine article: poached, chilled, served at room temperature with the three sauces, and rice cooked in the fat. At HK$200–300 a head it is the cheapest way into a name that has been on a hotel menu for fifty-five years."
+    ],
+    whyFamous: [
+      "Hainanese chicken rice from the Mandarin Singapore's Chatterbox, open since 1971.",
+      "No. 5 in Tsim Sha Tsui for Southeast Asian food on Dianping.",
+      "The salted egg yolk wings at HK$48 — the best value on the menu.",
+      "Inside K11 MUSEA, two minutes from East Tsim Sha Tsui station."
+    ],
+    quote: { text: "雞肉滑嫩到入口即化 — the chicken is so silky it dissolves on contact.", cite: "Dianping reviewers" },
+    dishes: [
+      {
+        zh: "文華海南雞飯",
+        en: "Hainanese Chicken Rice",
+        price: "HK$138",
+        note: "The dish the shop is known by — 266 likes, more than anything else on the list. Poached chicken at room temperature, rice cooked in the fat, three sauces on the side.",
+        tag: "No. 1"
+      },
+      {
+        zh: "文華海南雞",
+        en: "Hainanese Chicken, whole",
+        price: "HK$362",
+        note: "The same bird at full size, chopped for the table. Order this when there are four of you and the rice on the side.",
+        tag: "No. 2"
+      },
+      {
+        zh: "鹹蛋黃雞翼",
+        en: "Salted Egg Yolk Chicken Wings",
+        price: "HK$48",
+        note: "Crisp wings tossed in salted egg yolk until the coating turns grainy and gold. The best value on the menu.",
+        tag: "No. 3"
+      },
+      {
+        zh: "雞肉喇沙",
+        en: "Chicken Laksa",
+        price: "HK$136",
+        note: "Coconut gravy with a proper chilli edge, chicken and noodles. The reviewers' line: the chicken is silky and the soup is the point.",
+        tag: "No. 4"
+      },
+      {
+        zh: "海鮮辣沙湯麵",
+        en: "Seafood Laksa Noodle Soup",
+        price: "HK$178",
+        note: "The seafood version — prawns, fish cake, cockles. Richer and thicker than the chicken laksa; split it if you are ordering the rice as well.",
+        tag: "No. 5"
+      },
+      {
+        zh: "星洲海鮮炒貴刁",
+        en: "Singapore Seafood Fried Kway Teow",
+        price: "HK$128",
+        note: "Wok hei you can smell across the table. Flat rice noodles, prawns, dark soy — the Singapore hawker classic done in a hotel kitchen.",
+        tag: "No. 6"
+      },
+      {
+        zh: "斑斕奶茶",
+        en: "Pandan Milk Tea",
+        price: "HK$52",
+        note: "Pandan in the tea, not just the colour. Order it iced with the laksa.",
+        tag: "No. 7"
+      },
+      {
+        zh: "黑醬油炒鮮蝦蘿蔔糕",
+        en: "Prawn and Radish Cake in Dark Soy",
+        price: "HK$96",
+        note: "Turnip cake cubed and fried hard, then tossed with prawns in dark soy. The dish that surprises people who thought they knew radish cake.",
+        tag: "No. 8"
+      },
+    ],
+    dishNote: "Prices in Hong Kong dollars as listed; the Dianping yuan conversions are roughly 0.85 of the HK price. The HK$362 whole chicken feeds three to four with rice and a vegetable.",
+    dishSource: "Dianping 推薦菜, TOP 1–8 as listed for the K11 MUSEA shop — ranked by the app's like counts.",
+    dishHeading: "Top 8 must-try",
+    dishBadge: "Source: Dianping 推薦菜 · TOP 1–8",
+    branches: [
+      { city: "Singapore", name: "Chatterbox · Mandarin Oriental Singapore", en: "The original, 1971", note: "Where the chicken rice started — the hotel coffee house it is named for." }
+    ],
+    singleNote: "One shop, in the K11 MUSEA basement. The Singapore original is the 1971 Mandarin Oriental coffee house; this is its Hong Kong outpost. The sign says Chatterbox Café — the Chinese name on the menu, and the name everyone uses, is the dish.",
+    sources: [
+      { label: "Dianping — Chatterbox Café (K11 MUSEA)", url: "https://www.dianping.com/" }
+    ]
   }
 ];
 
@@ -5608,7 +5711,7 @@ function buildDetail(r, prev, next, root = "../../") {
 
   const dishSection = hasDishes
     ? `<section id="top10">
-        <h2>Top 10 must-try</h2>
+        <h2>${esc(r.dishHeading || "Top 10 must-try")}</h2>
         <p class="prose-sub">${esc(r.dishSource || "The ten dishes that define the house — Chinese name first, English translation under it.")}</p>
         <p class="dish-source">${esc(r.dishBadge || "Source: Dianping 推荐菜 · only the top ten are listed")}</p>
         <ol class="dishlist">
